@@ -1,0 +1,1237 @@
+"","title","cite2","cite","journal","study_ID","group_id","ef_type","domain","mean_id","sd_id","meanMA_id","sdMA_id","cohensd_ma","quality_cohensd_ma","study_year","iq_id","n_id","age_id","testName_short","testName","reliability","new_test","sex_ID_id","id_mixed_id","mean_magroup","sd_magroup","meanMA_magroup","iq_magroup","n_magroup","age_magroup","testdescription","sex_ID_magroup","effectsize_ID","reverse_scale","ef_component","yi","vi"
+"1","Inhibitory mechanisms in Down syndrome: Is there a specific or general deficit","Borella 2013","Borella et al. 2013","Research in Developmental Disabilities","1837","DS","inhibition","verbal",3.76,4.79,5.58,24.61,-0.00406338886631449,2,2013,38.26,19,14.58,"Animal Stroop","Animal Stroop adapted version",0,2,0.37,0,4.02,4.26,5.68,108.65,19,5.2,"Prepotent response inhibition. Animal Stroop (adapted from Wright et al., 2003 by Nichelli, Scala, Vago, Riva, &
+Bulgheroni, 2004). The task, based on the classic Stroop paradigm, consists of a series of animal figures (goose, sheep, cow
+and pig) in which the congruency between the head and the body is manipulated and participants have to name the animal
+based on its body. The test includes four experimental conditions, each comprising 24 stimuli: (1) incongruent condition: each
+animal’s head is replaced by the head of one of the others; (2) congruent condition: the stimuli are the same as the prototypes
+presented to the child during the training phase; (3) control shape (structural control) condition: the head is replaced with a
+geometrical figure (a square, circle, or triangle); and (4) control face (semantic control) condition: the head is a caricature of
+human faces. Participants are asked to name the animal that the body belongs to as quickly as possible. In each experimental
+condition, the 24 stimuli are presented to the child in a notebook, each page containing 8 stimuli (which are balanced in
+terms of which way the faces are oriented: 4 facing right and 4 facing left). The different conditions (congruent, control
+shape, control face, incongruent) are presented to the participants in random order and the time taken to respond to the
+stimuli on each page is timed using a stopwatch. In Stroop tasks, strong responses to cues have to be restrained in order to
+produce a less dominant response. The total time, in seconds, taken to respond to all the stimuli within a given condition
+(three pages) was considered as a dependent variable. The total number of errors per condition was also considered,
+however, because the erroneous responses were included in the response times (RTs), as in all clinical versions of this task
+(see Ludwig, Borella, Tettamanti, & de Ribaupierre, 2010).
+An interference index, based on the differences between the incongruent and control face condition (see Nichelli et al.,
+2004), was calculated on the RTs and errors. A higher score in the interference index thus implies a greater difficulty in
+controlling the prepotent response in the incongruent condition, and a consequently less efficient inhibition.",0.42,"1",-1,"inhibition",0.0561555107210318,0.105304650544531
+"2","Inhibitory mechanisms in Down syndrome: Is there a specific or general deficit","Borella 2013","Borella et al. 2013","Research in Developmental Disabilities","1837","DS","inhibition","verbal",1.22,1.73,5.58,24.61,-0.00406338886631449,2,2013,38.26,19,14.58,"Proactive interference","Proactive interference task",0,1,0.37,0,0.25,0.23,5.68,108.65,19,5.2,"Resistance to proactive interference. The proactive interference (PI) task (adapted from Borella et al., 2010) was used,
+which consists of 16 lists of words belonging to four categories (fruits, animals, body parts, and professions), divided into four
+blocks. Each block contained four word lists of four words each, three belonging to the same category (e.g. fruits) and one to a
+different category (e.g. animals) to enable the release from proactive interference. Each list consisted of words with a similar
+frequency and imagery value. The lists were presented aurally at a rate of one word every 1 s. Participants were asked to
+listen to each list. Between the presentation of the list and the recall phase, participants counted forward for 16 s (rehearsalprevention
+task). Participants then had to recall as many words as possible, regardless of presentation order. For each participant we calculated the number of correctly recalled words, the proportion of intrusion errors (out of the
+total number of words recalled) and two indices of susceptibility to interference, using the formula: (List 2 – List 1) and (List 3
+– List 1). In this task, irrelevant information from prior trials had to be deleted to avoid the build-up of PI across trials.",0.42,"2",-1,"inhibition",-0.769515072745945,0.113054650620832
+"3","Inhibitory mechanisms in Down syndrome: Is there a specific or general deficit","Borella 2013","Borella et al. 2013","Research in Developmental Disabilities","1837","DS","inhibition","verbal",0.8,0.79,5.58,24.61,-0.00406338886631449,2,2013,38.26,19,14.58,"Directed forgetting","Directed forgetting",0,1,0.37,0,1.47,0.96,5.68,108.65,19,5.2,"Response to distracter inhibition. Directed forgetting – blocked method (adapted from Borella, 2006; Borella, Ghisletta,
+& de Ribaupierre, 2011). The task consisted of two lists of 8 unrelated words, each presented in two conditions ‘Remember
+All’ and ‘Forget All’, which differed only in the cue (remember or forget) that participants received after hearing the first half
+of the list (the first 4 words). For each of the two conditions, the experimenter read the words at a rate of 3 s per word. The
+inter-list cue was given after the fourth words. In the ‘Remember All’ condition, participants were told that the previous list
+(apart from the first 4 words) should be remembered for the next test. In the ‘Forget All’ condition, after the first 4 words had
+been presented, the experimenter pretended to have made a mistake and given the wrong instruction, so participants had to
+try and forget the irrelevant list and concentrate on the upcoming relevant list. Following the inter-list cue, the second part of
+the list was presented for the two conditions in the same way as for the previous words. After a 30-s interval during which
+participants were asked to draw a sun or a moon (this task was planned specifically for individuals with DS), a recall test was
+conducted for each condition, in which participants were asked to recall all the items in the two lists, regardless of which cue
+had been presented before. Participants had 2 min to answer for each condition, but were given extra time when needed.
+The dependent variables were the words recalled in the first and second half of the list for the two conditions (‘Remember
+All’ and ‘Forget All’). Words recalled in the ‘‘Forget All’’ condition (from the first half of the list) were considered as intrusion
+errors because they should have been suppressed.",0.42,"3",-1,"inhibition",0.746119322256241,0.112588079513738
+"4","Difficulties in working memory updating in individuals with intellectual disability.","Carretti 2010","Carretti et al. 2010","Journal of intellectual disability research","964","NSID","updating","verbal",5.04,3.76,6.17,1.5,-0.22,1,2010,NA,28,38.3,"Updating word span","Updating word span",0,1,0.54,1,7.29,3.98,6.5,NA,28,6.4,"WM updating word span
+This task was an adaptation of the relevance-based
+updating task proposed by Palladino et al. (2001)
+(see Belacchi et al. 2010). The task used words with
+high values of concreteness and familiarity (Barca
+et al. 2002) and referred to objects easily comparable
+for size. For each level of WM load (from 1 to
+5), two trials composed of two lists were presented
+to the participant who had to remember an increasing
+number of items (from 1 to 5) according to the
+criterion ‘recall the smallest object/s within each
+list’ and in the order of presentation. In particular,
+the number of words in the list was twice (first
+trial) and two and a half times (second trial) the
+number of words to be recalled. An example of first
+type level-2 trial (i.e. two items to be recalled)
+might be: pillow, ladder, pen, tree. In this case the
+correct response is pillow and pen.",0.54,"4",1,"updating",-0.57304510330697,0.0743605418787866
+"5","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","inhibition","verbal",17.7,22.6,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"VIMI verbal","Verbal Inhibition Motor Inhibition task verbal",0,2,0.55,1,7,4.8,8,109,22,7.33,"The inhibition tasks were from the ‘VIMI’, a test of verbal inhibition and motor inhibition (Henry, Messer, & Nash, in
+press). In the verbal task, the experimenter said one out of two words (e.g. car or doll) and the task was to say the same word
+as the experimenter. After 20 repetitions, the instructions were changed such that the participant must say the alternative
+word; when the experimenter says ‘‘car’’, the participant should reply ‘‘doll’’, and vice versa for 20 repetitions. The motor
+inhibition task involved the same procedure, but instead of words, a hand shape (e.g. fist vs. flat hand) was shown and
+copied. The number of errors in the inhibition phases was used as measures of verbal and non-verbal inhibition,
+respectively.",0.68,"5",-1,"inhibition",-0.643174620948505,0.0956099271935483
+"6","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","inhibition","visuospatial",37.3,26.7,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"VIMI motor","Verbal Inhibition Motor Inhibition task motor",0,2,0.55,1,17.6,4.7,8,109,22,7.33,"The inhibition tasks were from the ‘VIMI’, a test of verbal inhibition and motor inhibition (Henry, Messer, & Nash, in
+press). In the verbal task, the experimenter said one out of two words (e.g. car or doll) and the task was to say the same word
+as the experimenter. After 20 repetitions, the instructions were changed such that the participant must say the alternative
+word; when the experimenter says ‘‘car’’, the participant should reply ‘‘doll’’, and vice versa for 20 repetitions. The motor
+inhibition task involved the same procedure, but instead of words, a hand shape (e.g. fist vs. flat hand) was shown and
+copied. The number of errors in the inhibition phases was used as measures of verbal and non-verbal inhibition,
+respectively.",0.68,"6",-1,"inhibition",-1.00916660776036,0.10248201411612
+"7","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","other","verbal",0.95,0.83,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"D-KEFS sorting","D-KEFS sorting",0,2,0.55,1,2.1,1.1,8,109,22,7.33,"The planning, fluency, and verbal switching tasks from the Delis–Kaplan Test Battery (Delis, Kaplan, & Kramer, 2001) were
+also given to the children. The ‘Sorting task’ was used to assess verbal and non-verbal planning and required the generation
+of different ways to sort different types of picture cards into two discrete categories. The number of correct responses was
+used as the measure planning – separate scores were available for verbal and non-verbal sorts.
+The ‘Design fluency’ task required participants to generate as many different patterns as possible. The child was asked to
+draw as many different designs as possible in 1 min, each in a different box, by connecting dots using four straight lines (with
+no line drawn in isolation). The total number of different patterns created for two different sets of dots was used as the design
+fluency measure.
+In the ‘Verbal fluency’ task, the instructions were to generate as many words as possible in 1 min. All words should start
+with a certain letter in the letter fluency task. All words should belong to a certain category in the category fluency task. For
+both tasks, the measure used was total number of correct responses.
+To assess verbal switching, the ‘category fluency switching task’ from the Delis–Kaplan Battery was used. The task
+required children to generate category exemplars from two different categories alternately – hence requiring shifting
+between each category. Scores represented the total number of correct answers from both categories in 1 min.
+Finally, the ID/ED task from the CANTAB (Cambridge Cognition, 2006) was used to assess non-verbal switching. The task
+required the participant to choose one of two figures on a computer screen; each figure contained both relevant and
+irrelevant features with respect to the choice to be made and the figures became more complex as the task went on (features
+included shapes, lines, and colours). The only guidance as to which features were important for the correct choices came
+from feedback after each response was given via the touch screen (i.e. whether the choice had been correct or incorrect).
+Once a participant had made a series of correct choices, the choice ‘criteria’ were altered and the participant was required to
+use the correct/incorrect feedback to switch strategy with respect to the features used to make his or her choices. Total
+number of errors made was scored.",0.68,"7",1,"other",-1.15899403126258,0.106173490505708
+"8","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","other","visuospatial",1.75,1.8,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"D-KEFS sorting","D-KEFS sorting",0,2,0.55,1,3.32,1.9,8,109,22,7.33,"The planning, fluency, and verbal switching tasks from the Delis–Kaplan Test Battery (Delis, Kaplan, & Kramer, 2001) were
+also given to the children. The ‘Sorting task’ was used to assess verbal and non-verbal planning and required the generation
+of different ways to sort different types of picture cards into two discrete categories. The number of correct responses was
+used as the measure planning – separate scores were available for verbal and non-verbal sorts.
+The ‘Design fluency’ task required participants to generate as many different patterns as possible. The child was asked to
+draw as many different designs as possible in 1 min, each in a different box, by connecting dots using four straight lines (with
+no line drawn in isolation). The total number of different patterns created for two different sets of dots was used as the design
+fluency measure.
+In the ‘Verbal fluency’ task, the instructions were to generate as many words as possible in 1 min. All words should start
+with a certain letter in the letter fluency task. All words should belong to a certain category in the category fluency task. For
+both tasks, the measure used was total number of correct responses.
+To assess verbal switching, the ‘category fluency switching task’ from the Delis–Kaplan Battery was used. The task
+required children to generate category exemplars from two different categories alternately – hence requiring shifting
+between each category. Scores represented the total number of correct answers from both categories in 1 min.
+Finally, the ID/ED task from the CANTAB (Cambridge Cognition, 2006) was used to assess non-verbal switching. The task
+required the participant to choose one of two figures on a computer screen; each figure contained both relevant and
+irrelevant features with respect to the choice to be made and the figures became more complex as the task went on (features
+included shapes, lines, and colours). The only guidance as to which features were important for the correct choices came
+from feedback after each response was given via the touch screen (i.e. whether the choice had been correct or incorrect).
+Once a participant had made a series of correct choices, the choice ‘criteria’ were altered and the participant was required to
+use the correct/incorrect feedback to switch strategy with respect to the features used to make his or her choices. Total
+number of errors made was scored.",0.68,"8",1,"other",-0.833083960367945,0.0987957827843448
+"9","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","shifting","verbal",7.15,2.87,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"D-KEFS category fluency switch","Delis–Kaplan Category fluency switching",0,2,0.55,1,8.05,1.86,8,109,22,7.33,"The planning, fluency, and verbal switching tasks from the Delis–Kaplan Test Battery (Delis, Kaplan, & Kramer, 2001) were
+also given to the children. The ‘Sorting task’ was used to assess verbal and non-verbal planning and required the generation
+of different ways to sort different types of picture cards into two discrete categories. The number of correct responses was
+used as the measure planning – separate scores were available for verbal and non-verbal sorts.
+The ‘Design fluency’ task required participants to generate as many different patterns as possible. The child was asked to
+draw as many different designs as possible in 1 min, each in a different box, by connecting dots using four straight lines (with
+no line drawn in isolation). The total number of different patterns created for two different sets of dots was used as the design
+fluency measure.
+In the ‘Verbal fluency’ task, the instructions were to generate as many words as possible in 1 min. All words should start
+with a certain letter in the letter fluency task. All words should belong to a certain category in the category fluency task. For
+both tasks, the measure used was total number of correct responses.
+To assess verbal switching, the ‘category fluency switching task’ from the Delis–Kaplan Battery was used. The task
+required children to generate category exemplars from two different categories alternately – hence requiring shifting
+between each category. Scores represented the total number of correct answers from both categories in 1 min.
+Finally, the ID/ED task from the CANTAB (Cambridge Cognition, 2006) was used to assess non-verbal switching. The task
+required the participant to choose one of two figures on a computer screen; each figure contained both relevant and
+irrelevant features with respect to the choice to be made and the figures became more complex as the task went on (features
+included shapes, lines, and colours). The only guidance as to which features were important for the correct choices came
+from feedback after each response was given via the touch screen (i.e. whether the choice had been correct or incorrect).
+Once a participant had made a series of correct choices, the choice ‘criteria’ were altered and the participant was required to
+use the correct/incorrect feedback to switch strategy with respect to the features used to make his or her choices. Total
+number of errors made was scored.",0.68,"9",1,"shifting",-0.365467660492084,0.0924268933052904
+"10","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","shifting","visuospatial",38,16.2,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"CANTAB ID ED","CANTAB ID ED",0,2,0.55,1,34.3,8.2,8,109,22,7.33,"The planning, fluency, and verbal switching tasks from the Delis–Kaplan Test Battery (Delis, Kaplan, & Kramer, 2001) were
+also given to the children. The ‘Sorting task’ was used to assess verbal and non-verbal planning and required the generation
+of different ways to sort different types of picture cards into two discrete categories. The number of correct responses was
+used as the measure planning – separate scores were available for verbal and non-verbal sorts.
+The ‘Design fluency’ task required participants to generate as many different patterns as possible. The child was asked to
+draw as many different designs as possible in 1 min, each in a different box, by connecting dots using four straight lines (with
+no line drawn in isolation). The total number of different patterns created for two different sets of dots was used as the design
+fluency measure.
+In the ‘Verbal fluency’ task, the instructions were to generate as many words as possible in 1 min. All words should start
+with a certain letter in the letter fluency task. All words should belong to a certain category in the category fluency task. For
+both tasks, the measure used was total number of correct responses.
+To assess verbal switching, the ‘category fluency switching task’ from the Delis–Kaplan Battery was used. The task
+required children to generate category exemplars from two different categories alternately – hence requiring shifting
+between each category. Scores represented the total number of correct answers from both categories in 1 min.
+Finally, the ID/ED task from the CANTAB (Cambridge Cognition, 2006) was used to assess non-verbal switching. The task
+required the participant to choose one of two figures on a computer screen; each figure contained both relevant and
+irrelevant features with respect to the choice to be made and the figures became more complex as the task went on (features
+included shapes, lines, and colours). The only guidance as to which features were important for the correct choices came
+from feedback after each response was given via the touch screen (i.e. whether the choice had been correct or incorrect).
+Once a participant had made a series of correct choices, the choice ‘criteria’ were altered and the participant was required to
+use the correct/incorrect feedback to switch strategy with respect to the features used to make his or her choices. Total
+number of errors made was scored.",0.68,"10",-1,"shifting",-0.283002211686115,0.0918192074070367
+"11","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","fluency","verbal",13.6,8.6,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"D-KEFS letter fluency","D-KEFS letter fluency",0,2,0.55,1,24.45,5.1,8,109,22,7.33,"The planning, fluency, and verbal switching tasks from the Delis–Kaplan Test Battery (Delis, Kaplan, & Kramer, 2001) were
+also given to the children. The ‘Sorting task’ was used to assess verbal and non-verbal planning and required the generation
+of different ways to sort different types of picture cards into two discrete categories. The number of correct responses was
+used as the measure planning – separate scores were available for verbal and non-verbal sorts.
+The ‘Design fluency’ task required participants to generate as many different patterns as possible. The child was asked to
+draw as many different designs as possible in 1 min, each in a different box, by connecting dots using four straight lines (with
+no line drawn in isolation). The total number of different patterns created for two different sets of dots was used as the design
+fluency measure.
+In the ‘Verbal fluency’ task, the instructions were to generate as many words as possible in 1 min. All words should start
+with a certain letter in the letter fluency task. All words should belong to a certain category in the category fluency task. For
+both tasks, the measure used was total number of correct responses.
+To assess verbal switching, the ‘category fluency switching task’ from the Delis–Kaplan Battery was used. The task
+required children to generate category exemplars from two different categories alternately – hence requiring shifting
+between each category. Scores represented the total number of correct answers from both categories in 1 min.
+Finally, the ID/ED task from the CANTAB (Cambridge Cognition, 2006) was used to assess non-verbal switching. The task
+required the participant to choose one of two figures on a computer screen; each figure contained both relevant and
+irrelevant features with respect to the choice to be made and the figures became more complex as the task went on (features
+included shapes, lines, and colours). The only guidance as to which features were important for the correct choices came
+from feedback after each response was given via the touch screen (i.e. whether the choice had been correct or incorrect).
+Once a participant had made a series of correct choices, the choice ‘criteria’ were altered and the participant was required to
+use the correct/incorrect feedback to switch strategy with respect to the features used to make his or her choices. Total
+number of errors made was scored.",0.68,"11",1,"other",-1.50705568090135,0.116718373015194
+"12","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","fluency","verbal",24.1,9.4,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"D-KEFS category fluency","D-KEFS category fluency",0,2,0.55,1,26.7,4.6,8,109,22,7.33,"The planning, fluency, and verbal switching tasks from the Delis–Kaplan Test Battery (Delis, Kaplan, & Kramer, 2001) were
+also given to the children. The ‘Sorting task’ was used to assess verbal and non-verbal planning and required the generation
+of different ways to sort different types of picture cards into two discrete categories. The number of correct responses was
+used as the measure planning – separate scores were available for verbal and non-verbal sorts.
+The ‘Design fluency’ task required participants to generate as many different patterns as possible. The child was asked to
+draw as many different designs as possible in 1 min, each in a different box, by connecting dots using four straight lines (with
+no line drawn in isolation). The total number of different patterns created for two different sets of dots was used as the design
+fluency measure.
+In the ‘Verbal fluency’ task, the instructions were to generate as many words as possible in 1 min. All words should start
+with a certain letter in the letter fluency task. All words should belong to a certain category in the category fluency task. For
+both tasks, the measure used was total number of correct responses.
+To assess verbal switching, the ‘category fluency switching task’ from the Delis–Kaplan Battery was used. The task
+required children to generate category exemplars from two different categories alternately – hence requiring shifting
+between each category. Scores represented the total number of correct answers from both categories in 1 min.
+Finally, the ID/ED task from the CANTAB (Cambridge Cognition, 2006) was used to assess non-verbal switching. The task
+required the participant to choose one of two figures on a computer screen; each figure contained both relevant and
+irrelevant features with respect to the choice to be made and the figures became more complex as the task went on (features
+included shapes, lines, and colours). The only guidance as to which features were important for the correct choices came
+from feedback after each response was given via the touch screen (i.e. whether the choice had been correct or incorrect).
+Once a participant had made a series of correct choices, the choice ‘criteria’ were altered and the participant was required to
+use the correct/incorrect feedback to switch strategy with respect to the features used to make his or her choices. Total
+number of errors made was scored.",0.68,"12",1,"other",-0.34503331968341,0.0922619089964972
+"13","Strengths and weaknesses in executive functioning in children with intellectual disability","Danielsson 2012","Danielsson et al. 2012","Research in Developmental Disabilities","2944","NSID","fluency","visuospatial",8.55,5.57,7.42,1.58333333333333,-0.366315789473684,1,2012,56.33,22,13.17,"D-KEFS design fluency","D-KEFS design fluency",0,2,0.55,1,9.82,3.26,8,109,22,7.33,"The planning, fluency, and verbal switching tasks from the Delis–Kaplan Test Battery (Delis, Kaplan, & Kramer, 2001) were
+also given to the children. The ‘Sorting task’ was used to assess verbal and non-verbal planning and required the generation
+of different ways to sort different types of picture cards into two discrete categories. The number of correct responses was
+used as the measure planning – separate scores were available for verbal and non-verbal sorts.
+The ‘Design fluency’ task required participants to generate as many different patterns as possible. The child was asked to
+draw as many different designs as possible in 1 min, each in a different box, by connecting dots using four straight lines (with
+no line drawn in isolation). The total number of different patterns created for two different sets of dots was used as the design
+fluency measure.
+In the ‘Verbal fluency’ task, the instructions were to generate as many words as possible in 1 min. All words should start
+with a certain letter in the letter fluency task. All words should belong to a certain category in the category fluency task. For
+both tasks, the measure used was total number of correct responses.
+To assess verbal switching, the ‘category fluency switching task’ from the Delis–Kaplan Battery was used. The task
+required children to generate category exemplars from two different categories alternately – hence requiring shifting
+between each category. Scores represented the total number of correct answers from both categories in 1 min.
+Finally, the ID/ED task from the CANTAB (Cambridge Cognition, 2006) was used to assess non-verbal switching. The task
+required the participant to choose one of two figures on a computer screen; each figure contained both relevant and
+irrelevant features with respect to the choice to be made and the figures became more complex as the task went on (features
+included shapes, lines, and colours). The only guidance as to which features were important for the correct choices came
+from feedback after each response was given via the touch screen (i.e. whether the choice had been correct or incorrect).
+Once a participant had made a series of correct choices, the choice ‘criteria’ were altered and the participant was required to
+use the correct/incorrect feedback to switch strategy with respect to the features used to make his or her choices. Total
+number of errors made was scored.",0.68,"13",1,"other",-0.273286130035068,0.0917577876007903
+"14","Executive Functions in Young Males With Fragile X Syndrome in Comparison to Mental Age-Matched Controls: Baseline Findings From a Longitudinal Study","Hooper 2008","Hooper et al. 2008","Neuropsychology","1315","FXS","inhibition","visuospatial",9.24,5.09,5.44166666666667,0.591666666666667,0.23943661971831,1,2008,56.1,42,10.1,"Day-night","Day-night",0,2,1,0,13.07,2.96,5.3,NA,48,NA,"Two measures were used to assess
+inhibition in the samples. The Day-Night Task is a classic measure
+of inhibition that is similar to the traditional Stroop task (Diamond
+& Taylor, 1996) that can be used with young children who cannot
+yet read (3[1/2] to 7 years). Using the same procedure as Gerstadt,
+Hong, and Diamond (1994), children were instructed to say “day”
+when shown a picture of a moon and stars, and “night” to a picture
+of the sun. Participants were presented with eight cards with a
+diagram of a moon/stars and eight cards with a diagram of a sun
+according to standard protocol for this task. The total number of
+items correct from a series of 16 trials was used as a measure of
+inhibition.",1,"14",1,"inhibition",-0.927807099948266,0.0494252238912705
+"15","Executive Functions in Young Males With Fragile X Syndrome in Comparison to Mental Age-Matched Controls: Baseline Findings From a Longitudinal Study","Hooper 2008","Hooper et al. 2008","Neuropsychology","1315","FXS","inhibition","verbal",4.61,3.32,5.55,0.558333333333333,0.447761194029851,0,2008,56.4,31,10.1,"CNT self-correction","Self-correction on The Contingency Naming Test",0,2,1,0,2.74,1.82,5.3,NA,48,NA,"The Contingency Naming Test (CNT; Anderson, Anderson,
+Northam, & Taylor, 2000) is another Stroop-like task developed
+for children who cannot read. Kirk et al. (2005) used the CNT to
+differentiate EF in children with FXS and Turner syndrome, and it
+also has been used effectively to measure EF in adults with fragile
+X (Bennetto, Taylor, Pennington, Porter, & Hagerman, 2001;
+Mazzocco, Hagerman, & Pennington, 1992). The CNT consists of
+four subtests with each subtest having 9 practice items and 27 test
+items. Stimuli include shapes in which the outer shape and inner
+shape are colored in green, pink, or blue. The first two tests are
+baseline naming tasks in which participants are asked to either
+name the color (Subtest 1) or the outer shape (Subtest 2) of each
+item. To measure verbal inhibition, the total number of selfcorrections
+for Subtests 1 and 2 was used in the data analyses. We
+did not include self-corrections from all four subtests because
+many of the boys with FXS were not able to complete Subtests 3
+(simple switching task) and 4 (complex switching task) due to the
+increasing difficulty of the tasks. Any child who did not demonstrate
+at least two correct responses out of the 27 possible items for
+Subtests 1 and 2 was excluded from the analyses. The CNT was
+initially designed for children who were too young to be automatic
+readers (Taylor, Albo, Phebus, Sachs, & Bierl, 1987). The ability
+to switch rapidly between two simple response sets is theorized to
+emerge between ages 3 and 4 years, while the ability to successfully
+complete multidimensional switching tasks is further refined
+between 7 and 9 years of age (Anderson, 2002). Therefore, we
+expected children with and without FXS with MAs of 4 years and
+older to be able to complete the simple switching task in Subtest 3
+of the CNT.",1,"15",-1,"inhibition",-0.736789181581301,0.0565272098627234
+"16","Executive Functions in Young Males With Fragile X Syndrome in Comparison to Mental Age-Matched Controls: Baseline Findings From a Longitudinal Study","Hooper 2008","Hooper et al. 2008","Neuropsychology","1315","FXS","shifting","verbal",12.5,5.5,5.59166666666667,0.541666666666667,0.538461538461537,0,2008,54.1,14,10.1,"CNT subtest 3","The Contingency Naming Test subtest 3 errors",0,2,1,0,3.68,5.07,5.3,NA,48,NA,"The Contingency Naming Test (CNT; Anderson, Anderson,
+Northam, & Taylor, 2000) is another Stroop-like task developed
+for children who cannot read. Kirk et al. (2005) used the CNT to
+differentiate EF in children with FXS and Turner syndrome, and it
+also has been used effectively to measure EF in adults with fragile
+X (Bennetto, Taylor, Pennington, Porter, & Hagerman, 2001;
+Mazzocco, Hagerman, & Pennington, 1992). The CNT consists of
+four subtests with each subtest having 9 practice items and 27 test
+items. Stimuli include shapes in which the outer shape and inner
+shape are colored in green, pink, or blue. The first two tests are
+baseline naming tasks in which participants are asked to either
+name the color (Subtest 1) or the outer shape (Subtest 2) of each
+item. To measure verbal inhibition, the total number of selfcorrections
+for Subtests 1 and 2 was used in the data analyses. We
+did not include self-corrections from all four subtests because
+many of the boys with FXS were not able to complete Subtests 3
+(simple switching task) and 4 (complex switching task) due to the
+increasing difficulty of the tasks. Any child who did not demonstrate
+at least two correct responses out of the 27 possible items for
+Subtests 1 and 2 was excluded from the analyses. The CNT was
+initially designed for children who were too young to be automatic
+readers (Taylor, Albo, Phebus, Sachs, & Bierl, 1987). The ability
+to switch rapidly between two simple response sets is theorized to
+emerge between ages 3 and 4 years, while the ability to successfully
+complete multidimensional switching tasks is further refined
+between 7 and 9 years of age (Anderson, 2002). Therefore, we
+expected children with and without FXS with MAs of 4 years and
+older to be able to complete the simple switching task in Subtest 3
+of the CNT.",1,"16",-1,"shifting",-1.68580449459889,0.115180749874887
+"17","Executive Functions in Young Males With Fragile X Syndrome in Comparison to Mental Age-Matched Controls: Baseline Findings From a Longitudinal Study","Hooper 2008","Hooper et al. 2008","Neuropsychology","1315","FXS","other","visuospatial",16.18,15.98,5.54166666666667,0.525,0.460317460317461,0,2008,56.3,38,10.1,"Planning","WJ Planning",0,2,1,0,57.86,47.75,5.3,NA,48,NA,"The Planning task from the WJ-III requires children to trace the
+dotted lines outlining increasingly more complex designs without
+retracing over the lines or lifting the pencil from the paper.
+Although the task is typically scored for number of lines the child
+was unable to trace (errors), we used the total number of correct
+units completed across designs as our measure of planning in an
+effort to increase our variability in the range of responses. This
+subtest has begun to be used as a measure of planning abilities in
+children with other developmental disabilities, such as attentiondeficit/
+hyperactivity disorder (ADHD; Harrier & DeOrnellas,
+2005). Any child who received a raw score of 0 was not included
+in the baseline analyses.",1,"17",1,"other",-1.10863454053851,0.0542948817865236
+"18","Executive Functions in Young Males With Fragile X Syndrome in Comparison to Mental Age-Matched Controls: Baseline Findings From a Longitudinal Study","Hooper 2008","Hooper et al. 2008","Neuropsychology","1315","FXS","inhibition","visuospatial",3.89,2.47,5.55,0.541666666666667,0.461538461538462,0,2008,56.6,35,10.1,"Tower","Nepsy Tower",0,2,1,0,8.61,3.43,5.3,NA,48,NA,"Measures of planning. For this domain, two primary tasks
+were employed: the Tower task from the NEPSY (Korkman, Kirk,
+& Kemp, 1998) and the Planning task from the WJ-III.
+The Tower is a disk transfer task that provides a measure of
+planning and problem solving efficiency that has been used in
+studies of children with autism (Joseph, McGrath, & Tager-Flusberg,
+2005). The Tower task requires the participant to rearrange a
+set of disks from its original configuration on three pegs to reach
+a goal state, shown on a picture board, in a prescribed number of
+moves without violating the rules (e.g., moving only one ball at a
+time from one peg to another). As the task progresses, the trials
+become increasingly difficult and more complex. Only trials
+solved in the requested number of moves and within the allotted
+time period are scored as correct and awarded 1 point for a
+possible score of 0 to 20. This total raw score was used as a
+measure of planning and problem solving efficiency. The Tower
+was designed for children ages 5 through 12 years. Although we
+administered it to some participants who were below the chronological
+age intended for this task (i.e., age 5 years), no floor effects
+were observed in the typically developing group, with all but one
+of the MA-matched typically developing peers demonstrating the
+ability to understand and complete this subtest with success. Additionally,
+it is important to note that a majority of these young
+participants were only a few months younger than 5 years. Any
+child who received a raw score of 0 was not included in the
+baseline analyses.",1,"18",1,"inhibition",-1.526209869137,0.0634367894026606
+"19","Inhibitory control in children with intellectual disabilities with and without autism spectrum disorders in animal size tests","Ikeda 2014","Ikeda et al. 2014","International Journal of Developmental Disabilities","1833","NSID","inhibition","visuospatial",1.89,5.06,8.86,1.73,0.231213872832369,1,2014,59.1,11,15.83,"RAST control","Real Animal Size Test control condition",0,2,0.36,1,1.85,2.19,8.46,NA,21,8.46,"All participants were administered the Real Animal Size Test and the Pictorial Animal Size Test (Ikeda et al.,
+2013) to investigate inhibitory control. In these tests, the participants were requested to report the size of six
+animals divided into two distinct categories: big animals and small animals. The former included an elephant, a
+giraffe, and a whale; the latter included a frog, a bird, and a squirrel.
+In the Real Animal Size Test, participants were asked to make a decision based on the size of the animals in
+real life: an elephant is a ‘big’ animal. In the control condition, all animals were presented as the same size
+(12612 cm). Therefore, no interference arose from the size at which the animals were depicted in the picture.
+In the incongruent condition, animals were presented in mismatching pictorial sizes with the animal category,
+thereby eliciting interference related to the picture size: actually big animals were portrayed as small in a
+picture (666 cm) and small animals were portrayed as big in a picture (18618 cm). Therefore, participants
+were compelled to inhibit a response to the pictorial size and give a response related to the animal’s size in real
+life in the incongruent condition.
+In the Pictorial Animal Size Test, participants were asked to make a decision based on the picture size. In the
+control condition, black rectangles were presented as either a big picture (18618 cm) or as a small picture
+(666 cm). The condition elicited no interference. In the incongruent condition, as in the Real Animal Size
+Test, animals were presented in mismatching pictorial sizes with the animal category, thereby eliciting
+interference from the real size of the animals: actually big animals were shown as small images (666 cm) and
+actually small animals were portrayed as large images (18618 cm). Participants were compelled to inhibit
+their response to the size in real life and to give a response related to the pictorial size.",0.52,"19",-1,"inhibition",-0.0113833579548971,0.138530163228737
+"20","Inhibitory control in children with intellectual disabilities with and without autism spectrum disorders in animal size tests","Ikeda 2014","Ikeda et al. 2014","International Journal of Developmental Disabilities","1833","NSID","inhibition","visuospatial",2.27,5.06,8.86,1.73,0.231213872832369,1,2014,59.1,11,15.83,"RAST incongruent","Real Animal Size Test incongruent condition",0,2,0.36,1,1.41,2.76,8.46,NA,21,8.46,"All participants were administered the Real Animal Size Test and the Pictorial Animal Size Test (Ikeda et al.,
+2013) to investigate inhibitory control. In these tests, the participants were requested to report the size of six
+animals divided into two distinct categories: big animals and small animals. The former included an elephant, a
+giraffe, and a whale; the latter included a frog, a bird, and a squirrel.
+In the Real Animal Size Test, participants were asked to make a decision based on the size of the animals in
+real life: an elephant is a ‘big’ animal. In the control condition, all animals were presented as the same size
+(12612 cm). Therefore, no interference arose from the size at which the animals were depicted in the picture.
+In the incongruent condition, animals were presented in mismatching pictorial sizes with the animal category,
+thereby eliciting interference related to the picture size: actually big animals were portrayed as small in a
+picture (666 cm) and small animals were portrayed as big in a picture (18618 cm). Therefore, participants
+were compelled to inhibit a response to the pictorial size and give a response related to the animal’s size in real
+life in the incongruent condition.
+In the Pictorial Animal Size Test, participants were asked to make a decision based on the picture size. In the
+control condition, black rectangles were presented as either a big picture (18618 cm) or as a small picture
+(666 cm). The condition elicited no interference. In the incongruent condition, as in the Real Animal Size
+Test, animals were presented in mismatching pictorial sizes with the animal category, thereby eliciting
+interference from the real size of the animals: actually big animals were shown as small images (666 cm) and
+actually small animals were portrayed as large images (18618 cm). Participants were compelled to inhibit
+their response to the size in real life and to give a response related to the pictorial size.",0.52,"20",-1,"inhibition",-0.227204948987837,0.139334733666335
+"21","Inhibitory control in children with intellectual disabilities with and without autism spectrum disorders in animal size tests","Ikeda 2014","Ikeda et al. 2014","International Journal of Developmental Disabilities","1833","NSID","inhibition","visuospatial",0.76,1.69,8.86,1.73,0.231213872832369,1,2014,59.1,11,15.83,"PAST control","Pictorial Animal Size Test control condition",0,2,0.36,1,2.4,2.5,8.46,NA,21,8.46,"All participants were administered the Real Animal Size Test and the Pictorial Animal Size Test (Ikeda et al.,
+2013) to investigate inhibitory control. In these tests, the participants were requested to report the size of six
+animals divided into two distinct categories: big animals and small animals. The former included an elephant, a
+giraffe, and a whale; the latter included a frog, a bird, and a squirrel.
+In the Real Animal Size Test, participants were asked to make a decision based on the size of the animals in
+real life: an elephant is a ‘big’ animal. In the control condition, all animals were presented as the same size
+(12612 cm). Therefore, no interference arose from the size at which the animals were depicted in the picture.
+In the incongruent condition, animals were presented in mismatching pictorial sizes with the animal category,
+thereby eliciting interference related to the picture size: actually big animals were portrayed as small in a
+picture (666 cm) and small animals were portrayed as big in a picture (18618 cm). Therefore, participants
+were compelled to inhibit a response to the pictorial size and give a response related to the animal’s size in real
+life in the incongruent condition.
+In the Pictorial Animal Size Test, participants were asked to make a decision based on the picture size. In the
+control condition, black rectangles were presented as either a big picture (18618 cm) or as a small picture
+(666 cm). The condition elicited no interference. In the incongruent condition, as in the Real Animal Size
+Test, animals were presented in mismatching pictorial sizes with the animal category, thereby eliciting
+interference from the real size of the animals: actually big animals were shown as small images (666 cm) and
+actually small animals were portrayed as large images (18618 cm). Participants were compelled to inhibit
+their response to the size in real life and to give a response related to the pictorial size.",0.52,"21",-1,"inhibition",0.706576524389872,0.146328925790933
+"22","Inhibitory control in children with intellectual disabilities with and without autism spectrum disorders in animal size tests","Ikeda 2014","Ikeda et al. 2014","International Journal of Developmental Disabilities","1833","NSID","inhibition","visuospatial",1.53,2.13,8.86,1.73,0.231213872832369,1,2014,59.1,11,15.83,"PAST incongruent","Pictorial Animal Size Test incongruent condition",0,2,0.36,1,2.99,3.27,8.46,NA,21,8.46,"All participants were administered the Real Animal Size Test and the Pictorial Animal Size Test (Ikeda et al.,
+2013) to investigate inhibitory control. In these tests, the participants were requested to report the size of six
+animals divided into two distinct categories: big animals and small animals. The former included an elephant, a
+giraffe, and a whale; the latter included a frog, a bird, and a squirrel.
+In the Real Animal Size Test, participants were asked to make a decision based on the size of the animals in
+real life: an elephant is a ‘big’ animal. In the control condition, all animals were presented as the same size
+(12612 cm). Therefore, no interference arose from the size at which the animals were depicted in the picture.
+In the incongruent condition, animals were presented in mismatching pictorial sizes with the animal category,
+thereby eliciting interference related to the picture size: actually big animals were portrayed as small in a
+picture (666 cm) and small animals were portrayed as big in a picture (18618 cm). Therefore, participants
+were compelled to inhibit a response to the pictorial size and give a response related to the animal’s size in real
+life in the incongruent condition.
+In the Pictorial Animal Size Test, participants were asked to make a decision based on the picture size. In the
+control condition, black rectangles were presented as either a big picture (18618 cm) or as a small picture
+(666 cm). The condition elicited no interference. In the incongruent condition, as in the Real Animal Size
+Test, animals were presented in mismatching pictorial sizes with the animal category, thereby eliciting
+interference from the real size of the animals: actually big animals were shown as small images (666 cm) and
+actually small animals were portrayed as large images (18618 cm). Participants were compelled to inhibit
+their response to the size in real life and to give a response related to the pictorial size.",0.52,"22",-1,"inhibition",0.484137318880564,0.142190465770839
+"23","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","inhibition","verbal",13.87,2.9,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Day-night","Day-night",0,2,0.53,0,15.67,0.82,NA,NA,15,5.75,"Inibition
+Stroop Type Task – Day/NightVersion
+(Gerstadt et al. 1994)
+This task assessed the ability to inhibit a predominant
+response. In this task, participants were asked
+to say ‘night’ when they saw a picture of the sun
+drawn on a white card, and ‘day’ when they saw a
+picture of moon and stars drawn on a black card.
+After being given a brief practice trial, participants
+were then shown a sequence of 16 cards arranged in
+a set order. Participants were also given a control
+version of the task, in which they were taught to
+associate two separate abstract drawings with the
+words ‘night’ and ‘day’ and then again after a short
+practice given a trial of 16 cards in an arranged
+order. According to Gerstadt et al. (1994), the following
+indices were registered: number of correct
+responses for experimental and control condition,
+number of correct responses in the first four trials
+for experimental and control condition, and
+number of correct responses in the last four trials
+for experimental and control condition. The
+minimum score was 0 and the maximum was 16,
+for both experimental and control conditions.",0.53,"23",1,"inhibition",-0.821806798246926,0.144589440227414
+"24","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","shifting","verbal",19,1.96,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Rule Shift Card 1","Rule Shift Card Test 1",0,2,0.53,0,19.87,1.46,NA,NA,15,5.75,"Set shifting
+Rule Shift Card Test – (Wilson et al. 1996)
+This test assessed the ability to respond correctly to
+a rule and then to shift from that rule to another
+one. In the first part of the task, participants were
+asked to say ‘yes’ when they saw a red card, and
+‘no’ when they saw a black card. In the second part
+of the test, participants were asked to respond ‘yes’
+if the card that had just been turned over was the
+same colour as the previously turned card, and ‘no’
+if it was a different colour.The challenge in the
+second part of the task was therefore to concentrate
+on applying the new rule. The number of correct
+responses in both tasks was recorded. The
+minimum score was 0, and the maximum was 21
+for both the first and the second parts.",0.53,"24",1,"shifting",-0.489793775113139,0.137331632368993
+"25","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","shifting","verbal",12.8,2.43,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Rule Shift Card 2","Rule Shift Card Test 2",0,2,0.53,0,15.4,3.5,NA,NA,15,5.75,"Set shifting
+Rule Shift Card Test – (Wilson et al. 1996)
+This test assessed the ability to respond correctly to
+a rule and then to shift from that rule to another
+one. In the first part of the task, participants were
+asked to say ‘yes’ when they saw a red card, and
+‘no’ when they saw a black card. In the second part
+of the test, participants were asked to respond ‘yes’
+if the card that had just been turned over was the
+same colour as the previously turned card, and ‘no’
+if it was a different colour.The challenge in the
+second part of the task was therefore to concentrate
+on applying the new rule. The number of correct
+responses in both tasks was recorded. The
+minimum score was 0, and the maximum was 21
+for both the first and the second parts.",0.53,"25",1,"shifting",-0.839602947043856,0.145082218478079
+"26","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","shifting","visuospatial",2,0.85,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Modified Card Sorting","Modified Card Sorting Test",0,2,0.53,0,3.87,1.3,NA,NA,15,5.75,"Conceptual shifting
+Modified Card Sorting Test (Nelson 1976)
+The Modified Card Sorting Test (MCST) was proposed
+by Nelson (1976) as a reduced version of the
+Wisconsin Card Sorting Test (Berg 1948). In the
+MCST, four stimulus cards are placed in front of
+the child: the first card portrays a single red triangle,
+the second card shows two green stars, the
+third one, three yellow crosses and the fourth one,
+four blue circles. Participants are required to match
+each card according to colour, shape or number
+with every consecutive card of a set of 48 response
+cards, portraying all possible combinations of colour
+(red, green, yellow, blue), shape (triangles, stars,
+crosses, circles) or number (one to four). Participants
+are informed if their choice is correct or not,
+without, however, making suggestions regarding the
+sorting criterion. After the participant had completed
+six consecutive correct sorts (completion of a
+‘category’), he or she was explicitly informed that
+the sorting criterion had changed, with the phrase:
+‘The rules have now changed. I want you to find
+another rule’. The procedure continued until the
+participant completed the three categories twice, or
+until all 48 response cards were used.
+The following parameters were recorded, according
+to Cianchetti et al. (2007) and Temple et al.
+(1996):
+1 Categories completed. This criterion corresponds
+to the number of sequences of six consecutive
+correct matches the participant completes during
+the test (minimum score 0, maximum score 6).
+2 Percentage of responses that were correct.
+3 Perseverative errors: according to this criterion, an error is perseverative when the participant persists
+in the same category as that of the previously
+incorrect response.We also included in this criterion
+errors made when the participant did not
+change category after being told that the rules had
+changed.
+4 Non-perseverative errors: all errors not classified
+as ‘perseverative errors’.",0.53,"26",1,"shifting",-1.65655356105064,0.179069495010493
+"27","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","inhibition","visuospatial",3.8,2.68,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Tower","Tower of London",0,2,0.53,0,9.67,2.5,NA,NA,15,5.75,"Planning
+Tower of London
+The Tower of London (Shallice 1982) assesses
+problem-solving and spatial planning. Instructions
+for administration were taken from Sannio Fancello
+et al. (2006).Test material consisted of a board,
+13 cm ¥ 5 cm ¥ 1.5 cm, with three pegs of increasing
+height (9.5 cm, 6.5 cm and 3.5 cm) and three balls
+red, blue and green. The balls were 3 cm in diameter
+with 1.3 cm diameter central hole. A5 (paper
+size) coloured photographs of the target configurations
+were provided. The child was asked to match
+the target configuration, shown on a photograph,
+from a standard start configuration by moving the
+balls in accordance with set rules.The child had
+three attempts to solve each problem. Problems
+increased in difficulty from those which could be
+performed in a minimum of three moves to problems
+that could only be performed in a minimum
+of seven moves. Each level of move had three different
+problems, giving a total of 12 problems, altogether.
+Participants were given a practice two-move
+problem, in order to help them understand what
+they had to do.The following scores were recorded:
+the number of problems solved correctly (min 0,
+max 12), the number of problems solved correctly
+in the minimum number of moves (min 0, max 12)
+and the number of problems solved correctly at the
+first attempt (min 0, max 12). The first problem
+was a training task, following which 12 problems of
+increasing complexity were presented.",0.53,"27",1,"inhibition",-2.20373226424695,0.214273931541383
+"28","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","fluency","verbal",9.13,5.36,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Letter fluency","FAS verbal fluency",0,2,0.53,0,8,4.47,NA,NA,15,5.75,"Verbal fluency
+Verbal fluency, in which participants produce as
+many words belonging to the same category (e.g.
+same initial letter or same semantic category) as
+they can within a fixed period of time, is an established
+test of EF (e.g. Pennington & Ozonoff 1996).
+Two variations of this task were given to participants.
+The first was the FAS task, a traditional
+verbal fluency test (Newcombe 1969). Participants
+were asked to produce as many words as they could
+that started with the letters F, A and S within a
+minute. Participants were given a score for the
+number of words produced for each letter and,
+from that, a total score was derived. The number of
+errors and number of words that were repeated
+were also recorded.To assess semantic fluency, participants
+were asked to name, within a minute, as
+many items as possible from three semantic categories:
+animals, objects and occupations (Temple et al.
+1996). Participants were given a score for the
+number of words generated for each of the three
+categories. From that, a total score was derived. The
+number of errors and number of repeated words
+was also recorded.",0.53,"28",1,"other",0.222774094256489,0.134160471617863
+"29","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","fluency","verbal",19.6,10.19,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Category fluency","Category fluency",0,2,0.53,0,13.2,7.1,NA,NA,15,5.75,"Verbal fluency
+Verbal fluency, in which participants produce as
+many words belonging to the same category (e.g.
+same initial letter or same semantic category) as
+they can within a fixed period of time, is an established
+test of EF (e.g. Pennington & Ozonoff 1996).
+Two variations of this task were given to participants.
+The first was the FAS task, a traditional
+verbal fluency test (Newcombe 1969). Participants
+were asked to produce as many words as they could
+that started with the letters F, A and S within a
+minute. Participants were given a score for the
+number of words produced for each letter and,
+from that, a total score was derived. The number of
+errors and number of words that were repeated
+were also recorded.To assess semantic fluency, participants
+were asked to name, within a minute, as
+many items as possible from three semantic categories:
+animals, objects and occupations (Temple et al.
+1996). Participants were given a score for the
+number of words generated for each of the three
+categories. From that, a total score was derived. The
+number of errors and number of repeated words
+was also recorded.",0.53,"29",1,"other",0.709039475204941,0.141712282956648
+"30","Executive function in adolescents with Down Syndrome","Lanfranchi 2010","Lanfranchi et al. 2010","Journal of intellectual disability research","1291","DS","attention","visuospatial",10.2,4.23,5.75,0.666666666666667,NA,0,2010,37.9,15,15.17,"Self-ordered pointing","Self-ordered pointing test",0,2,0.53,0,6.67,5.15,NA,NA,15,5.75,"Sustained attention
+Self-ordered Pointing Test – Temple et al. (1996)
+In this task, which is an adaptation of a self-ordered
+pointing task devised by Petrides & Milner (1982),
+participants had to remember the sequence in
+which they pointed to a set of visually displayed
+stimuli by using their own strategies. Considering
+the age, both mental and chronological, of the individuals
+in the two groups, we decided to use only
+one of two versions of the task proposed by Temple
+et al. (1996): using the drawings of everyday objects.
+The task is divided in four sections.The first part
+consists of a set of six pages, on which an array of
+six different drawings is printed. The actual drawings
+are the same on each page, but they appear in
+different spatial positions.The child is asked to
+point to one drawing at a time, and to point to each
+drawing only once. Therefore, each time a page is
+turned, the child is required to remember which
+drawings have already been pointed to, and to point
+to a novel stimulus. Participants are open to determine
+their own order of responding. The other sections
+of the task are the same, except that they
+contain 8, 10 and 12 stimuli, respectively, with the
+corresponding number of pages. Scores were based
+on the number of pages correctly completed (min 0, max 36), the number of times the same item was
+pointed to in a set (item preservation) and the
+number of repeated points made to the same spatial
+position (position preservation). Overall, total scores
+were obtained, as well as separate scores for each
+set of stimuli.
+Although this task is often used to assess sustained
+attention (see, for example, Temple et al.
+1996), we should note that it also involves a
+memory component as a child has to hold in mind
+all the pictures that s/he has already pointed to in
+order to point to all the others.",0.53,"30",-1,"attention",-0.728795115787436,0.142185705346594
+"31","Tower of Hanoi and working memory in adult persons with intellectual disability.","Numminen 2001","Numminen et al. 2001","Research in Developmental Disabilities","3282","NSID","inhibition","visuospatial",18.33,6.13,5.63,1.76,-0.0227272727272727,2,2001,NA,24,49.88,"Tower","Tower of Hanoi",0,1,0.58,1,18.04,7,5.67,103.1,24,5.5,"The TOH version employed was very similar to the one used in previous
+studies of persons with ID (cf. Borys et al., 1982; Spitz et al., 1982). The task
+included three equal-length pegs spaced equidistantly on a board, and three
+wooden disks of different sizes (small, medium, and large). Subjects were
+instructed to move the disks, one at a time, on the three pegs so as to duplicate
+a target configuration, while obeying the following rules: 1) placing a larger disk
+on a smaller disk is forbidden, 2) only one disk may be moved at a time, and 3)
+a disk must be on a peg or in the hand at all times. A practice problem, involving
+two disks (small and large) and three moves, was given to the participants first.
+It had to be solved before the participant was allowed to move to the three-disk
+problems. If the participant was not able to solve the practice problem in three
+attempts, no credit (0 points) was given and the task was discontinued.
+The three-disk problems were arranged in a difficulty continuum with two- to
+seven- move, tower-ending problems (cf. Borys et al., 1982; Klahr & Robinson,
+1981; Spitz et al., 1982). Participants were allowed a maximum of six attempts
+to solve each problem at each move-length. The criterion for credit was two
+consecutive correct solutions, after which the participant was allowed to move to
+the next move-length problem. Scoring was based on the number of trials needed
+for a solution in the minimum number of moves in two consecutive trials.
+Success on the first two attempts produced the maximum number of points (5).
+Each additional attempt that was required decreased the subject’s score by 1
+point. Since there were six sequence lengths (6 3 5 points), the TOH Score
+ranged from 0 to 30.
+A model of the target configuration was kept in view during the trials, and
+each trial was interrupted if a rule violation occurred: Rule violations were
+pointed out, the problem was discontinued, the initial configuration was returned
+to, and the participant was asked to try to solve the problem again. If the optimal
+number of moves was exceeded, the initial configuration was returned to and the
+participant was asked to solve the problem in fewer moves. The number of the
+Trials needed, Rule violations, Extra moves, and Self-initiations were recorded
+and analyzed.",0.54,"31",-1,"inhibition",-0.0433537603389321,0.0833529119639117
+"32","Response inhibition and interference suppression in individuals with Down syndrome compared to typically developing children","Traverso 2018","Traverso et al. 2018","Frontiers in Psychology","2718","DS","inhibition","verbal",14.38,8.65,6.2,NA,-0.139165009940358,2,2018,44.3,32,14.48,"Preschool matching familiar figure","Preschool matching familiar figure task",2,2,0.31,0,10.8,4.97,6.4,107.2,65,5.91,"Preschool matching familiar figure task (PMFFT, adapted by
+Kagan, 1966; Traverso et al., 2016)
+This task measures the child’s ability to restrain impulsive
+responses and to compare the target with all of the pictures by
+shifting attention fromthe target to each alternative. The children
+were asked to perform 14 trials, selecting among five different
+alternatives the figure that was identical to the target picture at the
+top of the page. The number of errors (PMFFT Errors, expected
+range 0–56) and themean latency between the presentation of the
+itemand the child’s response (PMFFT Time, expected range 0-no
+limit) were recorded. Cronbach’s alphas calculated in a sample
+of 174 children (Mage = 60.04) were 0.67 for PMFFT Errors and
+0.95 for PMFFT Time (Traverso et al., 2016). Cronbach’s alpha
+calculated in the present study for PMFFT Accuracy was 0.76 in
+the TD group and 0.85 in the DS group. Cronbach’s alpha for
+PMFFT Time was 0.94 for both groups.",0.53,"39",-1,"inhibition",-0.55429359796463,0.0482183339039173
+"33","Response inhibition and interference suppression in individuals with Down syndrome compared to typically developing children","Traverso 2018","Traverso et al. 2018","Frontiers in Psychology","2718","DS","inhibition","visuospatial",4.13,2.09,6.2,NA,-0.139165009940358,2,2018,44.3,32,14.48,"Go No-go","Go No-go task",2,1,0.31,0,5.22,1.31,6.4,107.2,65,5.91,"Go/No-Go task (adapted from Berlin and Bohlin, 2002)
+The Go/No-Go task is a well-known paradigm that tests
+the abilities of both adults and children to inhibit prepotent
+responses (Durston et al., 2002; Verbruggen and Logan, 2008).
+The children were asked to restrain an automatic response.While
+in front of a computer screen, the child was instructed to press
+the space bar according to the instructions given by the examiner
+for the following condition: “Press the space bar when you see
+a blue figure; do not press when you see a red figure” (24
+blue items and six red items). The percentage of go responses
+was 80%. The stimulus duration was 3,000ms, and the blank
+page that appeared after each stimulus lasted 1,000ms. The sum
+of the correct responses in the no-go condition was recorded
+(Go/No-Go Accuracy, expected range 0–6). Test-retest reliability
+(Pearson’s r) was calculated in a sample of 75 typically developing
+children (age range 62–76 months,Mage = 68.64; S.D. = 3.5) was
+0.55, p < 0.0005 (unpublished results from the data set used in
+Traverso et al., 2015). Cronbach’s alphas calculated in the present
+study were 0.71 in the TD group and 0.83 in the DS group.",0.53,"40",1,"inhibition",-0.673036203486077,0.0489695521433935
+"34","Response inhibition and interference suppression in individuals with Down syndrome compared to typically developing children","Traverso 2018","Traverso et al. 2018","Frontiers in Psychology","2718","DS","inhibition","verbal",10.3,4.08,6.2,NA,-0.139165009940358,2,2018,44.3,32,14.48,"Fish flanker","Fish flanker task",2,1,0.31,0,10.58,4.3,6.4,107.2,65,5.91,"Fish flanker task (adapted from Ridderinkhof and van der
+Molen, 1995; Gandolfi et al., 2014; Traverso et al., 2015)
+The Flanker task is a well-known paradigm that is used to
+evaluate the ability to inhibit irrelevant interfering stimuli
+(Eriksen and Eriksen, 1974; Kramer et al., 1994). The children
+were required to respond to a left or right fish presented at
+the center of the computer screen by pressing a left or right
+response button. The fish was flanked by two fishes pointing
+in the same direction (congruent condition, 16 items) or in the
+opposite direction (incongruent condition, 16 items). After a
+brief training consisting of four items (two of each condition), 48
+items were randomly presented (16 items per condition, half left
+and half right). A warning cross (500ms in duration) preceded
+the stimulus. After the response, the screen turned blank for
+500ms. Accuracies (Flanker Accuracy, expected range 0–16) and
+response times (Flanker Time) in the incongruent condition
+were recorded. Test-retest reliability (Pearson’s r) calculated in
+a sample of 43 typically developing children (age range 62–75
+months, Mage = 68.60; S.D. = 3.5) was 0.42, p = 0.002 and 0.56,
+p < 0.001 for Flanker Accuracy and Flanker Time, respectively
+(Usai et al., 2017). Cronbach’s alphas calculated in the present
+study for Flanker Accuracy were 0.96 in the TD group and 0.81
+in the DS group. Cronbach’s alphas for Flanker Time were 0.96 in
+the TD group and 0.93 in the DS group.",0.53,"41",1,"inhibition",-0.0656779122183982,0.0466568503750967
+"35","Response inhibition and interference suppression in individuals with Down syndrome compared to typically developing children","Traverso 2018","Traverso et al. 2018","Frontiers in Psychology","2718","DS","inhibition","visuospatial",10.63,1.54,6.2,NA,-0.139165009940358,2,2018,44.3,32,14.48,"Dots","Dots task",2,2,0.31,0,13.82,3.78,6.4,107.2,65,5.91,"Dots task (adapted by Diamond et al., 2007; Traverso et al.,
+2015)
+This task is a high cognitive conflict task (see Diamond et al.,
+2007; Diamond and Lee, 2011). A heart or a flower appears on
+the right or left of a computer screen. The child is told that he
+must press on the same side of the heart but on the opposite side
+of the flower, which requires inhibiting the tendency to respond
+on the side where the stimulus appeared and to control the
+response based on which stimulus appears. After a brief training
+session with heart and flower items, the test began, and hearts and
+flowers were intermixed in the test. The sum of correct responses
+(Dots Accuracy, expected range 0–20) and the response time
+(Dots Time) were recorded for each child. Test-retest reliability
+(Pearson’s r) calculated in a sample of 43 typically developing
+children (age range 62–75 months, Mage = 68.60; S.D. = 3.5)
+was 0.62 (p < 0.001) for Dots Accuracy and 0.72 (p > 0. 001) for
+Dots Time (Usai et al., 2017). Cronbach’s alpha calculated in the
+present study for Dots Accuracy was 0.97 in the TD group and
+0.80 in the DS group. Cronbach’s alpha for Dots Time was 0.89 in
+the TD group and 0.85 in the DS group.",0.53,"42",1,"inhibition",-0.981354982908696,0.0515988298303872
+"36","Cognitive abilities and life experience in everyday planning in individuals with intellectual disabilities: Support for the developmental delay model","Palmqvist 2020","Palmqvist et al. 2020","Journal of intellectual disability research","2047","NSID","other","visuospatial",0.0388,1.11,8.43,1.43,-0.0839160839160846,2,2020,46.5745856353591,65,18.1,"Planning tasks composite","Planning tasks composite",0,1,NA,1,0.0343,0.783,8.55,NA,62,7.84,"Planning task 1: Order-your-task
+The Order-your-task test was developed for this project to assess the participant’s ability to temporally organise a task into sub-tasks
+(e.g. for the task “eat a slice of toast”, identify the order of the sub-tasks: (1) toast bread; (2) spread butter onto toast; and (3) eat toast. The
+participant received 10 tasks yielding one point per correct answer (maximum score = 10). The dependent variable was the total
+number of correct tasks combined with the time to completion.
+Planning task 2: Multiple errand task
+The multiple errand task (Shallice & Burgess, 1991) originally captured difficulties with everyday tasks in individuals with acquired brain
+injuries and have been adapted for individuals with ID (Steverson et al., 2017). In the original task, the participant is asked to execute a
+set of errands in a shopping mall. The present study aimed to investigate the formulation rather than the execution of the plan; thus, the
+task was modified into a pen-and-paper task. The participants were given a list of seven tasks to perform while following a series of rules.
+The setting was a school environment, and the tasks included everyday school activities such as “drawing a sun”, “fetching a pen”,
+“playing football” and “finding out what is for lunch”. The rules included finding the appropriate room to visit (e.g. go to the school
+yard for playing football), not to enter the same room twice and doing the task in the appropriate order (e.g. fetching the pen
+before drawing the sun). One point was given per correctly matched pair of rooms and tasks: 1.25 points were given if the tasks
+were performed in an appropriate order, and one minus was given if the participant entered the same room twice (maximum
+score = 8.25). The dependent variable was the total correct tasks combined with the time to completion.
+Planning task 3: CKTA
+The CKTA was developed by Chevignard et al. (2010). The CKTA was modified to a pen-and-paper task. The participant was asked to
+identify the correct steps in a recipe (maximum score = 8). The dependent variable was the total number of correct tasks combined
+with the time to completion.
+Planning task 4: Zoo map
+The zoo map 1 (from here on referred to as zoo map) is a sub-test in the test battery BADS-C (Emslie et al., 2003). The zoo map
+assesses the participant’s own ability to identify and arrange sub-goals to achieve a goal. The participant is asked to visit eight places
+in a zoo (e.g. the restaurant or the bears) using a paper map of the zoo. The participant may only use certain roads once and must
+start and end in specified places. The participant is prompted to draw a line with a pen showing what places they visited and in
+which order. The participant got one score per correctly visited animal. The score was then deducted by one each time the
+participant used a forbidden path more than once, deviated from the path, failed to draw a continuous line or made an inappropriate
+visit (maximum score = 8). The dependent variable was the total correct tasks combined with the time to completion.",NA,"43",1,"other",0.0046381629995187,0.0315137323377823
+"37","Cognitive abilities and life experience in everyday planning in individuals with intellectual disabilities: Support for the developmental delay model","Palmqvist 2020","Palmqvist et al. 2020","Journal of intellectual disability research","2047","NSID","fluency","verbal",38.3,12.1,8.39,1.4,-0.114285714285714,2,2020,46.353591160221,68,18.1,"Category fluency","Category fluency",0,1,NA,1,37,8.73,8.55,NA,62,7.84,"The semantic category fluency task was used to measure verbal fluency (Baldo et al., 2001). The participants were asked to name as
+many items as possible in two given categories (animals and boy names) for 2*60 s. The category test was used rather than a letter
+fluency task (e.g. FAS where as many items beginning with F, A or S are to be named) to reduce the influence on the participants
+reading skills. The total number of uniquely named items was calculated and used as the dependent variable.",NA,"44",1,"other",0.121598813928923,0.0308917848861938
+"38","Cognitive abilities and life experience in everyday planning in individuals with intellectual disabilities: Support for the developmental delay model","Palmqvist 2020","Palmqvist et al. 2020","Journal of intellectual disability research","2047","NSID","shifting","visuospatial",3.07,3.24,8.33,1.37,-0.16058394160584,2,2019,46.0220994475138,67,18.1,"BADS-C playing cards","BADS-C Playing cards",0,2,0.34,1,2.68,2.94,8.55,NA,62,7.84,"Cognitive flexibility
+Playing Cards in BADS-C was used for assessing cognitive flexibility (Emslie et al., 2003). The participant was asked to reply “yes” or
+“no” according to a prespecified rule. The test was performed twice, with different rules. If the participants successfully switched to
+the new rule (i.e. no rule breaks) they were given a score of 1, and if they failed (i.e. one or more rule breaks) the participant was
+given a 0. That is, the dependent variable was binary (1 or 0).",0.53,"46",1,"shifting",0.125080689355324,0.0311150456204921
+"39","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","attention","verbal",33.8,10.8,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"BVN","BVN auditory selective attention",0,2,0.53,0,35.4,4.4,6.9,94,16,7.4,"Selective attention was
+assessed by the BVN test (Bisiacchi, Cendron, Gugliotta, Tressoldi, & Vio, 2005) for the auditory domain",0.5,"47",1,"attention",-0.191333890428713,0.12975712888645
+"40","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","attention","visuospatial",5.3,3.2,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Score","Score task",0,2,0.53,0,8.6,1.6,6.9,94,16,7.4,"and by the Sky Search
+(SKY; TEA-Ch, Manly et al., 2001; Manly, Robertson, Anderson, & Nimmo-Smith, 1999) for the visual domain.",0.5,"48",1,"attention",-1.28371020088933,0.155745890535495
+"41","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","attention","verbal",14.2,6.6,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Sky search","Sky search",0,2,0.53,0,8,3.7,6.9,94,16,7.4,"Auditory
+sustained attention was assessed by the Score task (SCO; TEA-Ch, Manly et al., 1999, 2001)",0.5,"49",-1,"attention",-1.1388446270556,0.150085490611399
+"42","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","attention","visuospatial",103.6,16,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Bells","Bells test",0,2,0.53,0,96.8,17.6,6.9,94,16,7.4,"while visual attention by the Bells
+Test (BELLS; Gauthier, Dehaut, & Joanette, 1989; Italian version: Biancardi & Stoppa, 1997)",0.5,"50",-1,"attention",-0.393097834025136,0.131659020007235
+"43","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","inhibition","visuospatial",16.4,6.2,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Tower","Tower of London",0,2,0.53,0,25.7,3.2,6.9,94,16,7.4,"Planning was
+measured by the Tower of London test (TOL; Shallice, 1982; SannioFancello, Vio, & Cianchetti, 2006).",0.5,"51",1,"inhibition",-1.85441714971035,0.184632198362471
+"44","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","other","verbal",23.4,5.8,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"CAT","Category Fluency Test",0,2,0.53,0,21.7,4.4,6.9,94,16,7.4,"Verbal categorization
+was evaluated by the Category Fluency Test (CAT) (Mantyla, Carelli, & Forman, 2007)",0.5,"52",1,"other",0.32311424326547,0.130850583024748
+"45","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","other","visuospatial",7.3,3.7,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Weigl Color Form Sort","Weigl Color Form Sort Test",0,2,0.53,0,12.5,2.1,6.9,94,16,7.4,"while visual categorization was evaluated by the Weigl Color Form Sort Test (WEIGL; Spinnler & Tognoni, 1987).",0.5,"53",1,"other",-1.69846136985446,0.175695231584213
+"46","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","shifting","verbal",6.5,2.6,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"CAT-A","Category Fluency Test alternative version",0,2,0.53,0,6.7,2.3,6.9,94,16,7.4,"Shifting in verbal modality was measured by the Alternate Category Fluency Task (CAT-A; Mantyla et al., 2007).",0.5,"54",1,"shifting",-0.079518844574528,0.129268654515739
+"47","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","shifting","visuospatial",84.4,59.6,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Trail making test","Trail making test",0,2,0.53,0,52.3,32.4,6.9,94,16,7.4,"Visual-spatial modality of shifting was investigated by the Trail Making Test (TMT) (Reitan, 1958)",0.5,"55",-1,"shifting",-0.65790630631529,0.136147968406819
+"48","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","shifting","visuospatial",143.2,54.1,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Forma forma","Forma forma task",0,2,0.53,0,85,50.7,6.9,94,16,7.4,"and Forma/Forma task (F/F) (Scarpa, 2006).",0.5,"56",-1,"shifting",-1.08231171240803,0.148060193163693
+"49","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","inhibition","verbal",1.4,0.8,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Stroop","Stroop",0,1,0.53,0,0.7,0.7,6.9,94,16,7.4,"Verbal response inhibition was measured by the Stroop task (STROOP; Stroop, 1935).",0.5,"57",-1,"inhibition",-0.909019644970429,0.142494355617347
+"50","Executive functions in intellectual disabilities: A comparison between Williams syndrome and Down syndrome","Costanzo 2013","Costanzo et al. 2013","Research in Developmental Disabilities","1314","WS","inhibition","visuospatial",89.9,7.9,6.7,0.9,-0.222222222222222,1,2013,53,15,17.6,"Go No-go","Go No-go task",0,2,0.53,0,93,4,6.9,94,16,7.4,"Visual response inhibition was evaluated by the go-nogo task (G/NG; Van der
+Meere, Marzocchi, & De Meo, 2005).",0.5,"58",1,"inhibition",-0.487160418015337,0.132994493648616
+"51","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","inhibition","visuospatial",18,6,6.1,NA,NA,0,2010,53.3,15,19.11,"Tower","Tower of London",0,2,0.27,0,26.1,3.5,6.9,95.7,15,7.6,"Planning. The Tower of London (TOL; Shallice
+1982; Italian version: Sannio fancello et al. 2006)
+consists of a wooden board with three pegs of
+increasing height. There are also three coloured
+wooden balls. After being shown a given pattern of
+balls, the participants are asked to recreate it.
+Twelve different patterns were shown and three
+attempts were allowed at recreating each given
+pattern. The experimenter would ascribe a point of
+3, 2 or 1, respectively, if the participant solved the
+task on her/his first, second or third tries.The participant’s
+performance was evaluated according to
+three different parameters: the sum of the total
+points obtained (max = 36), the numbers of errors
+(items unsolved) and the total time spent to complete
+the patterns correctly (s).",0.4,"59",1,"inhibition",-1.60447848150356,0.176239186626799
+"52","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","shifting","verbal",6.6,2.8,6.1,NA,NA,0,2010,53.3,15,19.11,"CAT-A","Category Fluency Test alternative version",0,2,0.27,0,7.3,1.9,6.9,95.7,15,7.6,"Verbal shifting. To measure verbal shifting, an
+alternate version of the Category fluency task was
+used (CAT-A; Mantyla et al. 2007). In this task the
+participants were requested to generate pairs of
+words belonging to the categories before proposed
+in the CAT (animals and fruits), in this case
+however, they had to shift between each opposite
+category to identify correctly the pairs of words.
+Thus, for example, the participant could correctly
+state: ‘cat, apple, horse, banana, . . .’; but she/he would be
+wrong in saying: ‘cat, dog, apple, banana, . . .’.
+Total score was calculated on the number
+of correctly generated pairs within a time limit of
+2 min.",0.4,"60",1,"shifting",-0.284637970090481,0.13468364623362
+"53","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","shifting","visuospatial",72.5,47,6.1,NA,NA,0,2010,53.3,15,19.11,"Trail making test","Trail making test",0,2,0.27,0,44.1,21.7,6.9,95.7,15,7.6,"Visual spatial shifting. The Trail Making Test
+(TMT) is a task based on connections of alphabetic
+and numeric stimuli. In the present study,TMT
+was composed of two conditions. In the first condition
+(A) the participants had to draw lines between
+items from the same category (i.e. only between 15
+numbers) as quickly as possible. In the second, and
+more difficult condition (B), the participants had to
+connect the items by alternating the two categories:
+numbers and letters (e.g. A–1–B–2–C–3, . . . ).The
+examiner recorded the total time spent to complete
+the task in each condition. The score considered
+was the difference between times in the two
+conditions.",0.4,"61",-1,"shifting",-0.754844322449842,0.142829832518913
+"54","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","shifting","visuospatial",133.8,56.6,6.1,NA,NA,0,2010,53.3,15,19.11,"Forma forma","Forma forma task",0,2,0.27,0,89.6,56.4,6.9,95.7,15,7.6,"Forma/Forma (F/F) is another test based on the
+connection of some shapes (circles, rectangles,
+squares, diamonds, etc.) according to an ‘insideoutside’
+scheme. Each item consisted of two shapes,
+one inside the other, and the participants were
+asked to draw some lines between the items as
+quickly as possible, connecting all forms (from the
+inside form of an item to the outside same form of
+another item). The examiner recorded the total time
+spent (s) in completing the task.",0.4,"62",-1,"shifting",-0.761124462466951,0.142988507456093
+"55","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","inhibition","visuospatial",521.3,90.7,6.1,NA,NA,0,2010,53.3,15,19.11,"Go No-go","Go No-go task",0,2,0.27,0,556.5,72.5,6.9,95.7,15,7.6,"Visual-spatial response inhibition. The
+Go/NoGo task (G/NG) evaluates the ability to
+inhibit motor responses.The G/NG version used in
+our study was a computerised task, presented
+through E-Prime software on a laptop computer
+screen. Participants were seated in front of a laptop
+computer screen and a series of single-coloured
+circles (green, blue, yellow and red) were presented
+in the centre of the screen.
+The participants were asked to watch these stimuli
+and to press a space bar as quickly as possible every
+time the blue, green and yellow circles appeared on
+the screen, but not when the red circle was showed.
+The software automatically recorded response times
+(i.e. reaction times) and error rate (i.e. the incorrect
+pressure of the space bar upon appearance of a red
+circle). Mean reaction times on correct responses
+(ms) and error rates were measured.",0.4,"63",-1,"inhibition",0.417110498030834,0.136233019459459
+"56","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","inhibition","verbal",1.2,1.11,6.1,NA,NA,0,2010,53.3,15,19.11,"Stroop","Stroop",0,1,0.27,0,1,0.5,6.9,95.7,15,7.6,"Verbal response inhibition. In the Stroop task
+(STROOP; Stroop 1935) participants were
+instructed to name the colour of a set of stimuli as
+quickly as possible. There were three conditions:
+two neutral conditions and one incongruent condition.
+To control for naming colour, in the first
+neutral condition there were 30 circles printed in
+one of three colours: blue, green or red.To control
+for reading ability, in the second neutral condition,
+there were 30 colour words printed in black. In the
+incongruent condition 30 colour words were
+printed in a different colour (e.g. ‘blue’ printed in
+red colour). In each condition, the stimuli were presented
+10 at a time on a single sheet of paper. The
+examiner followed the participant with the pen,
+moving on to the next item only if the correct
+response was given, and measured the execution
+time (s) and the error rate for each task. As index
+of interference, we considered the difference relative
+to the baseline in execution time, computed as
+[(incongruent-control)/control], where the control
+condition was the second neutral condition (the list
+of colour words printed in black). The error rate and the index of interference were considered as
+scores.",0.4,"64",-1,"inhibition",-0.226041811412047,0.134184915008441
+"57","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","inhibition","verbal",59.2,29.6,6.1,NA,NA,0,2010,53.3,15,19.11,"OppositeWorld","OppositeWorld",0,2,0.27,0,39.2,5.5,6.9,95.7,15,7.6,"OppositeWorld (OW) is another subtest from
+TEA-Ch that we used to asses verbal response inhibition.
+The participants were shown a sheet on
+which there was a path made up of mixed representations
+of the digits 1 and 2.The test included two
+conditions. In the ‘same world’ trial, the participants
+were required to read aloud the presented
+digits as quickly as possible. In the ‘opposite world’
+trial, they were asked to pronounce aloud the opposite
+digit to the read one digit (e.g. ‘one’ for 2 and
+‘two’ for 1) as quickly as possible. During the measurement
+phase and while the participants were
+running the task, the examiner was following the
+path with a pen, moving on to the next one only if
+a correct response was given. In this way, when the
+participants made an error, a time penalty
+occurred. The time spent to complete the task (s)
+was recorded. The score considered was only the
+time taken to complete the ‘opposite world’ trial.",0.4,"65",-1,"inhibition",-0.914039972176345,0.147257817845602
+"58","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","attention","visuospatial",107.3,15.8,6.1,NA,NA,0,2010,53.3,15,19.11,"Bells","Bells test",0,2,0.27,0,95.5,20.1,6.9,95.7,15,7.6,"Visual-spatial attention. The Bells Test (BELLS;
+Gauthier et al. 1989; Italian version: Biancardi &
+Stoppa 1997) is composed by four different sheets,
+each of which contains 35 bells among many other
+stimuli (animation and inanimate objects, such as
+houses, trees, fishes, horses, etc.) of the same size
+and orientation in space. The task required participants
+to find and to check off only the bells in a
+fixed amount of time (2 min). The examiner
+recorded the total number of bells detected in four
+sheets and the number of bells identified in the first
+30 s per sheet. The total number of bells was then
+considered as sustained attention score
+(max = 140).",0.4,"66",-1,"attention",-0.635048524685661,0.140054777145091
+"59","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","attention","visuospatial",11.4,6.8,6.1,NA,NA,0,2010,53.3,15,19.11,"Sky search","Sky search",0,2,0.27,0,5.5,1.4,6.9,95.7,15,7.6,"Sky Search (SKY), is a subtest from the Test of
+Everyday Attention for Children (TEA-Ch, Manly
+et al. 1999, 2001), and it is used to evaluate visualspatial
+selective attention in children aged between
+6 and 16 years of age. There is a colourful A3 sheet
+in which numerous pairs of aircraft (20 pairs) are
+randomly distributed. The task required circling as
+many pairs of identical aircraft as quickly as possible.
+Both the execution time (s) and the number
+of correct targets found were registered.To control
+for the effect of the confused factor motor speed,
+on visual selection, the participant then completed a
+motor control version of the test. The sky search
+Attention Score was obtained by subtracting the
+motor control time-per-target (F = D/E; D = time,
+E = number of correct targets) from the more attentionally
+demanding sky search time-per-target
+(C = A/B; A = time, B = number of correct targets).
+This method of calculation ensured that the sky
+search attention score was free from the impact of
+motor speed.",0.4,"67",-1,"attention",-1.1693002146488,0.156121049866296
+"60","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","attention","verbal",5.9,3,6.1,NA,NA,0,2010,53.3,15,19.11,"Score","Score task",0,2,0.27,0,8.4,1.6,6.9,95.7,15,7.6,"Auditory attention. Score! (SCO) is another test
+from TEA-Ch and it is useful in assessing auditory
+sustained attention. The participants were asked to
+silently count some tones and announce the total
+number of tones at the end of each trial. The
+number of tones ranged from 9 to 15, with a total of 10 trials in this subtest. Scoring was based on the
+number of trials in which the participant gave the
+correct answer (max = 10).",0.4,"68",1,"attention",-1.01171602380926,0.15039282188054
+"61","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","attention","verbal",34.5,11.6,6.1,NA,NA,0,2010,53.3,15,19.11,"BVN","BVN auditory selective attention",0,2,0.27,0,35,4.1,6.9,95.7,15,7.6,"The test for evaluating auditory selective attention
+has been taken from Batteria per laValutazione
+Neuropsicologica (BVN) (Bisiacchi et al. 2005). The
+participants were requested to listen to a series of
+283 words and to respond by beating a hand on the
+table when the word sun was presented. The final
+score considered the number of stimuli correctly
+identified (max = 45).",0.4,"69",1,"attention",-0.0559174857513132,0.133385446086879
+"62","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","other","verbal",23.8,5.9,6.1,NA,NA,0,2010,53.3,15,19.11,"CAT","Category Fluency Test",0,2,0.27,0,22.9,4.5,6.9,95.7,15,7.6,"Verbal categorisation. To assess categorisation
+abilities a task of verbal fluency was considered.
+Following Mantyla et al. (2007), in the Category
+fluency test (CAT) participants were asked to categorise
+animals and fruits. One minute per each
+category was given. Deviations from the test rules,
+including repetitions (i.e. perseveration errors) and
+identification of items that were not samples of the
+proposed category, were considered as errors. All
+words named by the participant were recorded by
+the examiner and the number of valid responses
+given within time limits was calculated (excluding
+errors).",0.4,"70",1,"other",0.166886782902965,0.133797519971795
+"63","Executive functions in individuals with Williams syndrome","Menghini 2010","Menghini et al. 2010","Journal of intellectual disability research","1312","WS","other","visuospatial",7.8,3.8,6.1,NA,NA,0,2010,53.3,15,19.11,"Weigl Color Form Sort","Weigl Color Form Sort Test",0,2,0.27,0,12.5,2.2,6.9,95.7,15,7.6,"Visual-spatial categorisation. TheWeigl Colour-
+Form Sort Test (WEIGL; Spinnler & Tognoni 1987)
+assesses the ability to classify 12 wooden objects,
+categorising them on the basis of shape (circle, triangle
+or square), colour (blue, red, green or
+yellow), a central symbol depicted on them
+(diamond, heart or flower), size (small, medium or
+large) and thickness (thin, medium or thick). The
+participants were requested to categorise the objects
+according to shape, colour, central symbol or size in
+two modalities (active and passive). In the active
+modality, the participants had to subdivide spontaneously
+the blocks in their categories. In the passive
+modality, the examiner subdivided the test materials
+following one of the possible categorising criteria
+listed above and the participants were asked to
+detect the criteria employed.
+The participants received a score of 3 for each
+category found in the active modality and a score of
+1 for each category they were able to detect in the
+passive mode. Final score was calculated by
+summing the scores obtained in both modalities
+(max = 15).",0.4,"71",1,"other",-1.47279357203608,0.169485348430513
+"64","A Novel Framework to Measure Executive Function in Down Syndrome With Applications for Early Clinical Diagnosis of Dementia.","Smith 2019","Smith et al. 2019","American journal on intellectual and developmental disabilities","37","DS","other","visuospatial",84.9,15.6,7.6,NA,-0.0306859205776176,2,2019,NA,18,30.3,"Smith task","Smith task",0,0,0.72,NA,87,16.7,7.6,NA,18,7.6,"The executive function task was a new task designed and programmed by the authors.
+The task was presented on a tablet device (Microsoft Surface Pro; 10.6 inch screen). The
+general structure of the task was as follows. On each trial a single coloured alien appeared on
+screen. The participant’s task was to assign the alien to one of two ‘spaceships’, presented on
+the left and right of the screen, according to a rule that they were given at the start of each
+block. The participant was instructed to respond as quickly and accurately as possible by
+touching one of two response buttons (one button corresponding to the right spaceship, and one
+corresponding to the left spaceship).",0.39,"72",1,"other",-0.127064131670398,0.111335351299405
+"65","An event related potential study of inhibitory and attentional control in Williams syndrome adults","Greer 2017","Greer et al. 2017","PLoS ONE","313","WS","inhibition","visuospatial",500.65,64.56,11.17,NA,0.0984555984555981,2,2017,NA,11,42.58,"Oddball","Oddball",0,1,0.64,0,490.67,59.54,NA,NA,13,11.17,"The three-stimulus Oddball task was programmed and presented using E-Prime presentation
+software on a Toshiba laptop with 14in. monitor. The task comprises of frequent, novel, and
+target stimuli. The target stimulus (red circle, area = 12.6 cm2) appeared on 13% of trials, the
+standard frequent stimulus (green square, area = 16 cm2) appeared on 74% of trials, and the
+novel stimulus (blue square, area = 256 cm2) appeared on 13% of trials. Participants completed
+a 10-trial practice block. The testing phase consisted of 2 blocks of 150 trials each. Stimuli
+remained on screen for 250ms, and were followed by an inter-stimulus interval, randomised
+between 830ms and 930ms. Participants were instructed to press the space bar in response to
+the target stimulus and ignore all other stimuli (see [45] for further discussion of the Oddball
+task and in particular stimulus parameters that affect the generation of the ERP components).
+The nature of the Oddball task mimicked previous research which has successfully generated
+the ERP components of interest [40, 50].",0.54,"73",-1,"inhibition",-0.155727084363407,0.168337395432258
+"66","Attentional set-shifting in fragile X syndrome","Van der Molen 2012","Van der Molen et al. 2012","Brain and Cognition","392","FXS","attention","visuospatial",6.85,1.51,5.54,NA,NA,0,2012,19.920891765552,27,27.81,"CANTAB ID ED","CANTAB ID ED",0,2,1,0,7.53,0.78,NA,NA,40,5.75,". IED set-shift paradigm
+The IED is a two-choice computerized attentional set-shifting
+paradigm, included in the CANTAB (Cambridge Cognition, 2002)
+3
+designed to assess the ability to learn stimulus–response mappings
+and to switch to different stimulus–response mappings when a predetermined response criterion has been reached. On each trial, four
+rectangular boxes appear on the computer screen that are aligned to
+the top/bottom and to the left/right of the center (see Fig. 1). Two of
+these boxes contain two abstract patterns, which are either purplefilled shapes and/or white lines (each representing a different stimulus dimension). Participants have to choose one of the two options
+presented. Feedback is then provided on the correctness of their response by displaying a short ‘green-colored’ flash coupled with a
+high-pitched tone when correct, and a ‘red-colored’ flash coupled
+with a low-pitched tone when incorrect. After six consecutive correct responses, the response criterion is reached and the participant
+proceeds to the next stage (without notification), with a maximum
+of nine stages. The test ends after successful completion of the ninth
+stage, or when a participant fails to reach criterion after the 50th
+trial of any given stage. Duration of the IED is approximately 7-to10 min, depending on the performance of the participant. On every
+trial, stimuli are cleared from the screen after 1500 ms, or upon a
+touch–response provided by the participant. The inter-trial interval
+was set at 1000 ms.
+Fig. 1 displays a schematic drawing of the nine stages of the IED
+together with an example of the response criterion associated with
+each stage (marked by yellow squares). During the first stage, participants are presented with two patterns of a single dimension
+(i.e., purple-filled shapes) and have to choose which one of these
+two patterns is correct: simple discrimination (SD). During the second stage, stimuli remain the same, but now a reversal of the correctness of the stimuli is applied. That is, the previous incorrect
+stimulus now is the correct response criterion: simple discrimination reversal (SD-R). At the third stage, stimuli from the other
+dimension (white lines) are introduced and positioned next to
+the relevant stimulus dimension (shape), but the correct response
+criterion (i.e., shape) remains unchanged: compound discrimination (CD). During the fourth and fifth stages, the irrelevant dimension (i.e., white lines) is superimposed on the relevant dimension
+(i.e., purple-filled shapes), with the white lines presented in the
+foreground at all times. First, participants have to ignore the superimposed dimension and remain responding to same stimulus as
+during the previous stage: compound discrimination imposed
+(CD-I). Next, participants have to apply a reversal of stimulus–response mappings within the same stimulus dimension. That is,
+the purple-filled shapes remain the correct dimension, only the
+other stimulus type now is correct: compound discrimination
+reversal (CD-R). At stage six, new stimuli are introduced for both
+dimensions, while the dimension of these stimuli remains similar
+(i.e., purple-filled shapes and white lines). Participants have to
+switch responding to these new stimuli, but again to the stimuli
+of the same dimension (purple-filled shapes) as during the previous stages: intra-dimensional set-shift (ID). At stage seven, a simple reversal within the same dimension (e.g., purple-filled shapes)
+has to be applied: intra-dimensional shift reversal (ID-R). At stage
+eight, new stimuli of the same dimension are again introduced: extra-dimensional set-shift (ED). Participants now have to switch
+responding from the previous correct stimulus dimension (purple-filled shapes) to the new correct stimulus dimension (white
+lines). At the ninth and final stage, participants have to apply a
+simple reversal of stimulus–response mappings within the same
+stimulus dimension of the previous stage (e.g., white lines): extra-dimensional reversal (ED-R).
+The variables of interest in this study were the number of stages
+completed successfully, the number of trials needed to reach criterion for each stage, and the errors committed at each stage. For the
+scoring of errors, we defined the following error types (Barceló &
+Knight, 1999; Barceló & Knight, 2002; Somsen, 2007; Somsen
+et al., 2000): (1) ‘warning errors’. These error types were scored
+separately, as they notify the participant of a change of the correct
+criterion and cannot be anticipated. Warning errors were excluded
+from the analysis; (2) ‘maintenance errors’. This error type should
+reflect a failure to maintain responding according to the previous
+learned criterion; (3) ‘discriminative errors’, a random error type;
+and (4) ‘repetition errors’, defined as errors committed on trials
+Fig. 1. Schematic illustration of the nine stages of the IED attentional set-shifting paradigm.
+3 The CANTAB is a widely used computerized tool for the assessment of frontal and
+medial temporal lobe dysfunctions. Normative data for these subtests have been
+extended by De Luca et al. (2003) and Luciana and Nelson (2002). Indices of reliability
+have been reported by Lowe and Rabbitt (1998). For a detailed description of the
+CANTAB subtests included in this study, the reader is referred to Luciana and Nelson
+(1998).
+directly after a warning, discriminative or maintenance error with
+a stimulus configuration identical to the one presented in the previous trial (i.e., type or the combination of stimuli). A detailed
+description of the classification and scoring of error types is presented in Table 2.",0.575,"74",1,"attention",-0.594753184097779,0.0646768232310254
+"67","Attentional set-shifting in fragile X syndrome","Van der Molen 2012","Van der Molen et al. 2012","Brain and Cognition","392","DS","attention","visuospatial",7.8,0.95,5.66,NA,NA,0,2012,25.2453166815343,20,22.42,"CANTAB ID ED","CANTAB ID ED",0,2,0.5,0,7.53,0.78,NA,NA,40,5.75,". IED set-shift paradigm
+The IED is a two-choice computerized attentional set-shifting
+paradigm, included in the CANTAB (Cambridge Cognition, 2002)
+3
+designed to assess the ability to learn stimulus–response mappings
+and to switch to different stimulus–response mappings when a predetermined response criterion has been reached. On each trial, four
+rectangular boxes appear on the computer screen that are aligned to
+the top/bottom and to the left/right of the center (see Fig. 1). Two of
+these boxes contain two abstract patterns, which are either purplefilled shapes and/or white lines (each representing a different stimulus dimension). Participants have to choose one of the two options
+presented. Feedback is then provided on the correctness of their response by displaying a short ‘green-colored’ flash coupled with a
+high-pitched tone when correct, and a ‘red-colored’ flash coupled
+with a low-pitched tone when incorrect. After six consecutive correct responses, the response criterion is reached and the participant
+proceeds to the next stage (without notification), with a maximum
+of nine stages. The test ends after successful completion of the ninth
+stage, or when a participant fails to reach criterion after the 50th
+trial of any given stage. Duration of the IED is approximately 7-to10 min, depending on the performance of the participant. On every
+trial, stimuli are cleared from the screen after 1500 ms, or upon a
+touch–response provided by the participant. The inter-trial interval
+was set at 1000 ms.
+Fig. 1 displays a schematic drawing of the nine stages of the IED
+together with an example of the response criterion associated with
+each stage (marked by yellow squares). During the first stage, participants are presented with two patterns of a single dimension
+(i.e., purple-filled shapes) and have to choose which one of these
+two patterns is correct: simple discrimination (SD). During the second stage, stimuli remain the same, but now a reversal of the correctness of the stimuli is applied. That is, the previous incorrect
+stimulus now is the correct response criterion: simple discrimination reversal (SD-R). At the third stage, stimuli from the other
+dimension (white lines) are introduced and positioned next to
+the relevant stimulus dimension (shape), but the correct response
+criterion (i.e., shape) remains unchanged: compound discrimination (CD). During the fourth and fifth stages, the irrelevant dimension (i.e., white lines) is superimposed on the relevant dimension
+(i.e., purple-filled shapes), with the white lines presented in the
+foreground at all times. First, participants have to ignore the superimposed dimension and remain responding to same stimulus as
+during the previous stage: compound discrimination imposed
+(CD-I). Next, participants have to apply a reversal of stimulus–response mappings within the same stimulus dimension. That is,
+the purple-filled shapes remain the correct dimension, only the
+other stimulus type now is correct: compound discrimination
+reversal (CD-R). At stage six, new stimuli are introduced for both
+dimensions, while the dimension of these stimuli remains similar
+(i.e., purple-filled shapes and white lines). Participants have to
+switch responding to these new stimuli, but again to the stimuli
+of the same dimension (purple-filled shapes) as during the previous stages: intra-dimensional set-shift (ID). At stage seven, a simple reversal within the same dimension (e.g., purple-filled shapes)
+has to be applied: intra-dimensional shift reversal (ID-R). At stage
+eight, new stimuli of the same dimension are again introduced: extra-dimensional set-shift (ED). Participants now have to switch
+responding from the previous correct stimulus dimension (purple-filled shapes) to the new correct stimulus dimension (white
+lines). At the ninth and final stage, participants have to apply a
+simple reversal of stimulus–response mappings within the same
+stimulus dimension of the previous stage (e.g., white lines): extra-dimensional reversal (ED-R).
+The variables of interest in this study were the number of stages
+completed successfully, the number of trials needed to reach criterion for each stage, and the errors committed at each stage. For the
+scoring of errors, we defined the following error types (Barceló &
+Knight, 1999; Barceló & Knight, 2002; Somsen, 2007; Somsen
+et al., 2000): (1) ‘warning errors’. These error types were scored
+separately, as they notify the participant of a change of the correct
+criterion and cannot be anticipated. Warning errors were excluded
+from the analysis; (2) ‘maintenance errors’. This error type should
+reflect a failure to maintain responding according to the previous
+learned criterion; (3) ‘discriminative errors’, a random error type;
+and (4) ‘repetition errors’, defined as errors committed on trials
+Fig. 1. Schematic illustration of the nine stages of the IED attentional set-shifting paradigm.
+3 The CANTAB is a widely used computerized tool for the assessment of frontal and
+medial temporal lobe dysfunctions. Normative data for these subtests have been
+extended by De Luca et al. (2003) and Luciana and Nelson (2002). Indices of reliability
+have been reported by Lowe and Rabbitt (1998). For a detailed description of the
+CANTAB subtests included in this study, the reader is referred to Luciana and Nelson
+(1998).
+directly after a warning, discriminative or maintenance error with
+a stimulus configuration identical to the one presented in the previous trial (i.e., type or the combination of stimuli). A detailed
+description of the classification and scoring of error types is presented in Table 2.",0.575,"75",1,"attention",0.317443965156874,0.0758397555917877
+"68","Concept-switching in normal and feebleminded children as a function of reinforcement","Zigler et al 1962","Zigler et al 1962","American Journal of Mental Deficiency","739","NSID","shifting","visuospatial",3.9,2.33,6.1,NA,NA,0,1962,53,10,11.5,"Concept formation","Concept formation tasks",0,2,0.5,NA,4.2,2.39,5.9,115,10,5.1,"Concept formation tasks",0.5,"76",1,"shifting",-0.12172488084406,0.200370423665413
+"69","Concept-switching in normal and feebleminded children as a function of reinforcement","Zigler et al 1962","Zigler et al 1962","American Journal of Mental Deficiency","739","NSID","shifting","visuospatial",5.5,2.17,5.9,NA,NA,0,1962,54,10,11.1,"Concept formation","Concept formation tasks",0,2,0.5,NA,5.6,2.37,6,116,10,5.1,"Concept formation tasks",0.5,"77",1,"shifting",-0.0421461914876807,0.200044407536423
+"70","Flexibility training with educable retarded and bright normal children","Corter 1968","Corter et al. 1968","American Journal of Mental Deficiency","1386","NSID","shifting","visuospatial",467.25,140.85,6.77,0.849166666666667,0.317958783120706,1,1968,65.75,16,10.35,"Cognitive flexibility composite","Cognitive flexibility test battery of 5 tasks",2,0,NA,1,501.56,115.69,6.5,113.56,16,NA,"Cognitive flexibility test battery of 5 tasks",NA,"78",1,"shifting",-0.259484935686797,0.126052069247631
+"71","Implicit and explicit olfactory memory in people with and without Down syndrome.","Johns 2012","Johns et al. 2012","Research in developmental disabilities","1695","DS","inhibition","visuospatial",0.83,20.13,NA,NA,NA,0,2012,55.93,13,14.8,"Animal reverse categorisation","Animal reverse categorisation task",0,1,0.47,0,0.97,6.63,NA,NA,15,5.7,"The ‘Animal’ reverse categorisation task (Animal)
+This task was derived from Carlson et al.’s (2004) measure. The researcher introduced children to six pairs of toy farm and
+zoo animals. Each pair consisted of a large (or mummy) and a small (or baby) model of the same animal (lions, dairy cows,
+brown cows, hippopotami, giraffes and horses). Children were then shown two coloured boxes that had small holes cut into
+their lids. The small holes prevented children using previous categorisations to complete the task. One box had a picture of a
+mother on it, and the other had a picture of a baby. The researcher asked the children to place the mummy animals in the
+mummy box and to place the baby animals in the baby box. The researcher demonstrated the process with the first pair of
+animals and then asked the children to sort the remainder. The researcher then emptied the boxes and told the participant
+that ‘‘we are going to play a silly game. Now I want you to put the mummy animals in the baby box and the baby animals in
+the mummy box’’. There was no feedback across the twelve trials, although the researcher reminded participants of the
+above rule before the seventh trial. A score out of twelve was given.",0.47,"79",1,"inhibition",-0.00936365191699061,0.143591309267908
+"72","Implicit and explicit olfactory memory in people with and without Down syndrome.","Johns 2012","Johns et al. 2012","Research in developmental disabilities","1695","DS","inhibition","visuospatial",0.54,25.36,NA,NA,NA,0,2012,55.93,13,14.8,"Hand reverse categorisation","Hand reverse categorisation task",0,1,0.47,0,0.75,16.92,NA,NA,15,5.7,"The ‘Hand’ reverse categorisation task (Hand)
+This task was derived from Carlson, Mandell and Williams’s (2004) measure, which itself was adapted from Luria,
+Pribram, and Homskaya (1964). In the warm up, it was established that the participant could point a finger or make a fist at
+the same time that the researcher made those hand movements. Six imitation trials followed in which participants were
+asked to copy the hand movements of the researcher. The researcher then told the participants that they were going to play a
+‘‘silly game’’ where the participant had to make the opposite hand movement to that of the researcher (e.g. ‘‘When I make a
+fist, you point a finger’’). Four practice trials were administered with altering gestures. Fifteen test trials followed in a fixed
+random order. A score out of fifteen was given.",0.47,"80",1,"inhibition",-0.00960020760113186,0.143591389375208
+"73","Rigidity in the retarded: A brief review and some recent data","Clunies-Ross 1972","Clunies-Ross 1972","Australian Journal of Mental Retardation","2764","NSID","shifting","visuospatial",10.8,14.3,5.79166666666667,0.558333333333333,-0.343283582089552,1,1972,49.6,40,NA,"Extradimensional shift","Extradimensional shift",0,0,NA,1,7.3,12.4,5.98333333333333,118.3,40,NA,"Extradimensional shift",NA,"81",-1,"shifting",-0.258987018801971,0.0504192142244246
+"74","Rigidity in the retarded: A brief review and some recent data","Clunies-Ross 1972","Clunies-Ross 1972","Australian Journal of Mental Retardation","2764","NSID","shifting","visuospatial",11.8,12,5.79166666666667,0.558333333333333,-0.343283582089552,1,1972,49.6,40,NA,"First reversal","First reversal",0,0,NA,1,5.9,4.7,5.98333333333333,118.3,40,NA,"First reversal",NA,"82",-1,"shifting",-0.641184951191662,0.0525694883852166
+"75","Rigidity in the retarded: A brief review and some recent data","Clunies-Ross 1972","Clunies-Ross 1972","Australian Journal of Mental Retardation","2764","NSID","shifting","visuospatial",5.4,7.9,5.79166666666667,0.558333333333333,-0.343283582089552,1,1972,49.6,40,NA,"Stereotype shift","Stereotype shift",0,0,NA,1,1.1,2.3,5.98333333333333,118.3,40,NA,"Stereotype shift",NA,"83",-1,"shifting",-0.731942850325,0.0533483771008868
+"76","Self-regulation and performance in problem-solving using physical materials or computers in children with intellectual disability","Nader-Grosbois 2011","Nader-Grosbois et al. 2011","Research in Developmental Disabilities","2835","NSID","attention","other",2.134,0.42,4.47,0.367,-0.0817438692098099,2,2011,NA,29,10.56,"Scoring grid for joint attention","Scoring grid for self-regulation joint attention",2,2,0.41,1,1.964,0.354,4.5,NA,30,4.22,"scoring grid for self-regulation",0.5,"84",1,"attention",0.432542306477894,0.069401624554813
+"77","Self-regulation and performance in problem-solving using physical materials or computers in children with intellectual disability","Nader-Grosbois 2011","Nader-Grosbois et al. 2011","Research in Developmental Disabilities","2835","NSID","attention","other",2.5,0.444,4.47,0.367,-0.0817438692098099,2,2011,NA,29,10.56,"Scoring grid for attention","Scoring grid for self-regulation attention",2,2,0.41,1,2.59,0.483,4.5,NA,30,4.22,"scoring grid for self-regulation",0.5,"85",1,"attention",-0.191296440986829,0.0681262133805842
+"78","The interplay between executive control and motor functioning in Williams syndrome","Hocking 2013","Hocking et al. 2013","Developmental Science","3193","WS","inhibition","visuospatial",948.9,205.4,10.43,2.17,0.308755760368664,2,2013,NA,16,24.2,"Go No-go","Go No-go task",0,1,0.56,0,706.7,95.4,9.76,123.56,16,9.03,"In the inhibitory Go/NoGo task, participants were
+asked to respond to every blue arrow by stepping onto the corresponding step-sensitive panel but to withhold their stepping response when a red arrow (appearing on 25% of the trials) was presented on the display screen. Stimulus presentation was also randomized with 40 steps for the inhibitory condition (32 Go trials and eight No Go trials), with two inhibitory NoGo trials per panel. Practice trials were presented with 10 arrow stimuli prior to the test trials to ensure familiarity with the require- ments of each task.
+Statistical",0.5,"86",-1,"inhibition",-1.4742346919106,0.158958873856762
+"79","Variability of self-regulatory strategies in children with intellectual disability and typically developing children in pretend play situations","Nader-Grosbois 2012","Nader-Grosbois et al. 2012","Journal of intellectual disability research","3367","NSID","attention","other",9.55,1.91,4.62,1.0025,0.169576059850374,2,2012,NA,40,9.59,"Scoring grid joint attention","Scoring grid for self-regulation joint attention",2,2,0.5,1,10.52,1.67,4.45,NA,40,4.15,"scoring grid for self-regulation",0.5,"87",1,"attention",-0.53546739490037,0.0517920333187587
+"80","Variability of self-regulatory strategies in children with intellectual disability and typically developing children in pretend play situations","Nader-Grosbois 2012","Nader-Grosbois et al. 2012","Journal of intellectual disability research","3367","NSID","attention","other",9.93,1.89,4.62,1.0025,0.169576059850374,2,2012,NA,40,9.59,"Scoring grid attention","Scoring grid for self-regulation attention",2,2,0.5,1,10.26,1.4,4.45,NA,40,4.15,"scoring grid for self-regulation",0.5,"88",1,"attention",-0.196504264857434,0.0502413370381698
+"81","Visual filtering and covert orienting in persons with Down syndrome","Randolph 2000","Randolph et al. 2000","International Journal of Behavioral Development","3382","DS","shifting","visuospatial",1096.2,251.5,5.27,0.93,-0.172043010752688,2,2000,NA,20,20.02,"Modified forced choice","Modified forced choice RT task",0,0,0.6,0,1258,277.9,5.43,NA,20,5.49,"modified forced choice RT task",0.4,"89",-1,"shifting",0.598356818190547,0.104475386023439
+"82","Dissociating top-down and bottom-up temporal attention in Down syndrome: A neurocostructive perspective","Mento 2019","Mento et al. 2019","Cognitive Development","993","DS","attention","visuospatial",66.3,25.2,5.59,1.38,-0.0434782608695656,2,2019,48.2,33,11.58,"Temporal attention","Top-down and bottom-up temporal attention task",0,2,0.575757575757576,0,77.7,15.4,5.65,NA,31,5.19,"Top-down and bottom-up temporal attention task",0.516129032258065,"90",1,"attention",-0.53533904871033,0.0648000627650506
+"83","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","DS","inhibition","verbal",7.08,4.44,6.03,0.929166666666667,-0.533811659192825,0,2013,44.17,25,13.64,"VIMI verbal","Verbal Inhibition Motor Inhibition task verbal",2,2,0.4,0,5.58,3.21,6.526,NA,26,6.14,"VIMI",0.667,"91",-1,"inhibition",-0.382447607951807,0.0798955205480881
+"84","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","DS","inhibition","visuospatial",12.67,4.38,6.03,0.929166666666667,-0.533811659192825,0,2013,44.17,25,13.64,"VIMI motor","Verbal Inhibition Motor Inhibition task motor",2,2,0.4,0,17.85,4.46,6.526,NA,26,6.14,"VIMI",0.667,"92",-1,"inhibition",1.15364001296079,0.0915094333586383
+"85","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","DS","fluency","verbal",23.76,8.57,6.03,0.929166666666667,-0.533811659192825,0,2013,44.17,25,13.64,"Category fluency","Nepsy-II Word generation",2,2,0.4,0,22.73,7.41,6.526,NA,26,6.14,"NEPSY-II",0.667,"93",1,"other",0.126780061384886,0.0786191186964871
+"86","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","DS","fluency","visuospatial",11.04,4.6,6.03,0.929166666666667,-0.533811659192825,0,2013,44.17,25,13.64,"D-KEFS design fluency","D-KEFS design fluency",2,2,0.4,0,12.19,4.38,6.526,NA,26,6.14,"D-KEFS design fluency",0.667,"94",1,"other",-0.252231379470573,0.0790852705084956
+"87","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","DS","shifting","verbal",3.2,3.14,6.03,0.929166666666667,-0.533811659192825,0,2013,44.17,25,13.64,"D-KEFS category fluency switch","D-KEFS category switching",2,2,0.4,0,1.67,3.35,6.526,NA,26,6.14,"D-KEFS category switching",0.667,"95",-1,"shifting",-0.463686002107391,0.0805694277610516
+"88","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","DS","shifting","visuospatial",1.32,2.6,6.03,0.929166666666667,-0.533811659192825,0,2013,44.17,25,13.64,"D-KEFS design fluency switch","D-KEFS switching version of design fluency",2,2,0.4,0,1.71,2.14,6.526,NA,26,6.14,"D-KEFS switching version of design fluency",0.667,"96",-1,"shifting",0.161582869841887,0.0787175092833653
+"89","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","WS","inhibition","verbal",9.17,7.07,6.74,1.09833333333333,0.194840667678301,2,2013,49.62,24,13.59,"VIMI verbal","VIMI verbal",2,2,0.46,0,5.58,3.21,6.526,NA,26,6.14,"VIMI",0.667,"97",-1,"inhibition",-0.652599961238555,0.0843870722222908
+"90","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","WS","inhibition","visuospatial",22.09,7.79,6.74,1.09833333333333,0.194840667678301,2,2013,49.62,24,13.59,"VIMI motor","VIMI motor",2,2,0.46,0,17.85,4.46,6.526,NA,26,6.14,"VIMI",0.667,"98",-1,"inhibition",-0.66454866255252,0.0845444543772085
+"91","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","WS","fluency","verbal",25.25,8.93,6.74,1.09833333333333,0.194840667678301,2,2013,49.62,24,13.59,"Category fluency","Category fluency",2,2,0.46,0,22.73,7.41,6.526,NA,26,6.14,"Verbal fluency was measured using the semantic component of the Word Generation measure from the NEPSY-II test
+battery (Korkman, Kirk, & Kemp, 1998). Participants generated as many exemplars as possible from a given category within
+60 s. Two trials were given, animals and food/drink. Overall number of correct responses and overall number of repeated
+items were scored. Correct responses were items produced which belonged to the required semantic category and which had
+not been previously given within the trial. For the animals trial, names of different breeds within the same species (e.g.
+‘‘terrier, Rottweiler’’), different genders of the same animal (e.g. ‘‘cow, bull’’), names referring to the same animal at differing
+stages of development (e.g. ‘‘dog, puppy’’); and easily recognisable mythical creatures (e.g. ‘‘Pegasus, unicorn, dragon’’) were
+counted as correct. Similarly, distinct variants of the same core item (e.g. ‘‘lemon chicken, cashew chicken’’) and variants of
+the same dish (e.g. ‘‘beef stew, chicken stew’’) were counted as correct responses on the food/drink trial, as were any distinct
+brand names given (e.g. ‘‘Fosters, lager’’). Words which could feasibly be given for either category (e.g. ‘‘fish, chicken’’) were
+counted as correct within each condition, provided they had not already been produced within that condition.
+Repetitions constituted any generation of a previously given item. As well as items identical to those given previously,
+these included pluralisations (e.g. ‘‘tiger, tigers’’), as well as diminutive terms (e.g. ‘‘pig, piggy’’) and previously generated
+items preceded by an insufficiently differentiative adjective (e.g. ‘‘bear, big bear’’). The NEPSY-II Clinical and Interpretive
+Manual reports high split-half reliability of r = 0.74, and a test–retest reliability of r = 0.77, for this task.",0.667,"99",1,"other",0.303459854958903,0.0810490839639219
+"92","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","WS","fluency","visuospatial",7.13,2.77,6.74,1.09833333333333,0.194840667678301,2,2013,49.62,24,13.59,"Design Fluency","D-KEFS design fluency",2,2,0.46,0,12.19,4.38,6.526,NA,26,6.14,"D-KEFS design fluency",0.667,"100",1,"other",-1.34712819533994,0.0982757488750037
+"93","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","WS","shifting","verbal",2.83,2.79,6.74,1.09833333333333,0.194840667678301,2,2013,49.62,24,13.59,"D-KEFS category fluency switch","D-KEFS category switching",2,2,0.46,0,1.67,3.35,6.526,NA,26,6.14,"D-KEFS category switching",0.667,"101",-1,"shifting",-0.368984834927487,0.0814897032122698
+"94","Executive function in Williams and Down syndromes.","Carney 2013","Carney et al. 2013","Research in developmental disabilities","1290","WS","shifting","visuospatial",0.81,1.27,6.74,1.09833333333333,0.194840667678301,2,2013,49.62,24,13.59,"D-KEFS design fluency switch","D-KEFS switching version of design fluency",2,2,0.46,0,1.71,2.14,6.526,NA,26,6.14,"D-KEFS switching version of design fluency",0.667,"102",-1,"shifting",0.498483728080585,0.0826130653998163
+"95","Preschoolers with Down syndrome do not yet show the learning and memory impairments seen in adults with Down syndrome.","Roberts 2015","Roberts et al. 2015","Developmental science","2523","DS","inhibition","visuospatial",0.45,0.38,1.875,0.691666666666667,-0.0361445783132529,2,2015,43,19,4.34,"A not B","A not B task",0,1,0.529,0,0.66,0.41,1.9,NA,40,1.93,"A-not-B task. The A-not-B task is a delayed-response
+task that assesses executive function abilities, namely
+working memory, inhibition and set shifting. Animal
+lesion work demonstrates that this task depends on the
+dorsolateral prefrontal cortex (Diamond, 1990). The
+task paradigm in the current study was based on work by
+Espy, Kaufmann, McDiarmid and Glisky (1999). In this
+task, the child watched the experimenter hide a small toy
+in location A in a box, and then the experimenter placed
+the box out of sight for a 10 s delay. The child was then
+instructed to ‘Find the toy’. Once the child searched in
+the correct location on two consecutive trials, the
+contingency was reversed and the retrieval position was
+switched to location B. Once the child searched in the
+correct location on two consecutive trials the retrieval
+position was switched back to location A, and so on. All
+children received a total of 10 trials.
+The dependent variables included an index of accuracy
+when the rule stayed the same, which was calculated as
+the number of trials in which the child correctly searched
+as a proportion of the total number of ‘stay’ trials. In
+addition, we also included an index of perseverative
+responding on switch trials, which was calculated as the
+number of trials where the child correctly searched in the
+new location, as a proportion of the total number of
+trials in which a post-switch error could have been made",0.471,"103",1,"inhibition",-0.517062510372206,0.0798972877578125
+"96","The Neuropsychology of Downsyndrome: Evidence for Hippocampal Dysfunction","Pennington 2003","Pennington et al. 2003","Child Development","4000","DS","inhibition","visuospatial",4.95,1.72,4.5,NA,0.011050794881737,2,2003,30.6539509536785,28,14.68,"Tower","CANTAB Stockings of Cambridge",0,2,0.4,0,5.19,1.44,4.5,NA,28,4.92,"CANTAB Stockings of Cambridge",0.5,"104",1,"inhibition",-0.1491930322644,0.0716273085792522
+"97","The Neuropsychology of Downsyndrome: Evidence for Hippocampal Dysfunction","Pennington 2003","Pennington et al. 2003","Child Development","4000","DS","fluency","verbal",20.19,8.94,4.5,NA,0.011050794881737,2,2003,30.6539509536785,28,14.68,"Verbal Fluency","NEPSY Verbal Fluency",1,2,0.4,0,16.78,6.47,4.5,NA,28,4.92,"Verbal Fluency",0.5,"105",1,"other",0.430889573794897,0.0730863020071888
+"98","The Neuropsychology of Downsyndrome: Evidence for Hippocampal Dysfunction","Pennington 2003","Pennington et al. 2003","Child Development","4000","DS","fluency","visuospatial",12.7,5.01,4.5,NA,0.011050794881737,2,2003,30.6539509536785,28,14.68,"Design Fluency","NEPSY Design Fluency",1,2,0.4,0,10.33,5.53,4.5,NA,28,4.92,"Design Fluency",0.5,"106",1,"other",0.442896703852141,0.0731799775918133
+"99","The Neuropsychology of Downsyndrome: Evidence for Hippocampal Dysfunction","Pennington 2003","Pennington et al. 2003","Child Development","4000","DS","inhibition","visuospatial",0.66,0.19,4.5,NA,0.011050794881737,2,2003,30.6539509536785,28,14.68,"Stopping","Stopping task",1,2,0.4,0,0.56,0.13,4.5,NA,28,4.92,"Stopping task",0.5,"107",1,"inhibition",0.605716885401898,0.074704401296973

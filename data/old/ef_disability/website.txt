@@ -1,0 +1,126 @@
+https://osf.io/wp8u7/
+
+
+library("papaja")
+library(readxl)
+library(metafor)
+library(knitr)
+library(tidyverse)
+library(pwr)
+library(kableExtra)
+library(pander)
+dat <- readxl::read_xlsx("C:/Users/Donny/Desktop/data/datafile_broader_ef.xlsx") %>% as_tibble()
+
+
+
+# recode fluency as other
+dat <- dat %>% 
+  mutate(ef_component=if_else(ef_type == "fluency", "other", ef_type))
+
+# make sure that the variables have the right format
+
+dat <- dat %>% 
+  mutate(study_ID = factor(study_ID)) %>%
+  mutate(title = factor(title)) %>%
+  mutate(cite = factor(cite)) %>%
+  mutate(cite2 = factor(cite2)) %>%
+  mutate(journal = factor(journal)) %>%
+  mutate(group_id = factor(group_id)) %>%
+  mutate(group_id = fct_relevel(group_id,  "NSID", "FXS", "WS", "DS")) %>%
+  mutate(n_id = as.integer(round(n_id))) %>%
+  mutate(n_magroup = as.integer(round(n_magroup))) %>%
+  mutate(ef_component = factor(ef_component)) %>%
+  mutate(domain = factor(domain)) %>%
+  mutate(testName = factor(testName)) %>%
+  mutate(testName_short = factor(testName_short)) %>%
+  mutate(effectsize_ID = factor(effectsize_ID)) %>%
+  mutate(iq_magroup = as.numeric(as.character(iq_magroup)))  
+
+
+
+#calculate effect sizes and variances from means
+
+dat <- escalc(measure = "SMD", m1i = mean_id, sd1i = sd_id, n1i = n_id, m2i = mean_magroup, sd2i = sd_magroup, n2i = n_magroup, data = dat, append = TRUE)
+
+#reverse scale  
+dat <- dat %>%
+  mutate(yi = yi*reverse_scale) #correct so that in all studies a negative effect size means that the MA controls performed better than the ID group
+
+
+# Calculate descriptive numbers
+number_of_studies <- nlevels(dat$title)
+number_of_journals <- nlevels(dat$journal)
+publication_year_median <- median(dat$study_year)
+publication_year_min <- min(dat$study_year)
+publication_year_max <- max(dat$study_year)
+
+
+#create file with one line per study except studies who had two ID groups
+dat_distinct_title_group_id <- distinct(dat, title, group_id, .keep_all = T)
+dat_distinct_title <- distinct(dat, title, .keep_all = T)
+
+# Calculate more numbers for descriptives
+n_id_total <- sum(dat_distinct_title_group_id$n_id)
+n_ma_total <- sum(dat_distinct_title$n_magroup)
+n_total <- n_id_total + n_ma_total
+
+percent_males_id <- dat_distinct_title_group_id %>% filter(!is.na(sex_ID_id)) %>% summarise(males = 100*sum(sex_ID_id*n_id)/sum(n_id))
+percent_males_ma <- dat_distinct_title %>% filter(!is.na(sex_ID_magroup)) %>% summarise(males = 100*sum(sex_ID_magroup*n_magroup)/sum(n_magroup))
+
+n_id_median <- median(dat_distinct_title_group_id$n_id)
+n_id_min <- min(dat_distinct_title_group_id$n_id)
+n_id_max <- max(dat_distinct_title_group_id$n_id)
+ca_id_mean <- mean(dat_distinct_title_group_id$age_id, na.rm = T)
+ca_id_min <- min(dat_distinct_title_group_id$age_id, na.rm = T)
+ca_id_max <- max(dat_distinct_title_group_id$age_id, na.rm = T)
+ma_id_mean <- mean(dat_distinct_title_group_id$meanMA_id, na.rm = T)
+ma_id_min <- min(dat_distinct_title_group_id$meanMA_id, na.rm = T)
+ma_id_max <- max(dat_distinct_title_group_id$meanMA_id, na.rm = T)
+iq_id_mean <- mean(dat_distinct_title_group_id$iq_id, na.rm = T)
+iq_id_min <- min(dat_distinct_title_group_id$iq_id, na.rm = T)
+iq_id_max <- max(dat_distinct_title_group_id$iq_id, na.rm = T)
+
+ca_ds_fxs_min_max <- dat %>% dplyr::filter(group_id == "FXS" | group_id == "DS") %>%
+  summarise(min = min(age_id, na.rm = T), max = max(age_id, na.rm = T))
+
+n_ma_median <- median(dat_distinct_title$n_magroup)
+n_ma_min <- min(dat_distinct_title$n_magroup)
+n_ma_max <- max(dat_distinct_title$n_magroup)
+ca_ma_mean <- mean(dat_distinct_title$age_magroup, na.rm = T)
+ca_ma_min <- min(dat_distinct_title$age_magroup, na.rm = T)
+ca_ma_max <- max(dat_distinct_title$age_magroup, na.rm = T)
+ma_ma_mean <- mean(dat_distinct_title$meanMA_magroup, na.rm = T)
+ma_ma_min <- min(dat_distinct_title$meanMA_magroup, na.rm = T)
+ma_ma_max <- max(dat_distinct_title$meanMA_magroup, na.rm = T)
+iq_ma_mean <- mean(dat_distinct_title$iq_magroup, na.rm = T)
+iq_ma_min <- min(dat_distinct_title$iq_magroup, na.rm = T)
+iq_ma_max <- max(dat_distinct_title$iq_magroup, na.rm = T)
+
+# Calculate number of effect sizes divided by ef_component
+number_of_effect_sizes <- nrow(dat)
+es_3ef <- dat %>% group_by(ef_component) %>% summarise(n = n())
+es_max <- max(dat$yi)
+es_min <- min(dat$yi)
+
+# Numbers for PRISMA flow diagram
+database_searched_studies <- 6582
+additional_records <- 55
+total_searched_studies <- database_searched_studies + additional_records
+after_duplicates_removed <- 3468
+number_fulltext_articles_screened <- 217
+
+#power analysis
+power_median <- pwr::pwr.t2n.test(n1 = n_id_median, n2 = n_ma_median, power = 0.80, sig.level = 0.05, alternative = c("greater"))
+
+# Number of test
+number_of_tests <- nlevels(dat$testName)
+dat_shifting <- dat %>% filter(ef_component == "shifting") %>% droplevels() 
+tests_shifting <- nlevels(dat_shifting$testName)
+
+dat_attention <- dat %>% filter(ef_component == "attention") %>% droplevels() 
+tests_attention <- nlevels(dat_attention$testName)
+
+dat_inhibition <- dat %>% filter(ef_component == "inhibition") %>% droplevels() 
+tests_inhibition <- nlevels(dat_inhibition$testName)
+
+colnames(dat)

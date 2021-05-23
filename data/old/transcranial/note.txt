@@ -1,0 +1,46 @@
+https://osf.io/3hqds/
+
+###################################
+# Schroeder, Schwippel, Wolz & Svaldi - Meta-analysis of tDCS effects on inhibitory control
+# (1) import data
+# (2) es calculation
+# (3) main model
+# (4) moderator analyses
+# (5) sensitivity analyses
+
+###################################
+# (1) import data
+#
+
+library(esc)
+library(metafor)
+load("SM2.rda")
+df <- pub
+
+
+###################################
+# (2) es calculation
+#
+
+# es calculation (Hedges g, SMD)
+g <- escalc(n1i = df$group.size, 
+            n2i = df$control.group, 
+            m1i = df$M.active, 
+            m2i = df$M.control, 
+            sd1i = df$SD.active, 
+            sd2i = df$SD.control, 
+            measure = "SMD")
+
+# add the effect sizes to the overall table
+df$yi <- g$yi
+df$vi <- g$vi
+
+###################################
+# (3) main model
+#
+
+main <- rma(yi, vi, slab = Authors, data = df ) # perform meta-analysis
+main # print results meta-analysis
+confint(main) #--> suggests between studys variability rather than within-studies variability
+
+fitstats(main)

@@ -1,0 +1,315 @@
+https://osf.io/8gmek/
+
+# EI and GPA Meta-analysis
+# Date: 06/08/2019
+##########################################################
+
+# SETUP ----
+
+# Load packages
+library(Hmisc)
+library(rJava)
+library(xlsx)
+library(robumeta)
+library(metafor)
+library(clubSandwich)
+library(dplyr)
+library(psychmeta)
+library(rio)
+
+# Load data
+mydata <- import("Data/Supplementary Material 1 - Data  (26July2019).xls", which = 1)
+mydata$EI_GPA_Cor3 <- as.numeric(as.character(mydata$EI_GPA_Cor3))
+mydata$paperNo <- mydata$PaperNo # re-label so consitent with earlier version of this code
+mydata$constant <- 1 # used to help with tables
+length(unique(mydata$paperNo))
+# Remove outliers
+
+out <- subset(mydata,EI_GPA_Cor3 > quantile(mydata$EI_GPA_Cor3, na.rm = T)[4] + 1.5*IQR(mydata$EI_GPA_Cor3,  na.rm = T) | 
+                EI_GPA_Cor3 < quantile(mydata$EI_GPA_Cor3, na.rm = T)[1] - 1.5*IQR(mydata$EI_GPA_Cor3,  na.rm = T) )
+mydata <- subset(mydata,EI_GPA_Cor3 < quantile(mydata$EI_GPA_Cor3, na.rm = T)[4] + 1.5*IQR(mydata$EI_GPA_Cor3,  na.rm = T) & 
+                   EI_GPA_Cor3 > quantile(mydata$EI_GPA_Cor3, na.rm = T)[1] - 1.5*IQR(mydata$EI_GPA_Cor3,  na.rm = T) )
+
+
+length(unique(out$PaperNo))
+min(out$EI_GPA_Cor3)
+
+# Calculate varaince in effect size
+mydata <- escalc(measure = "COR", ri = EI_GPA_Cor3, ni = N,data = mydata)
+
+
+# HYPOTHESIS 1 ----
+
+(overall <- robu(EI_GPA_Cor3 ~ 1, mydata, PaperNo, vi, modelweights = "CORR"))
+(i2 <- round(overall$mod_info$I.2,2))
+
+# Q-test
+(m4_metafor <- rma.mv(EI_GPA_Cor3 ~ 1, V = vi, random = ~ 1 | PaperNo, data = mydata)) # Use metafor as not implemented in robumeta
+
+# HYPOTHESIS 2 ----
+
+# Seperate analysis for each sub-group
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 1, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 2, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 3, ], PaperNo, vi, modelweights = "CORR")
+
+# Contrast coding
+mydata$con1_stream <- ifelse(mydata$Stream == 1, 1, -.5)
+mydata$con2_stream <- ifelse(mydata$Stream == 1, 0, 1)
+mydata$con2_stream <- ifelse(mydata$Stream == 3, -1, mydata$con2_stream)
+
+# Meta-regression for stream
+robu(EI_GPA_Cor3 ~ 1 + con1_stream + con2_stream, mydata, PaperNo, vi, modelweights = "CORR")
+
+
+
+# HYPOTHESIS 3a ----
+
+# Seperate analysis for each face of ability EI
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 1 & mydata$EI_construct_Num == 1, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 1 & mydata$EI_construct_Num == 2, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 1 & mydata$EI_construct_Num == 3, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 1 & mydata$EI_construct_Num == 4, ], PaperNo, vi, modelweights = "CORR")
+
+# Contrast coding
+
+mydata$con_construct1 <- ifelse(mydata$EI_construct_Num == 1, -.5,NA)
+mydata$con_construct1 <- ifelse(mydata$EI_construct_Num == 2, -.5,mydata$con_construct1)
+mydata$con_construct1 <- ifelse(mydata$EI_construct_Num == 3, .5,mydata$con_construct1)
+mydata$con_construct1 <- ifelse(mydata$EI_construct_Num == 4, .5,mydata$con_construct1)
+
+mydata$con_construct2 <- ifelse(mydata$EI_construct_Num == 1, 0,NA)
+mydata$con_construct2 <- ifelse(mydata$EI_construct_Num == 2, 0,mydata$con_construct2)
+mydata$con_construct2 <- ifelse(mydata$EI_construct_Num == 3, -1,mydata$con_construct2)
+mydata$con_construct2 <- ifelse(mydata$EI_construct_Num == 4, 1,mydata$con_construct2)
+
+mydata$con_construct3 <- ifelse(mydata$EI_construct_Num == 1, -1,NA)
+mydata$con_construct3 <- ifelse(mydata$EI_construct_Num == 2, 1,mydata$con_construct3)
+mydata$con_construct3 <- ifelse(mydata$EI_construct_Num == 3, 0,mydata$con_construct3)
+mydata$con_construct3 <- ifelse(mydata$EI_construct_Num == 4, 0,mydata$con_construct3)
+
+# Meta-regression for facet
+robu(EI_GPA_Cor3 ~ 1 + con_construct1 + con_construct2 + con_construct3, mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+
+
+# HYPOTHESIS 3b ----
+
+# Seperate analysis for each face of ability EI
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1 & mydata$EI_construct_Num == 0, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1 & mydata$EI_construct_Num == 5, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1 & mydata$EI_construct_Num == 6, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1 & mydata$EI_construct_Num == 7, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1 & mydata$EI_construct_Num == 8, ], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1 & mydata$EI_construct_Num == 9, ], PaperNo, vi, modelweights = "CORR")
+
+# Set reference category
+mydata$EI_construct_Num <- as.factor(as.character(mydata$EI_construct_Num))
+mydata <- within(mydata, EI_construct_Num <- relevel(EI_construct_Num, ref = "8")) 
+
+# Meta-regression for facet
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1,], PaperNo, vi, modelweights = "CORR")
+
+robu(EI_GPA_Cor3 ~ 1 + EI_construct_Num, mydata[mydata$EI_measure_num == 3.1,], PaperNo, vi, modelweights = "CORR")
+
+
+# HYPOTHESIS 4 ----
+
+# Dummy code publication type
+mydata$Pub_type_Num <- ifelse(mydata$Pub_type_Num != 0, 0, 1)
+
+# meta-regression for publication type for each stream
+robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num, mydata, PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num, mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num, mydata[mydata$Stream == 2,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num, mydata[mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+
+# HYPOTHESIS 5a ----
+
+# meta-regression for age for each stream
+robu(EI_GPA_Cor3 ~ 1 + Mean_age, mydata, PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Mean_age, mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Mean_age, mydata[mydata$Stream == 2,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Mean_age, mydata[mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+# HYPOTHESIS 5b ----
+
+# Seperate analys for each education level (ignoring mixed education studies)
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Ed_level2_num == 0,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Ed_level2_num == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Ed_level2_num == 2,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Ed_level2_num == 1 & mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+
+
+# meta-regression for education level for each stream [PRIMARY AS REFERENCE]
+mydata <- within(mydata, Ed_level2_num <- relevel(Ed_level2_num, ref = "0")) 
+robu(EI_GPA_Cor3 ~ 1 + factor(Ed_level2_num), mydata[mydata$Ed_level2_num != 3,], PaperNo, vi, modelweights = "CORR")
+
+robu(EI_GPA_Cor3 ~ 1 + Ed_level2_num, mydata[mydata$Stream == 3 & mydata$Ed_level2_num != 3,], PaperNo, vi, modelweights = "CORR")
+
+# meta-regression for education level for each stream [SECONDARY AS REFERENCE]
+mydata$Ed_level2_num <- as.factor(as.character(mydata$Ed_level2_num))
+mydata <- within(mydata, Ed_level2_num <- relevel(Ed_level2_num, ref = "1")) 
+
+robu(EI_GPA_Cor3 ~ 1 + Ed_level2_num, mydata[mydata$Ed_level2_num != 3,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Ed_level2_num, mydata[mydata$Stream == 1 & mydata$Ed_level2_num != 3 & mydata$Ed_level2_num != 0,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + Ed_level2_num, mydata[mydata$Stream == 2 & mydata$Ed_level2_num != 3 & mydata$Ed_level2_num != 0,], PaperNo, vi, modelweights = "CORR")
+mydata <- within(mydata, Ed_level2_num <- relevel(Ed_level2_num, ref = "0")) 
+robu(EI_GPA_Cor3 ~ 1 + Ed_level2_num, mydata[mydata$Stream == 3 & mydata$Ed_level2_num != 3,], PaperNo, vi, modelweights = "CORR")
+
+# post hoc
+mydata <- within(mydata, Ed_level2_num <- relevel(Ed_level2_num, ref = "1")) 
+robu(EI_GPA_Cor3 ~ 1 + Ed_level2_num, mydata[mydata$Stream == 3 & mydata$Ed_level2_num != 3,], PaperNo, vi, modelweights = "CORR")
+
+
+# Subgroups
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 1 & mydata$Ed_level2_num == 1 ,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 1 & mydata$Ed_level2_num == 2 ,], PaperNo, vi, modelweights = "CORR")
+
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 2 & mydata$Ed_level2_num == 1 ,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 2 & mydata$Ed_level2_num == 2 ,], PaperNo, vi, modelweights = "CORR")
+
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 3 & mydata$Ed_level2_num == 0 ,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 3 & mydata$Ed_level2_num == 1 ,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$Stream == 3 & mydata$Ed_level2_num == 2 ,], PaperNo, vi, modelweights = "CORR")
+
+
+# HYPOTHESIS 6 ----
+
+# seperate analyses
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_type_num == 0,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_type_num == 1,], PaperNo, vi, modelweights = "CORR")
+
+# meta-regression for academic type for each stream
+robu(EI_GPA_Cor3 ~ 1 +  GPA_type_num, mydata, PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 +  GPA_type_num, mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 +  GPA_type_num, mydata[mydata$Stream == 2,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 +  GPA_type_num, mydata[mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+# Sub groups for mixed
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_type_num == 0 & mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_type_num == 1 & mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+
+# HYPOTHESIS 7 ----
+aggregate.data <-mydata[!duplicated(paste(mydata$PaperNo, mydata$SampleNo)),]
+median(aggregate.data$PcFemale, na.rm = T)
+look <- subset(aggregate.data,PcFemale < 50)
+32/182
+robu(EI_GPA_Cor3 ~ 1 + PcFemale, mydata, PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + PcFemale, mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + PcFemale, mydata[mydata$Stream == 2,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + PcFemale, mydata[mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+
+# HYPOTHESIS 8 ----
+robu(EI_GPA_Cor3 ~ 1 + PcWhite_USACan, mydata, PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + PcWhite_USACan, mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + PcWhite_USACan, mydata[mydata$Stream == 2,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 + PcWhite_USACan, mydata[mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+
+# HYPOTHESIS 9 ----
+
+# seperate analyses
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_gen_sci_art_num == 0,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_gen_sci_art_num == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_gen_sci_art_num == 2,], PaperNo, vi, modelweights = "CORR")
+
+
+# Contrast coding
+mydata$con_sub1 <- ifelse(mydata$GPA_gen_sci_art_num == 0, -1,NA)
+mydata$con_sub1 <- ifelse(mydata$GPA_gen_sci_art_num == 1, .5,mydata$con_sub1)
+mydata$con_sub1 <- ifelse(mydata$GPA_gen_sci_art_num == 2, .5,mydata$con_sub1)
+
+
+mydata$con_sub2 <- ifelse(mydata$GPA_gen_sci_art_num == 0, 0,NA)
+mydata$con_sub2 <- ifelse(mydata$GPA_gen_sci_art_num == 1, -1,mydata$con_sub2)
+mydata$con_sub2 <- ifelse(mydata$GPA_gen_sci_art_num == 2, 1,mydata$con_sub2)
+
+
+
+# meta-regression for subject type for each stream
+robu(EI_GPA_Cor3 ~ 1 +  con_sub1 + con_sub2, mydata, PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 +  con_sub1 + con_sub2, mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 +  con_sub1 + con_sub2, mydata[mydata$Stream == 2,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 +  con_sub1 + con_sub2, mydata[mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+# seperate analyses
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_gen_sci_art_num == 0 & mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_gen_sci_art_num == 1 & mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+robu(EI_GPA_Cor3 ~ 1 , mydata[mydata$GPA_gen_sci_art_num == 2 & mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+
+
+
+# HYPOTHESIS 10  ----
+
+# Bring in IQ data
+iq <- import("Data/FINAL_SPREADSHEET_30Dec2018.xls", which = 2)
+iq$IQ_GPA_Cor3 <- as.numeric(as.character(iq$IQ_GPA_Cor3))
+
+# IQ meta-analysis
+iq <- escalc(measure = "COR", ri = IQ_GPA_Cor3, ni = N,data = iq)
+(overall <- robu(IQ_GPA_Cor3 ~ 1, iq, PaperNo, vi, modelweights = "CORR"))
+
+# Count particpants
+aggIQ <-iq[!duplicated(iq$SampleNo),]
+sum(aggIQ$N)
+
+
+
+
+rm(table2)
+source("~/Dropbox (Sydney Uni)/Statistics/Functions/Meta/subGroups Table.R")
+iq$constant <- 1
+iq$EI_GPA_Cor3 <- iq$IQ_GPA_Cor3
+iq$paperNo <- iq$PaperNo
+table2 <- addCategory(data = iq, variable = "constant", values = c("1"), new = T)
+
+
+# PUBLICATION BIAS
+aggregate.data <- aggregate(cbind(EI_GPA_Cor3,vi) ~ paperNo, mydata, mean)
+regtest(rma(yi =  EI_GPA_Cor3, vi = vi, data = aggregate.data))
+
+
+
+# Simulataneous Regressions
+mydata <- within(mydata, EI_construct_Num <- relevel(EI_construct_Num, ref = "0")) 
+mydata <- within(mydata, Stream <- relevel(Stream, ref = "1")) 
+
+robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num  + Mean_age + PcFemale + con1_stream + con2_stream + 
+       con_sub1 + con_sub2 + GPA_type_num,
+     mydata, PaperNo, vi, modelweights = "CORR")
+
+
+mod1 <- robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num  + Mean_age + PcFemale   +
+       con_sub1 + con_sub2 + GPA_type_num,
+     mydata[mydata$Stream == 1,], PaperNo, vi, modelweights = "CORR")
+
+
+mod1 <- robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num  + Mean_age + PcFemale   +
+       con_sub1 + con_sub2 + GPA_type_num,
+     mydata[mydata$Stream == 2,], PaperNo, vi, modelweights = "CORR")
+
+table1 <- mod1$reg_table
+
+write.csv(table1, '~/Desktop/tableX.csv', row.names = F, na="")
+
+
+
+mod1 <-robu(EI_GPA_Cor3 ~ 1 + Pub_type_Num  + Mean_age + PcFemale  +  
+       con_sub1 + con_sub2 + GPA_type_num,
+     mydata[mydata$Stream == 3,], PaperNo, vi, modelweights = "CORR")
+
+
+
+robu(EI_GPA_Cor3 ~ 1, mydata[mydata$EI_measure_num == 3.1 & mydata$EI_construct_Num == 9, ], PaperNo, vi, modelweights = "CORR")
+
+# Set reference category
+mydata$EI_construct_Num <- as.factor(as.character(mydata$EI_construct_Num))
+mydata <- within(mydata, EI_construct_Num <- relevel(EI_construct_Num, ref = "8")) 
+
+
+table1 <- mod1$reg_table
+
+write.csv(table1, '~/Desktop/table6.csv', row.names = F, na="")

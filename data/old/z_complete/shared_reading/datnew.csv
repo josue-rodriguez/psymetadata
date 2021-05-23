@@ -1,0 +1,317 @@
+"","es_id","study_id","author","measure","age","ses","experimenter","duration","dialogic_reading","follow_up","n","yi","vi"
+"1",1,1,"Chacko et al 2017","Miscellaneous","Preschool","Low","Parent",8,"Y","N",126,0.328735056695982,0.166826061333062
+"2",2,1,"Chacko et al 2017","Miscellaneous","Preschool","Low","Parent",8,"Y","N",126,0.387257611830749,0.168148060367806
+"3",3,2,"Coyne et al 2004","Receptive vocabulary",NA,"Unknown","Teacher",30,"N","N",64,1.05634788368857,0.0890805283922006
+"4",4,2,"Coyne et al 2004","Receptive vocabulary",NA,"Unknown","Teacher",30,"N","N",64,0.319298048007421,0.0909923689858682
+"5",5,3,"Purpura et al 2017","Receptive vocabulary","Preschool","Low","Researcher",8,"Y","N",39,0.386632753217992,0.424085888884405
+"6",6,3,"Purpura et al 2017","Expressive vocabulary","Preschool","Low","Researcher",8,"Y","N",39,-0.0343470392177712,0.36300418463932
+"7",7,4,"Vaknin-Nusbau & Nevo 2017","Receptive vocabulary","Preschool","Middle or high","Teacher",8,"N","N",30,1.27447033374757,1.48572319681558
+"8",8,4,"Vaknin-Nusbau & Nevo 2017","Miscellaneous","Preschool","Middle or high","Teacher",8,"N","N",30,0.558995460775558,0.448058427353469
+"9",9,4,"Vaknin-Nusbau & Nevo 2017","Print concepts","Preschool","Middle or high","Teacher",8,"N","N",30,1.01218955726434,0.512918933505255
+"10",10,4,"Vaknin-Nusbau & Nevo 2017","Receptive vocabulary","Primary School age","Middle or high","Teacher",8,"N","N",30,1.12359509612783,1.15647242751622
+"11",11,4,"Vaknin-Nusbau & Nevo 2017","Miscellaneous","Primary School age","Middle or high","Teacher",8,"N","N",30,0.600254903777344,0.676871447481983
+"12",12,4,"Vaknin-Nusbau & Nevo 2017","Print concepts","Primary School age","Middle or high","Teacher",8,"N","N",30,1.13294391933702,0.469512148629907
+"13",13,5,"Wing-Yin Chow & McBride-Chang 2003","Print concepts","Primary School age","Middle or high","Parent",8,"Y","N",57,0.445308920564795,0.597936110680772
+"14",14,5,"Wing-Yin Chow & McBride-Chang 2003","Print concepts","Primary School age","Middle or high","Parent",8,"N","N",57,0.112532517447151,0.564982223702127
+"15",15,5,"Wing-Yin Chow & McBride-Chang 2003","Receptive vocabulary","Primary School age","Middle or high","Parent",8,"Y","N",54,0.243450243170868,0.60592573395236
+"16",16,5,"Wing-Yin Chow & McBride-Chang 2003","Receptive vocabulary","Primary School age","Middle or high","Parent",8,"N","N",55,0.175496760277836,0.58865805989151
+"17",17,6,"Wing-Yin Chow et al 2008","Print concepts","Primary School age","Middle or high","Parent",12,"Y","N",74,0.177756830037534,0.0634816453243849
+"18",18,6,"Wing-Yin Chow et al 2008","Print concepts","Primary School age","Middle or high","Parent",12,"Y","N",73,0.00532913626363624,0.0623782735713916
+"19",19,6,"Wing-Yin Chow et al 2008","Print concepts","Primary School age","Middle or high","Parent",12,"N","N",73,0.0126921329964443,0.062543873044748
+"20",20,6,"Wing-Yin Chow et al 2008","Receptive vocabulary","Primary School age","Middle or high","Parent",12,"Y","N",74,0.352849842244198,0.0628141793707334
+"21",21,6,"Wing-Yin Chow et al 2008","Receptive vocabulary","Primary School age","Middle or high","Parent",12,"Y","N",73,0.550883667077354,0.0703923580094773
+"22",22,6,"Wing-Yin Chow et al 2008","Receptive vocabulary","Primary School age","Middle or high","Parent",12,"N","N",73,0.138956177001723,0.0613323518744015
+"23",23,6,"Wing-Yin Chow et al 2008","Phonological awareness","Primary School age","Middle or high","Parent",12,"Y","N",74,0.431213279834315,0.0586915996654923
+"24",24,6,"Wing-Yin Chow et al 2008","Phonological awareness","Primary School age","Middle or high","Parent",12,"Y","N",73,0.143956810783879,0.0584195670598496
+"25",25,6,"Wing-Yin Chow et al 2008","Phonological awareness","Primary School age","Middle or high","Parent",12,"N","N",73,-0.321194092347967,0.0627146056419652
+"26",26,6,"Wing-Yin Chow et al 2008","Phonological awareness","Primary School age","Middle or high","Parent",12,"Y","N",74,-0.225678559197466,0.0737864813193197
+"27",27,6,"Wing-Yin Chow et al 2008","Phonological awareness","Primary School age","Middle or high","Parent",12,"Y","N",73,-0.153841829199677,0.0737474406948819
+"28",28,6,"Wing-Yin Chow et al 2008","Phonological awareness","Primary School age","Middle or high","Parent",12,"N","N",73,-0.35038070945068,0.0715448741219087
+"29",29,7,"Yeh & Connell 2008","Phonological awareness","Preschool","Low","Teacher",14,"N","N",84,0.716482807757153,0.220942393331339
+"30",30,7,"Yeh & Connell 2008","Phonological awareness","Preschool","Low","Teacher",14,"N","N",84,-0.402495301786735,0.21964592416506
+"31",31,7,"Yeh & Connell 2008","Phonological awareness","Preschool","Low","Teacher",14,"N","N",84,0.423216625157693,0.114724794923845
+"32",32,7,"Yeh & Connell 2008","Phonological awareness","Preschool","Low","Teacher",14,"N","N",84,-0.303506323391673,0.124569545824327
+"33",33,7,"Yeh & Connell 2008","Phonological awareness","Preschool","Low","Teacher",14,"N","N",84,-0.258673400274656,0.147934623412825
+"34",34,7,"Yeh & Connell 2008","Phonological awareness","Preschool","Low","Teacher",14,"N","N",84,0.358582032035406,0.122513549364244
+"35",35,7,"Yeh & Connell 2008","Receptive vocabulary","Preschool","Low","Teacher",14,"N","N",84,0.195586556301038,0.1157393247543
+"36",36,7,"Yeh & Connell 2008","Receptive vocabulary","Preschool","Low","Teacher",14,"N","N",84,0.167419521807433,0.115461697744709
+"37",37,8,"Reese et al 2010","Expressive vocabulary","Preschool","Low","Parent",21,"Y","N",22,0.0147588909846323,0.239165949303296
+"38",38,8,"Reese et al 2010","Expressive vocabulary","Preschool","Low","Parent",21,"Y","N",21,-0.137221227168422,0.256004201309917
+"39",39,8,"Reese et al 2010","Print concepts","Preschool","Low","Parent",21,"Y","N",23,-0.531385004120922,0.231798792661938
+"40",40,8,"Reese et al 2010","Print concepts","Preschool","Low","Parent",21,"Y","N",23,-0.431613192010505,0.226746287864978
+"41",41,9,"Korat & Shamir 2007","Receptive vocabulary","Primary School age","Mixed","Researcher",1,"N","N",128,0.966011518820877,0.187452679135602
+"42",42,9,"Korat & Shamir 2007","Phonological awareness","Primary School age","Mixed","Researcher",1,"N","N",128,-0.0667740089325934,0.146444224388191
+"43",43,10,"Aram & Biron 2004","Phonological awareness","Preschool","Low","Researcher",33,"N","N",62,0.613592024552442,0.374463176850794
+"44",44,10,"Aram & Biron 2004","Expressive Language","Preschool","Low","Researcher",33,"N","N",62,-0.608942269220478,0.467693800120422
+"45",45,11,"Nelson et al 2010","Print concepts","Preschool","Low",NA,10,"N","N",88,0.391281313510549,0.167054355559432
+"46",46,11,"Nelson et al 2010","Print concepts","Preschool","Low",NA,10,"N","N",88,-0.439870710368706,0.203900481295946
+"47",47,11,"Nelson et al 2010","Phonological awareness","Preschool","Low",NA,10,"N","N",88,-0.125018939318896,0.185940334519192
+"48",48,11,"Nelson et al 2010","Receptive vocabulary","Preschool","Low",NA,10,"N","N",88,-0.193864417833523,0.180218733045917
+"49",49,12,"Fielding-Barnsley & Purdie 2003","Receptive vocabulary","Primary School age","Unknown","Parent",8,"Y","N",49,-0.0765742009408613,0.582468378518192
+"50",50,12,"Fielding-Barnsley & Purdie 2003","Phonological awareness","Primary School age","Unknown","Parent",8,"Y","N",49,-0.284640487095861,0.418256656162559
+"51",51,12,"Fielding-Barnsley & Purdie 2003","Phonological awareness","Primary School age","Unknown","Parent",8,"Y","N",49,0.207823518789774,0.655203493316611
+"52",52,12,"Fielding-Barnsley & Purdie 2003","Phonological awareness","Primary School age","Unknown","Parent",8,"Y","N",49,-0.247061212888543,0.441348867578561
+"53",53,12,"Fielding-Barnsley & Purdie 2003","Print concepts","Primary School age","Unknown","Parent",8,"Y","N",49,-0.104599304359615,0.574391360554154
+"54",54,13,"Segal-Drori et al 2010","Phonological awareness","Primary School age","Low","Teacher",NA,"N","N",64,0.384801329024523,0.160341199375336
+"55",55,13,"Segal-Drori et al 2010","Phonological awareness","Primary School age","Low","Teacher",NA,"N","N",64,0.572110568302821,0.146445720571061
+"56",56,13,"Segal-Drori et al 2010","Print concepts","Primary School age","Low","Teacher",NA,"N","N",64,1.43333078529282,0.236707491586398
+"57",57,13,"Segal-Drori et al 2010","Print concepts","Primary School age","Low","Teacher",NA,"N","N",64,0.600346435847068,0.146024734308496
+"58",58,14,"Coyne et al 2010","Receptive vocabulary","Preschool","Low","Researcher",18,"N","N",124,8.12453054305217,2.17364209595368
+"59",59,14,"Coyne et al 2010","Receptive vocabulary","Preschool","Low","Researcher",18,"N","N",124,0.131170566191046,0.164891094198947
+"60",60,15,"Blom-Hoffman et al 2007","Expressive Language","Preschool","Mixed","Parent",12,"Y","N",18,0.774657655988422,0.33201971486623
+"61",61,15,"Blom-Hoffman et al 2007","Expressive Language","Preschool","Mixed","Parent",12,"Y","Y",18,1.11964859261097,0.391167179307835
+"62",62,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","N",286,-0.155435440553189,0.0855235644044963
+"63",63,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","N",298,-0.236123053377349,0.108841860746016
+"64",64,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","N",478,-0.0124951808630843,0.0813367785704472
+"65",65,16,"Bianco et al 2010","Phonological awareness","Preschool","Mixed","Teacher",14,"N","N",286,0.263303694334892,0.085916139244801
+"66",66,16,"Bianco et al 2010","Phonological awareness","Preschool","Mixed","Teacher",14,"N","N",298,-0.327284621730205,0.114375849291079
+"67",67,16,"Bianco et al 2010","Phonological awareness","Preschool","Mixed","Teacher",14,"N","N",478,0.337428446665787,0.0817868453324106
+"68",68,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","Y",183,-0.162209850353622,0.0950748238236906
+"69",69,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","Y",202,0.0113648441808529,0.12022953734264
+"70",70,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","Y",297,0.0715958648121355,0.0900053082474977
+"71",71,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","N",247,-0.190327334038332,0.13863519584297
+"72",72,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","N",309,-0.53265695980684,0.125751780283171
+"73",73,16,"Bianco et al 2010","Miscellaneous","Preschool","Mixed","Teacher",14,"N","N",451,-0.0383214496498849,0.104963472021512
+"74",74,16,"Bianco et al 2010","Phonological awareness","Preschool","Mixed","Teacher",14,"N","N",247,0.122065596696226,0.139236778256852
+"75",75,16,"Bianco et al 2010","Phonological awareness","Preschool","Mixed","Teacher",14,"N","N",309,0.247471040391407,0.12334112741872
+"76",76,16,"Bianco et al 2010","Phonological awareness","Preschool","Mixed","Teacher",14,"N","N",451,0.389268880501273,0.105852129369691
+"77",77,17,"Biemiller & Boote 2006 STUDY 2","Receptive vocabulary","Primary School age","Mixed","Teacher",2,"N","N",53,1.6291516358408,0.538020968187925
+"78",78,18,"Bortnem 2005","Receptive vocabulary","Preschool","Low","Researcher",12,"N","N",37,-0.089754515061478,0.800419114271721
+"79",79,18,"Bortnem 2005","Receptive vocabulary","Preschool","Low","Researcher",12,"N","N",40,-0.113556940738947,0.507358387130358
+"80",80,18,"Bortnem 2005","Expressive vocabulary","Preschool","Low","Researcher",12,"N","N",37,0.200628986959826,0.53171377450398
+"81",81,18,"Bortnem 2005","Expressive vocabulary","Preschool","Low","Researcher",12,"N","N",40,0.378916472279593,0.503836155529661
+"82",82,19,"Mukerjee 2002","Receptive vocabulary","Preschool","Unknown","Teacher",6,"N","N",47,0.0187825868197436,0.360513246136459
+"83",83,19,"Mukerjee 2002","Receptive vocabulary","Preschool","Unknown","Teacher",6,"N","N",32,0.201859489159776,0.374325462593869
+"84",84,19,"Mukerjee 2002","Expressive vocabulary","Preschool","Unknown","Teacher",6,"N","N",47,-0.249304494279032,0.350160164428217
+"85",85,19,"Mukerjee 2002","Expressive vocabulary","Preschool","Unknown","Teacher",6,"N","N",32,0.0400820311791251,0.35776671403859
+"86",86,19,"Mukerjee 2002","Receptive vocabulary","Preschool","Unknown","Teacher",6,"N","Y",36,-0.567208132695857,0.384176217030897
+"87",87,19,"Mukerjee 2002","Receptive vocabulary","Preschool","Unknown","Teacher",6,"N","Y",27,-0.225685103385747,0.451031910569272
+"88",88,19,"Mukerjee 2002","Expressive vocabulary","Preschool","Unknown","Teacher",6,"N","Y",36,-0.53967195026423,0.359599055995769
+"89",89,19,"Mukerjee 2002","Expressive vocabulary","Preschool","Unknown","Teacher",6,"N","Y",27,-0.296157198903031,0.387649302850385
+"90",90,20,"Crevecoeur 2008","Receptive vocabulary","Primary School age","Low","Researcher",18,"N","N",74,0.232289281229256,0.427019878260343
+"91",91,21,"Jacobi-vessels 2008","Print concepts","Primary School age","Mixed","Researcher",7,"N","N",16,-0.288578165910838,0.778891571521189
+"92",92,21,"Jacobi-vessels 2008","Print concepts","Primary School age","Mixed","Researcher",7,"N","N",16,0.495303824813573,0.732388327215291
+"93",93,21,"Jacobi-vessels 2008","Phonological awareness","Primary School age","Mixed","Researcher",7,"N","N",16,-0.470635568596803,0.867179194690951
+"94",94,21,"Jacobi-vessels 2008","Phonological awareness","Primary School age","Mixed","Researcher",7,"N","N",16,0.348602348786808,0.813444074287364
+"95",95,21,"Jacobi-vessels 2008","Phonological awareness","Primary School age","Mixed","Researcher",7,"N","N",16,-0.728772188901838,0.821832266912984
+"96",96,21,"Jacobi-vessels 2008","Phonological awareness","Primary School age","Mixed","Researcher",7,"N","N",16,-0.688691122080475,1.2359450613731
+"97",97,21,"Jacobi-vessels 2008","Phonological awareness","Primary School age","Mixed","Researcher",7,"N","N",16,-0.484984255438899,0.752952235754616
+"98",98,21,"Jacobi-vessels 2008","Phonological awareness","Primary School age","Mixed","Researcher",7,"N","N",16,1.07678600960628,1.87821401516684
+"99",99,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,3.150703537287,5.54242767864016
+"100",100,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,3.88026289556683,8.47571811596482
+"101",101,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,4.03165043239795,10.4395055375742
+"102",102,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,3.49930898853506,6.02810726265297
+"103",103,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,4.51080019956863,12.2763711064402
+"104",104,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,4.21730499091983,9.40199891280969
+"105",105,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,3.88689840654597,13.5160782908157
+"106",106,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,3.20750606809349,12.1469623772403
+"107",107,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,5.23138120963922,18.3109930415262
+"108",108,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,3.67480048338741,11.8305448327808
+"109",109,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,4.33511224948241,8.68029492510214
+"110",110,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,4.93674586925218,21.7256891895833
+"111",111,22,"Elmonayer (2013)","Phonological awareness","Primary School age","Middle or high","Teacher",8,"Y","N",67,6.85258917700896,30.9104068678874
+"112",112,23,"Gonzalez et al. (2011)","Receptive vocabulary","Preschool","Low","Teacher",18,"N","N",148,0.372262461138344,0.0642408208035651
+"113",113,23,"Gonzalez et al. (2011)","Expressive vocabulary","Preschool","Low","Teacher",18,"N","N",148,-0.0485733890426324,0.0713710948697418
+"114",114,23,"Gonzalez et al. (2011)","Receptive vocabulary","Preschool","Low","Teacher",18,"N","N",148,0.640893624291868,0.0979082727866004
+"115",115,23,"Gonzalez et al. (2011)","Expressive vocabulary","Preschool","Low","Teacher",18,"N","N",148,1.28222845854343,0.125895633789764
+"116",116,24,"Korat et al. (2013)","Phonological awareness","Preschool","Low","Parent",2,"N","N",60,0.56401918693304,0.0752011930702406
+"117",117,24,"Korat et al. (2013)","Phonological awareness","Preschool","Low","Parent",2,"N","N",60,0.802434382740871,0.077685564093521
+"118",118,24,"Korat et al. (2013)","Receptive vocabulary","Preschool","Low","Parent",2,"N","N",60,0.808034227251434,0.0972180903459539
+"119",119,24,"Korat et al. (2013)","Phonological awareness","Preschool","Low","Parent",2,"N","N",60,0.389024649423044,0.0733718997142813
+"120",120,24,"Korat et al. (2013)","Phonological awareness","Preschool","Low","Parent",2,"N","N",60,0.543568687883433,0.0749722848110371
+"121",121,24,"Korat et al. (2013)","Receptive vocabulary","Preschool","Low","Parent",2,"N","N",60,0.978978661470464,0.112445556267821
+"122",122,25,"Kotaman (2013)","Receptive vocabulary","Preschool","Middle or high","Parent",7,"Y","N",40,0.43527616940974,0.122580538035197
+"123",123,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,0.0845223143590244,0.417196687365036
+"124",124,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,-0.0663989784851904,0.138005018992129
+"125",125,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,0.417767146342695,0.118901462666945
+"126",126,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,-0.0346807621593488,0.179862358244366
+"127",127,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,0.24090520935271,0.532818949602094
+"128",128,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,0.114530185266391,0.179666958770599
+"129",129,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,-29.158940397351,14.1786541194214
+"130",130,26,"Lever and Senechal (2011)","Expressive Language","Primary School age","Mixed","Researcher",8,"Y","N",40,-0.0778897060324893,0.238319900092153
+"131",131,26,"Lever and Senechal (2011)","Expressive vocabulary","Primary School age","Mixed","Researcher",8,"Y","N",40,1.46533451151892,0.23263690579788
+"132",132,28,"Butler (2012)","Print concepts","Preschool","Low","Teacher",43,"N","N",354,1.20623561027185,0.101460739760181
+"133",133,28,"Butler (2012)","Receptive vocabulary","Preschool","Low","Teacher",43,"N","N",354,0.94390646361356,0.0722231573131542
+"134",134,28,"Butler (2012)","Phonological awareness","Preschool","Low","Teacher",43,"N","N",354,1.63643673665982,0.0873254199288867
+"135",135,28,"Butler (2012)","Print concepts","Preschool","Low","Teacher",43,"N","N",354,3.25471666801367,0.180621296129161
+"136",136,29,"Carson (2012) THESIS","Expressive vocabulary","Preschool","Low",NA,30,"Y","N",124,0.428734786136421,0.183269945741999
+"137",137,29,"Carson (2012) THESIS","Phonological awareness","Preschool","Low",NA,30,"Y","N",124,0.805988889478829,0.335787139633058
+"138",138,29,"Carson (2012) THESIS","Phonological awareness","Preschool","Low",NA,30,"Y","N",124,0.591545324445211,0.225938137240742
+"139",139,29,"Carson (2012) THESIS","Expressive vocabulary","Preschool","Low",NA,30,"Y","N",118,0.317350478152669,0.16880875509437
+"140",140,29,"Carson (2012) THESIS","Phonological awareness","Preschool","Low",NA,30,"Y","N",118,0.389333351700304,0.159739352175778
+"141",141,29,"Carson (2012) THESIS","Phonological awareness","Preschool","Low",NA,30,"Y","N",118,0.499579492564315,0.159044047091843
+"142",142,30,"Mihai (2015)","Receptive vocabulary","Preschool","Low","Teacher",30,"N","N",63,0.2762610183761,0.310089042059313
+"143",143,30,"Mihai (2015)","Miscellaneous","Preschool","Low","Teacher",30,"N","N",63,0.568766689843061,0.315938443398199
+"144",144,31,"Vaquero (2014)","Receptive vocabulary","Preschool","Middle or high","Parent",12,"N","N",20,0.659360647063877,0.362147697951196
+"145",145,31,"Vaquero (2014)","Expressive vocabulary","Preschool","Middle or high","Parent",12,"N","N",20,0.279267962495168,0.316749157540371
+"146",146,31,"Vaquero (2014)","Receptive vocabulary","Preschool","Middle or high","Parent",12,"N","N",20,0.754864913092674,0.35810443264082
+"147",147,31,"Vaquero (2014)","Print concepts","Preschool","Middle or high","Parent",12,"N","N",20,0.934317334935867,0.488762915780657
+"148",148,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","N",20,0.896696880750972,0.286802436045522
+"149",149,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","N",20,0.166155963093084,0.258412028466154
+"150",150,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","N",20,0.682839020877201,0.328715291567127
+"151",151,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","N",20,0.281480587891903,0.270706575041743
+"152",152,31,"Vaquero (2014)","Receptive vocabulary","Preschool","Middle or high","Parent",12,"N","Y",18,-0.146902550289893,0.354762733929551
+"153",153,31,"Vaquero (2014)","Expressive vocabulary","Preschool","Middle or high","Parent",12,"N","Y",18,-0.205191983336591,0.359035597380354
+"154",154,31,"Vaquero (2014)","Receptive vocabulary","Preschool","Middle or high","Parent",12,"N","Y",18,0.253339642576796,0.66238061385247
+"155",155,31,"Vaquero (2014)","Print concepts","Preschool","Middle or high","Parent",12,"N","Y",18,-0.569063376793047,1.594634380057
+"156",156,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","Y",18,0.869381534593642,0.484558180909911
+"157",157,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","Y",18,0.267778638482383,0.41746728292464
+"158",158,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","Y",18,0.198627340518784,0.483240003710883
+"159",159,31,"Vaquero (2014)","Expressive Language","Preschool","Middle or high","Parent",12,"N","Y",18,0.291078527014246,0.447190221276745
+"160",160,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","N",69,-0.698982423983028,0.10895699961367
+"161",161,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","N",69,-0.580932544694153,0.0888220912059902
+"162",162,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","N",69,-0.221716695277751,0.0842688795327918
+"163",163,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","N",69,-0.864900083845067,0.143589596703227
+"164",164,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","N",69,0.192454807518088,0.0714846442522457
+"165",165,32,"Levin and Aram (2012)","Expressive vocabulary","Primary School age","Low","Parent",8,"N","N",69,-0.14330954528801,0.0697476974095284
+"166",166,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","N",69,0.206971647537444,0.0733303626281253
+"167",167,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","Y",69,-0.216059735245565,0.110059349099684
+"168",168,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","Y",69,-0.170232967904044,0.0903991615506197
+"169",169,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","Y",69,-0.262198676157115,0.0925937944106433
+"170",170,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","Y",69,-0.307053396692591,0.15402148979579
+"171",171,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","Y",69,0.0869150743630076,0.0940194517028585
+"172",172,32,"Levin and Aram (2012)","Expressive vocabulary","Primary School age","Low","Parent",8,"N","Y",69,0.541846566469903,0.0648363847522657
+"173",173,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","Y",69,0.65553297618621,0.0842921544076052
+"174",174,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","N",65,-0.0837782816080174,0.0935249572946581
+"175",175,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","N",65,0.0229942474569441,0.0788281985129595
+"176",176,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","N",65,-0.0895323214956679,0.0913677100836399
+"177",177,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","N",65,0.204756260958271,0.117709264826338
+"178",178,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","N",65,0.06483929914588,0.0759187441495638
+"179",179,32,"Levin and Aram (2012)","Expressive vocabulary","Primary School age","Low","Parent",8,"N","N",65,-0.029062506845704,0.0707985694577296
+"180",180,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","N",65,0.35718013074495,0.0784473533005054
+"181",181,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","Y",65,-0.0330703743189541,0.111688744129785
+"182",182,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","Y",65,0.135936580554288,0.0885737534198817
+"183",183,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","Y",65,-0.256816395869153,0.107739738375442
+"184",184,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","Y",65,-0.00863040088338321,0.157585399798568
+"185",185,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","Y",65,-0.120415841270919,0.0977078434289448
+"186",186,32,"Levin and Aram (2012)","Expressive vocabulary","Primary School age","Low","Parent",8,"N","Y",65,0.177604208501526,0.0725228775232444
+"187",187,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","Y",65,0.2970234771458,0.0972299878185558
+"188",188,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","N",62,0.164735198854274,0.0883565985344182
+"189",189,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","N",62,0.396120425418892,0.0783513623714012
+"190",190,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","N",62,0.120196925121259,0.0889999343028754
+"191",191,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","N",62,0.505559546523857,0.112212811256952
+"192",192,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","N",62,0.338070474730742,0.0765950782704487
+"193",193,32,"Levin and Aram (2012)","Expressive vocabulary","Primary School age","Low","Parent",8,"N","N",62,-0.116785258021308,0.0748395777869218
+"194",194,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","N",62,0.553743314552721,0.0808490744623265
+"195",195,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","Y",62,0.500129293781895,0.0965437514801893
+"196",196,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","Y",62,0.451127541263088,0.0876813706192718
+"197",197,32,"Levin and Aram (2012)","Print concepts","Primary School age","Low","Parent",8,"N","Y",62,0.100054033823466,0.097190372799428
+"198",198,32,"Levin and Aram (2012)","Phonological awareness","Primary School age","Low","Parent",8,"N","Y",62,0.0469352364146817,0.152110009917896
+"199",199,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","Y",62,0.244760152618223,0.0902586341916171
+"200",200,32,"Levin and Aram (2012)","Expressive vocabulary","Primary School age","Low","Parent",8,"N","Y",62,-0.131944882860612,0.0804383037477786
+"201",201,32,"Levin and Aram (2012)","Receptive vocabulary","Primary School age","Low","Parent",8,"N","Y",62,0.47404412685098,0.0957435061961512
+"202",202,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,0.0535704485205002,0.260957646615245
+"203",203,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,0.161318849063799,0.250414520112105
+"204",204,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,0.00788112290721485,0.2890704375523
+"205",205,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,0.153801944103994,0.259419732578975
+"206",206,33,"Crain-Thoreson & Dale, 1999","Receptive vocabulary","Preschool","Low","Teacher",8,"Y","N",24,-0.0643126619000635,0.208363400741115
+"207",207,33,"Crain-Thoreson & Dale, 1999","Expressive vocabulary","Preschool","Low","Teacher",8,"Y","N",24,0.394944385919238,0.217707742483686
+"208",208,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,0.219287765300302,0.303473758407563
+"209",209,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,0.27685708743872,0.262384997949931
+"210",210,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,-0.00376481041323777,0.280790814472154
+"211",211,33,"Crain-Thoreson & Dale, 1999","Expressive Language","Preschool","Low","Teacher",8,"Y","N",24,0.160919540229885,0.264208027406601
+"212",212,33,"Crain-Thoreson & Dale, 1999","Receptive vocabulary","Preschool","Low","Teacher",8,"Y","N",24,0.259930519159226,0.215681934951069
+"213",213,33,"Crain-Thoreson & Dale, 1999","Expressive vocabulary","Preschool","Low","Teacher",8,"Y","N",24,-0.160871275054019,0.20694448883767
+"214",214,34,"Lonigan et al 1999","Receptive vocabulary","Preschool","Low",NA,6,"N","N",61,-0.380961276022368,0.260074092874544
+"215",215,34,"Lonigan et al 1999","Expressive vocabulary","Preschool","Low",NA,6,"N","N",61,0.0591290862762757,0.259188329163385
+"216",216,34,"Lonigan et al 1999","Expressive Language","Preschool","Low",NA,6,"N","N",61,0.305112936998418,0.26130215076431
+"217",217,34,"Lonigan et al 1999","Receptive vocabulary","Preschool","Low",NA,6,"Y","N",66,-0.0428128400370135,0.255054303248251
+"218",218,34,"Lonigan et al 1999","Expressive vocabulary","Preschool","Low",NA,6,"Y","N",66,0.0385033271173927,0.251882605041578
+"219",219,34,"Lonigan et al 1999","Expressive Language","Preschool","Low",NA,6,"Y","N",66,0.461734121681729,0.263881056876473
+"220",220,35,"Neuman 1999","Receptive vocabulary","Preschool","Low","Teacher",30,"N","N",500,-0.0246430699674387,0.0246464661847932
+"221",221,35,"Neuman 1999","Print concepts","Preschool","Low","Teacher",30,"N","N",500,0.537353510669699,0.0261039619582957
+"222",222,35,"Neuman 1999","Print concepts","Preschool","Low","Teacher",30,"N","N",500,0.168503967753996,0.0304958068269688
+"223",223,36,"Lonigan & Whitehurst, 1998","Receptive vocabulary","Preschool","Low","Teacher",6,"Y","N",27,-0.343024631299988,0.500888128966197
+"224",224,36,"Lonigan & Whitehurst, 1998","Expressive vocabulary","Preschool","Low","Teacher",6,"Y","N",27,-0.564364547457772,0.454917857398442
+"225",225,36,"Lonigan & Whitehurst, 1998","Expressive Language","Preschool","Low","Teacher",6,"Y","N",27,-0.135573867990527,0.697089713747644
+"226",226,36,"Lonigan & Whitehurst, 1998","Receptive vocabulary","Preschool","Low","Parent",6,"Y","N",20,-0.0807793524515648,0.630614286905059
+"227",227,36,"Lonigan & Whitehurst, 1998","Expressive vocabulary","Preschool","Low","Parent",6,"Y","N",20,0.161672212390373,0.558924966683152
+"228",228,36,"Lonigan & Whitehurst, 1998","Expressive Language","Preschool","Low","Parent",6,"Y","N",20,0.0714059052898412,0.69898241569201
+"229",229,36,"Lonigan & Whitehurst, 1998","Receptive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",21,0.158593328892935,0.63222087333039
+"230",230,36,"Lonigan & Whitehurst, 1998","Expressive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",21,0.0356940227913361,0.554477658286606
+"231",231,36,"Lonigan & Whitehurst, 1998","Expressive Language","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",21,1.04113119120437,1.41188030924151
+"232",232,36,"Lonigan & Whitehurst, 1998","Receptive vocabulary","Preschool","Low","Teacher",6,"Y","N",31,-0.153883025651548,0.432733923087691
+"233",233,36,"Lonigan & Whitehurst, 1998","Expressive vocabulary","Preschool","Low","Teacher",6,"Y","N",31,0.395892353005666,0.54574644711798
+"234",234,36,"Lonigan & Whitehurst, 1998","Expressive Language","Preschool","Low","Teacher",6,"Y","N",31,0.634981856402763,0.530428763060463
+"235",235,36,"Lonigan & Whitehurst, 1998","Receptive vocabulary","Preschool","Low","Parent",6,"Y","N",23,-0.0476535447294211,0.689319021124475
+"236",236,36,"Lonigan & Whitehurst, 1998","Expressive vocabulary","Preschool","Low","Parent",6,"Y","N",23,0.82764926259421,2.34971220774989
+"237",237,36,"Lonigan & Whitehurst, 1998","Expressive Language","Preschool","Low","Parent",6,"Y","N",23,0.60606186543588,1.02810756144383
+"238",238,36,"Lonigan & Whitehurst, 1998","Receptive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",23,-0.0112768189228408,0.659925976297831
+"239",239,36,"Lonigan & Whitehurst, 1998","Expressive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",23,0.33798139998102,0.924417459250662
+"240",240,36,"Lonigan & Whitehurst, 1998","Expressive Language","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",23,1.64637903542102,1.94581824582681
+"241",241,37,"Sheets & Buyer, 1999","Receptive vocabulary","Preschool","Unknown","Parent",NA,"N","N",29,0.236638124153419,0.41108613392865
+"242",242,37,"Sheets & Buyer, 1999","Receptive vocabulary","Primary School age","Unknown","Parent",NA,"N","N",28,-0.526864409171265,0.430722062394138
+"243",243,38,"Valdez-Menchaca & Whitehurst, 1992","Receptive vocabulary","Preschool","Low","Researcher",6.5,"Y","N",20,1.23417507260716,0.354016063721629
+"244",244,38,"Valdez-Menchaca & Whitehurst, 1992","Expressive vocabulary","Preschool","Low","Researcher",6.5,"Y","N",20,1.33011550980406,0.390018237810999
+"245",245,39,"Whitehurst et al, 1994b","Expressive Language","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.0799765718604765,0.0841120420579759
+"246",246,39,"Whitehurst et al, 1994b","Receptive vocabulary","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,-0.034264683634723,0.0845502534463785
+"247",247,39,"Whitehurst et al, 1994b","Expressive vocabulary","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.119201164398306,0.0877157054687204
+"248",248,39,"Whitehurst et al, 1994b","Expressive Language","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.303679156919494,0.0884140124170395
+"249",249,39,"Whitehurst et al, 1994b","Print concepts","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.447083203242589,0.16278493626616
+"250",250,39,"Whitehurst et al, 1994b","Miscellaneous","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,1.4424759953676,0.17019502629653
+"251",251,39,"Whitehurst et al, 1994b","Phonological awareness","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.0142349604806014,0.0841632580053611
+"252",252,39,"Whitehurst et al, 1994b","Phonological awareness","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.0253065964099579,0.160899100482986
+"253",253,39,"Whitehurst et al, 1994b","Phonological awareness","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.158741377480645,0.098175572209618
+"254",254,39,"Whitehurst et al, 1994b","Phonological awareness","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.553129892960508,0.0892803549839374
+"255",255,39,"Whitehurst et al, 1994b","Print concepts","Preschool","Low","Combined - Teacher and Parent",30,"Y","N",167,0.35429234973941,0.0875605161504653
+"256",256,40,"Whitehurst et al, 1994a","Expressive vocabulary","Preschool","Low","Teacher",6,"Y","N",50,0.372558659252139,0.289646611278056
+"257",257,40,"Whitehurst et al, 1994a","Receptive vocabulary","Preschool","Low","Teacher",6,"Y","N",50,0.163564084669712,0.274611796037372
+"258",258,40,"Whitehurst et al, 1994a","Expressive vocabulary","Preschool","Low","Teacher",6,"Y","N",50,0.317451096412389,0.33312168530346
+"259",259,40,"Whitehurst et al, 1994a","Expressive Language","Preschool","Low","Teacher",6,"Y","N",50,-0.0639638898161281,0.274268585443516
+"260",260,40,"Whitehurst et al, 1994a","Expressive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",44,0.68602237465788,0.370628392947503
+"261",261,40,"Whitehurst et al, 1994a","Receptive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",44,0.409818572619194,0.308128929553226
+"262",262,40,"Whitehurst et al, 1994a","Expressive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",44,0.58599115844453,0.374184157996316
+"263",263,40,"Whitehurst et al, 1994a","Expressive Language","Preschool","Low","Combined - Teacher and Parent",6,"Y","N",44,-0.35744414813513,0.291205158103798
+"264",264,40,"Whitehurst et al, 1994a","Expressive vocabulary","Preschool","Low","Teacher",6,"Y","Y",50,0.389541390158221,0.338367032296775
+"265",265,40,"Whitehurst et al, 1994a","Receptive vocabulary","Preschool","Low","Teacher",6,"Y","Y",50,-0.216540306425084,0.278065199173968
+"266",266,40,"Whitehurst et al, 1994a","Expressive vocabulary","Preschool","Low","Teacher",6,"Y","Y",50,-0.141786622425751,0.290346465879667
+"267",267,40,"Whitehurst et al, 1994a","Expressive Language","Preschool","Low","Combined - Teacher and Parent",6,"Y","Y",44,0.257784481274818,0.349885037514858
+"268",268,40,"Whitehurst et al, 1994a","Receptive vocabulary","Preschool","Low","Combined - Teacher and Parent",6,"Y","Y",44,0.181803788150059,0.289343752270086
+"269",269,40,"Whitehurst et al, 1994a","Expressive Language","Preschool","Low","Combined - Teacher and Parent",6,"Y","Y",44,-0.0929354785151338,0.309728092609973
+"270",270,41,"Huebner, 2000b","Expressive vocabulary","Preschool","Middle or high","Parent",6,"Y","N",114,-0.32668996325702,0.0456606505607543
+"271",271,41,"Huebner, 2000b","Receptive vocabulary","Preschool","Middle or high","Parent",6,"Y","N",115,0.00119066779111734,0.0488447453918618
+"272",272,42,"Boit 2010","Receptive vocabulary","Preschool","Low","Teacher",8,"Y","N",40,0.439579596398445,0.455201120993414
+"273",273,42,"Boit 2010","Receptive vocabulary","Preschool","Low","Teacher",8,"Y","N",40,1.54883903062667,0.764541736735551
+"274",274,42,"Boit 2010","Miscellaneous","Preschool","Low","Teacher",8,"Y","N",40,0.0171125400989872,0.370458331765625
+"275",275,42,"Boit 2010","Miscellaneous","Preschool","Low","Teacher",8,"Y","N",40,1.4090779986474,0.707275673783596
+"276",276,43,"Lefebvre et al. 2011","Receptive vocabulary","Preschool","Mixed","Researcher",10,"Y","N",22,2.95169015994143,1.89279865819333
+"277",277,43,"Lefebvre et al. 2011","Receptive vocabulary","Preschool","Mixed","Researcher",10,"Y","N",25,1.96088183204991,0.8775384148525
+"278",278,43,"Lefebvre et al. 2011","Print concepts","Preschool","Mixed","Researcher",10,"Y","N",22,1.95189945362676,1.29528558530326
+"279",279,43,"Lefebvre et al. 2011","Print concepts","Preschool","Mixed","Researcher",10,"Y","N",25,2.34035769104758,1.38448402493899
+"280",280,43,"Lefebvre et al. 2011","Phonological awareness","Preschool","Mixed","Researcher",10,"Y","N",22,1.4422868742941,0.94749340280878
+"281",281,43,"Lefebvre et al. 2011","Phonological awareness","Preschool","Mixed","Researcher",10,"Y","N",25,0.0122944185292999,0.350509483715873
+"282",282,44,"Fontes & Cardoso-Martins, 2004","Print concepts","Primary School age","Low","Researcher",16,"N","N",38,1.07875153143221,0.426739720753011
+"283",283,44,"Fontes & Cardoso-Martins, 2004","Phonological awareness","Primary School age","Low","Researcher",16,"N","N",38,1.24135565898329,0.323668558394283
+"284",284,44,"Fontes & Cardoso-Martins, 2004","Receptive vocabulary","Primary School age","Low","Researcher",16,"N","N",38,0.457885252244943,0.348320595002965
+"285",285,45,"Teepe 2017","Receptive vocabulary","Preschool","Mixed","Parent",2,"N","N",71,0.0547894077248614,0.315823268177392
+"286",286,45,"Teepe 2017","Expressive vocabulary","Preschool","Mixed","Parent",2,"N","N",71,0.205621276006428,0.331163151319397
+"287",287,46,"Bunucci 1997","Phonological awareness","Preschool","Middle or high","Teacher",4,"N","N",39,-0.0266515084912959,0.639393753734201
+"288",288,46,"Bunucci 1997","Phonological awareness","Preschool","Middle or high","Teacher",4,"N","Y",39,0.379466716137976,0.669758781295569
+"289",289,47,"Fritz 1990","Print concepts","Primary School age","Low","Researcher",13,"N","N",42,0.802118320904414,0.921287113036282
+"290",290,47,"Fritz 1990","Print concepts","Primary School age","Low","Researcher",13,"N","N",40,1.12408410022765,0.912463045839507
+"291",291,47,"Fritz 1990","Print concepts","Primary School age","Low","Researcher",13,"N","Y",39,0.439444870479048,0.699275893727419
+"292",292,47,"Fritz 1990","Print concepts","Primary School age","Low","Researcher",13,"N","Y",36,0.345542374639983,0.743837712765629
+"293",293,48,"Herrell 1989","Expressive Language","Preschool","Low",NA,10,"N","N",81,0.410403090158467,0.105636907839419
+"294",294,49,"Witt 2000","Print concepts","Preschool","Low","Researcher",6,"N","N",15,1.99315889406236,1.98783226559655
+"295",295,49,"Witt 2000","Print concepts","Preschool","Low","Researcher",6,"N","N",15,2.10168036100598,2.08183910059528
+"296",296,50,"Murray et al 2016","Receptive vocabulary","Preschool","Low","Parent",8,"Y","N",82,0.953414378678202,0.15356395854791
+"297",297,50,"Murray et al 2016","Expressive vocabulary","Preschool","Low","Parent",8,"Y","N",82,5.2562373085013,0.845463488260678
+"298",298,50,"Murray et al 2016","Receptive vocabulary","Preschool","Low","Parent",8,"Y","N",82,0.649997649681744,0.0894302428954845
+"299",299,51,"Woods 2017","Print concepts","Preschool","Low","Parent",10,"Y","N",19,-0.0875346191478753,0.284791155770598
+"300",300,51,"Woods 2017","Print concepts","Preschool","Low","Parent",10,"Y","N",19,-0.231910831571644,0.406520778087833
+"301",301,51,"Woods 2017","Receptive vocabulary","Preschool","Low","Parent",10,"Y","N",19,-0.021407705303326,0.343556300214217
+"302",302,51,"Woods 2017","Expressive vocabulary","Preschool","Low","Parent",10,"Y","N",19,0.321016010946737,0.282444266702527
+"303",303,52,"Silverman et al. (2013)","Receptive vocabulary","Preschool","Low","Teacher",12,"N","N",179,0,0.071581814597894
+"304",304,52,"Silverman et al. (2013)","Receptive vocabulary","Preschool","Low","Teacher",12,"N","N",179,0.548506349715114,0.0929736369169533
+"305",305,53,"Tse and Nicholson (2014)","Phonological awareness","Primary School age","Low","Teacher",12,"N","N",48,0.623801839342713,3.08904576875989
+"306",306,53,"Tse and Nicholson (2014)","Receptive vocabulary","Primary School age","Low","Teacher",12,"N","N",48,-0.235529042933196,0.479656105766215
+"307",307,53,"Tse and Nicholson (2014)","Phonological awareness","Primary School age","Low","Teacher",12,"N","N",48,-1.82417164753388,3.02592233007279
+"308",308,53,"Tse and Nicholson (2014)","Receptive vocabulary","Primary School age","Low","Teacher",12,"N","N",48,0.413100886628745,0.518400225018219
+"309",309,53,"Tse and Nicholson (2014)","Phonological awareness","Primary School age","Low","Teacher",12,"N","N",48,-0.0684777924423415,0.460826445549605
+"310",310,53,"Tse and Nicholson (2014)","Receptive vocabulary","Primary School age","Low","Teacher",12,"N","N",48,-0.291570685363081,0.416548399857623
+"311",311,54,"Hassinger-Das (2013)","Receptive vocabulary","Primary School age","Low","Researcher",8,"Y","N",82,0.227048644269805,0.0782124992594675
+"312",312,54,"Hassinger-Das (2013)","Receptive vocabulary","Primary School age","Low","Researcher",8,"Y","N",82,0.389645848928548,0.0872286153483082
+"313",313,54,"Hassinger-Das (2013)","Receptive vocabulary","Primary School age","Low","Researcher",8,"Y","Y",82,0.407917903264395,0.0970555498431134
+"314",314,54,"Hassinger-Das (2013)","Receptive vocabulary","Primary School age","Low","Researcher",8,"Y","Y",82,0.673285106604477,0.114585545015174
+"315",315,27,"Crandell 2010","Receptive vocabulary","Preschool","Low","Teacher",12,"N","N",193,0.75253999583291,0.231192147970877
+"316",316,27,"Crandell 2010","Receptive vocabulary","Preschool","Low","Teacher",12,"N","N",193,0.123864344503583,0.160196153072901

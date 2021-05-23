@@ -1,0 +1,62 @@
+https://psyarxiv.com/b94qs/
+
+install.packages("metafor")
+install.packages("plyr")
+install.packages("Hmisc")
+install.packages("readxl")
+install.packages("dplyr")
+install.packages("QuantPsyc")
+install.packages("tidyverse")
+
+library("metafor")
+library("plyr")
+library("Hmisc")
+library("readxl")
+library("dplyr")
+library("QuantPsyc")
+library("tidyverse")
+
+# Read in data 
+Meta <- read_excel("Data_Meta-Analysis Prototypicality_OSF.xlsx", sheet = "Included", na = "NA")
+
+# Transform r to Fisher's Z. 
+Meta <- escalc(measure = "ZCOR", ri = r, ni = n, data = Meta)
+
+
+#### SUMMARY STATS ####
+
+# Number of independent effect sizes for each moderating variable 
+ind.samples <- Meta[c("id","source.of.effect.size", "proto.op", "intergroup.context", "proto.strength", "target.leader",
+                      "leader.index", "leader.outcome", "scale", "design")]
+ind.samples <- distinct(ind.samples, id, .keep_all = TRUE)
+ind.samples %>% count(ind.samples$source.of.effect.size) # 1 = published, 2 = thesis, 3 = manuscript, 4 = data file, 5 = presentation
+ind.samples %>% count(ind.samples$proto.op)  
+ind.samples %>% count(ind.samples$intergroup.context) 
+ind.samples %>% count(ind.samples$proto.strength) 
+ind.samples %>% count(ind.samples$target.leader) 
+ind.samples %>% count(ind.samples$leader.index)
+ind.samples %>% count(ind.samples$leader.outcome)
+ind.samples %>% count(ind.samples$scale)
+ind.samples %>% count(ind.samples$design) 
+
+# Number of effect sizes for each moderating variable 
+Meta %>% count(Meta$proto.op)
+Meta %>% count(Meta$intergroup.context)
+Meta %>% count(Meta$proto.strength)
+Meta %>% count(Meta$target.leader)
+Meta %>% count(Meta$leader.index)
+Meta %>% count(Meta$leader.outcome)
+Meta %>% count(Meta$scale)
+Meta %>% count(Meta$design)
+
+# Total sample size (independent samples)
+sample <- Meta[c("id", "n")]
+sample <- distinct(sample, id, .keep_all = TRUE)
+sum(sample$n)
+  
+
+#### SUMMARY MODEL ####
+
+# Summary model
+summodel.multi <- rma.mv(yi, vi, data=Meta, random = list(~ 1 | effect.size.no, ~ 1 | id), 
+                         tdist = TRUE, slab = paste(Meta$label, sep=", ")) 

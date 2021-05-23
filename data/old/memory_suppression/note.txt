@@ -1,0 +1,30 @@
+https://osf.io/kfh27/
+
+META_TNT_SMCC <- read.csv("tntmeta_dataset_revised.csv", header = TRUE, sep = ",", dec = ".", na.strings = "NA",  fileEncoding = "UTF-8")
+
+# Load dataset
+tntdata_within <- META_TNT_SMCC
+
+tntdata_within$group <- as.factor(tntdata_within$group)
+tntdata_within$cluster <- as.factor(tntdata_within$cluster)
+tntdata_within$instructions <- as.factor(tntdata_within$instructions)
+tntdata_within$studyID <- as.factor(tntdata_within$studyID)
+tntdata_within$groupID <- as.factor(tntdata_within$groupID) #IS NOW "sampleID" IN THE MANUSCRIPT
+tntdata_within$valence <- as.factor(tntdata_within$valence)
+tntdata_within$stimuli <- as.factor(tntdata_within$stimuli)
+tntdata_within$repetitions <- as.numeric(tntdata_within$repetitions)
+tntdata_within$tnttime <- as.numeric(tntdata_within$tnttime)
+tntdata_within$esID <- as.factor(tntdata_within$esID)
+tntdata_within$plotID <- as.factor(tntdata_within$plotID)
+
+# Calculate effect sizes
+within_data <- escalc(measure="SMCC", m1i=B, sd1i=B_SD, sd2i=NT_SD, m2i=NT, ri=CORR , ni=N, data=tntdata_within)
+
+# Create separate datasets and models for healthy (HC) and (sub)clinical samples (CP)
+within_data.HC <- within_data[within_data$group=="HC",]
+within_model.HC <- rma.mv(yi, vi, random = ~ 1 | studyID/groupID, slab = authors,  method = "REML", data=within_data.HC)
+within_model.HC_robust <- robust.rma.mv(within_model.HC, cluster = within_data.HC$studyID)
+
+within_data.CP <- within_data[within_data$group=="CP",]
+within_model.CP <- rma.mv(yi, vi, random = ~ 1 | studyID/groupID, slab = authors,  method = "REML", data=within_data.CP)
+within_model.CP_robust <- robust.rma.mv(within_model.CP, cluster = within_data.CP$studyID)

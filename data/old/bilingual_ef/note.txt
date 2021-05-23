@@ -1,0 +1,58 @@
+https://osf.io/na2ur/
+
+library(metafor)
+
+## Calculate effect size using means and SDs. Wrote to CSV so effect size can be manually coded (direction) depending on the outcome measure. 
+## All other effect sizes were calculated using practical meta effect size calculator
+
+raw.data.effectsize <- escalc(measure = "SMD", vtype = "UB", m1i = MonoMean, m2i = BiMean, sd1i = MonoSD, sd2i = BiSD, n1i = MonoN, n2i = BiN, data = raw.data) 
+write.csv(raw.data.effectsize,file= "ES.csv")
+
+
+#Generating models for comparison. On Raw Data  
+
+One.level.model   <- rma.mv(yi, vi, data = raw.data, method = "REML") # Generating models
+print(One.level.model, digits= 3)
+Two.level.model   <- rma.mv(yi, vi, data = raw.data, method = "REML", random = ~ 1 | Participants)
+print(Two.level.model, digits= 3)
+Three.level.model  <- rma.mv(yi, vi, data = raw.data, method = "REML", random = ~ 1 |Study/Participants)
+print(Three.level.model, digits=3)
+Four.level.model <- rma.mv(yi, vi, data = raw.data, method = "REML", random = ~ 1 |LabGroup/Study/Participants)
+print(Four.level.model, digits=3)
+
+anova(One.level.model, Two.level.model) # Comparing models
+anova(Two.level.model, Three.level.model)
+anova(Three.level.model, Four.level.model)
+
+
+#########################################################################
+# Trim data to remove outlier effect sizes greater than and less 3      #
+#########################################################################
+
+trim.data <- subset(raw.data, yi >= -3 & yi <= 3) 
+
+#########################################################################
+# Model the trimmed data                                                #
+#########################################################################
+
+One.level.model   <- rma.mv(yi, vi, data = trim.data, method = "REML") # Generating models
+print(One.level.model, digits= 3)
+Two.level.model   <- rma.mv(yi, vi, data = trim.data, method = "REML", random = ~ 1 | Participants)
+print(Two.level.model, digits= 3)
+Three.level.model   <- rma.mv(yi, vi, data = trim.data, method = "REML", random = ~ 1 |Study/Participants)
+print(Three.level.model, digits= 3)
+Four.level.model  <- rma.mv(yi, vi, data = trim.data, method = "REML", random = ~ 1 |LabGroup/Study/Participants)
+print(Four.level.model, digits=3)
+
+anova(One.level.model, Two.level.model) # Comparing models
+anova(Two.level.model, Three.level.model)
+anova(Three.level.model, Four.level.model)
+
+#################################################################################
+#Create profile plot for the four.level.model. This is used to assess model fit #
+#################################################################################
+
+par(mfrow=c(2,1))
+profile(Four.level.model, sigma2=1)
+profile(Four.level.model, sigma2=2)
+profile(Four.level.model, sigma2=3)
