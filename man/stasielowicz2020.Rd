@@ -36,7 +36,8 @@ A data frame with 133 rows and 23 variables:
 data("stasielowicz2020")
 }
 \description{
-Results from 47 independent samples, including 133 effect sizes (r), on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psychmetadata}.
+Results from 47 independent samples, including 133 effect sizes (r),
+on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psychmetadata}.
 }
 \details{
 Further details can be found at \href{https://psyarxiv.com/qu4t2/}{https://psyarxiv.com/qu4t2/}

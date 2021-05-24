@@ -530,7 +530,8 @@
 
 #' @title Studies on the importance of cognitive ability in performance adaptation
 #'
-#' @description Results from 47 independent samples, including 133 effect sizes (r), on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psychmetadata}.
+#' @description Results from 47 independent samples, including 133 effect sizes (r),
+#' on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psychmetadata}.
 #'
 #' @format A data frame with 133 rows and 23 variables:
 #'

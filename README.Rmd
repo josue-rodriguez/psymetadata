@@ -38,7 +38,7 @@ Feel free to include as many moderators or additional columns as you would like.
 
 
 ### 2)
-Assign your dataset to an object with the format `[firstauthor][year]`your dataset to the `data` folder with the format `[firstauthor][year].rda`, e.g.
+Assign your dataset to an object with the format `[firstauthor][year]` and save it to the `data` folder with the format `[firstauthor][year].rda`, e.g.
 
 ```{r}
 curry2015 <- cleaned_dataset
@@ -51,14 +51,15 @@ where `curry2015` is a dataset originally collected from the publication Curry, 
 Add a bibtex reference to `inst/REFERENCES.bib` file. This can be easily obtained with a citation manager (e.g., Zotero) or with Google scholar 
 
 ### 4)
-Document your dataset in the `R/data.R` file.
+Document your dataset at the bottom of the `R/data.R` file. 
 
-The documentation should have a similar format to this:
+The documentation should roughly follow this format:
 
 ```
 #' @title [Title]
 #'
-#' @description Results from [# of studies] studies, including [# of effect sizes] effect sizes ([type of effect size]), on [short description of studies] \insertCite{[cite key]}{psychmetadata}.
+#' @description Results from [# of studies] studies, including [# of effect sizes] effect sizes ([type of effect size]), 
+#' on [short description of studies] \insertCite{[cite key]}{psychmetadata}.
 #'
 #' @format A data frame with [number of rows] rows and [number of rows] variables:
 #'
