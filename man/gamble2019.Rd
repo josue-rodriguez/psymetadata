@@ -3,37 +3,40 @@
 \docType{data}
 \name{gamble2019}
 \alias{gamble2019}
-\title{Meta-analytic data collected from}
+\title{Meta-analytic data collected from studying on the specificity of future thinking in depression}
 \format{
-* \code{study_id}: Unique id for study
-* \code{samp_id}: Unique id for each sample
-* \code{es_id}: Unique id for effect size
-* \code{authors}: Authors of study
-* \code{yi}: Effect size in r
-* \code{vi}: Variance of effect size
-* \code{ni}: Sample size of study
-* \code{sex}: Proportion of study that was female
-* \code{age}: Mean age of participants
-* \code{dep_status}: Clinical status of depression
-* \code{comorbid_anx}: Whehter comorbid with anxiety
-* \code{emo_val}: Emotional valence of simulations
-* \code{macro_micro}: Macro vs. micro specificity
-* \code{cue_type}: Cue type
-* \code{spec_rated}: Self- vs. researcher-rated specificity
-* \code{dep_rated}: Self- vs. researcher-rated depression
-* \code{cat_dim}: Categorical vs. dimensional designs
-* \code{quality}: Study quality rating
-* \code{published}: Published or not
-* \code{mode}: Mode or prospection
+A data frame with 89 rows and 20 variables.
+\itemize{
+\item \code{study_id}: Unique id for study
+\item \code{samp_id}: Unique id for each sample
+\item \code{es_id}: Unique id for effect size
+\item \code{authors}: Authors of study
+\item \code{yi}: Effect size in r
+\item \code{vi}: Variance of effect size
+\item \code{ni}: Sample size of study
+\item \code{sex}: Proportion of study that was female
+\item \code{age}: Mean age of participants
+\item \code{dep_status}: Clinical status of depression
+\item \code{comorbid_anx}: Whehter comorbid with anxiety
+\item \code{emo_val}: Emotional valence of simulations
+\item \code{macro_micro}: Macro vs. micro specificity
+\item \code{cue_type}: Cue type
+\item \code{spec_rated}: Self- vs. researcher-rated specificity
+\item \code{dep_rated}: Self- vs. researcher-rated depression
+\item \code{cat_dim}: Categorical vs. dimensional designs
+\item \code{quality}: Study quality rating
+\item \code{published}: Published or not
+\item \code{mode}: Mode or prospection
+}
 }
 \source{
-\href{https://osf.io/5wjb2/}{Open Science Framework}
+\href{https://osf.io/5wjb2/}{https://osf.io/5wjb2/}
 }
 \usage{
 data(gamble2019)
 }
 \description{
-To be filled in.. \insertNoCite{gamble2019specificity}{psychmetadata}
+Results from 46 studies, including 89 effect sizes (r), on the specificity of future thinking in depression \insertCite{gamble2019specificity}{psychmetadata}
 }
 \references{
 \insertAllCited{}

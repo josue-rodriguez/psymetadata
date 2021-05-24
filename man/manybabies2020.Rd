@@ -20,7 +20,7 @@ A dataset with 108 rows and 8 variables.
 }
 }
 \source{
-\href{https://github.com/manybabies/mb1-analysis-public}{GitHub}
+\href{https://github.com/manybabies/mb1-analysis-public}{https://github.com/manybabies/mb1-analysis-public}
 }
 \usage{
 data(manybabies2020)

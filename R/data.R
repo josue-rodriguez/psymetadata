@@ -123,7 +123,7 @@
 #' @references
 #' \insertAllCited{}
 #'
-#' @source \href{https://github.com/manybabies/mb1-analysis-public}{GitHub}
+#' @source \href{https://github.com/manybabies/mb1-analysis-public}{https://github.com/manybabies/mb1-analysis-public}
 #'
 #'
 #'
@@ -169,7 +169,7 @@
 #'  \emph{Advances in Methods and Practices in Psychological Science}, \emph{1}(4), 443-490.
 #' (\href{https://www.psychologicalscience.org/publications/many-labs-2}{APS})
 #'
-#' @source \href{https://osf.io/ux3eh/}{Open Science Framework}
+#' @source \href{https://osf.io/ux3eh/}{https://osf.io/ux3eh/}
 #'
 #'
 #'
@@ -180,30 +180,29 @@
 #'
 #' Studies on the cognitive and academic benefits of Cogmed
 #'
-#' @description To be filled in...
-#'
-#' \insertNoCite{aksayli2019cognitive}{psychmetadata}
+#' @description Results from 48 studies, including 637 effect sizes (Hedge's g), on the effect of the Cogmed Working Memory Training program on cognitive and academic outcomes \insertCite{aksayli2019cognitive}{psychmetadata}.
 #'
 #' @docType data
 #'
 #' @usage data(aksayli2019)
 #'
-#' @format A dataset with 637 rows and 39 variables.
-#' * \code{study_id}:
-#' * \code{es_id}:
-#' * \code{yi}: Effect size in Hedge's g
-#' * \code{vi}: Variance (SE^2)
-#' * \code{ni}: Sample size
-#' * \code{author}:
-#' * \code{transfer}: Transfer type: near or far
-#' * \code{test}: Type of working memory test?
-#' * \code{allocation}: Whether participants were randomly assigned
-#' * \code{comparison}: Active or non-active: whether the CWMT groups was compared to another cognitively demannding activity
-#' * \code{baseline}: Standardized mean difference corrected for upward bias between exp. and control at pre-test assessment
-#' * \code{age_group}: Whether participants were children (< 16 yrs), adults (17-55), or older adults (> 55)
-#' * \code{age_mean_exp}:
-#' * \code{age_mean_control}{}
-#' * \code{population}: Whether the participants were typical subjects not suffering from any clinical conditions
+#' @format A dataset with 637 rows and 15 variables.
+#'
+#' * \code{study_id}: unique id for study
+#' * \code{es_id}: unique id for effect size
+#' * \code{yi}: effect size in Hedge's g
+#' * \code{vi}: variance (SE^2)
+#' * \code{ni}: sample size
+#' * \code{author}: author of study
+#' * \code{transfer}: transfer type: near or far
+#' * \code{test}: type of working memory test?
+#' * \code{allocation}: whether participants were randomly assigned
+#' * \code{comparison}: active or non-active: whether the CWMT groups was compared to another cognitively demannding activity
+#' * \code{baseline}: standardized mean difference corrected for upward bias between exp. and control at pre-test assessment
+#' * \code{age_group}: whether participants were children (< 16 yrs), adults (17-55), or older adults (> 55)
+#' * \code{age_mean_exp}: mean age of experimental group
+#' * \code{age_mean_control}: mean age of control group
+#' * \code{population}: whether the participants were typical subjects not suffering from any clinical conditions
 #' @md
 #'
 #' @keywords datasets
@@ -212,75 +211,66 @@
 #' @references
 #' \insertAllCited{}
 #'
-#' @source \href{https://osf.io/jhavp/}{Open Science Framework}
+#' @source \href{https://osf.io/jhavp/}{https://osf.io/jhavp/}
 #'
 #'
 #'
 "aksayli2019"
 
-
 #' Studies on the impact of working-memory training on near- and far-transfer measures
 #'
-#' @description To be filled in...
-#'
-#' \insertNoCite{sala2019near}{psychmetadata}
+#' @description Results from 332 studies, including 1,555 effect sizes (Hedge's g), on whether skills learned from cognitive training generalize to other situations \insertCite{sala2019near}{psychmetadata}.
 #'
 #' @docType data
 #'
 #' @usage data(sala2019)
 #'
-#' @format A dataset with 1,555 rows and 15 variables.
-#' * \code{id}: A numeric containing a unique id for each observed effect
-#' * \code{study_id}: A numeric containing a unique id for each meta-analysis
-#' * \code{study_name}: A character indicating the author, year, and comparison number (if applicable) of the meta-analysis
-#' * \code{n}: A numeric containing the total sample size for the observed effect size in the meta-analysis
-#' * \code{g}: A numeric containing the observed effect size, expressed in Hedge's g
-#' * \code{se}: A numeric containing the standard error of the observed effect size
-#' * \code{var}: A numeric containing the variance of the observed effect size
-#' * \code{r}: A numeric containing the observed effect size, observed as r
-#' * \code{comparison}:
-#' * \code{age}:
-#' * \code{type}:
-#' * \code{test}:
-#' * \code{model}:
+#' @format A data frame with 1,555 rows and 10 variables:
+#'
+#' * \code{study_id}: unique id for each meta-analysis
+#' * \code{es_id}: unique id for each effect size
+#' * \code{yi}: the observed effect size, expressed in Hedge's g
+#' * \code{vi}: the variance of the observed effect size
+#' * \code{ni}: the total sample size for the observed effect size in the meta-analysis
+#' * \code{author}: author of study
+#' * \code{comparison}: type of control group ("Active" or "Non-active")
+#' * \code{age}: Age group used in study ("adults", "LD children", "TD children", "old", or "children")
+#' * \code{test}: test used in study
+#' * \code{model}: indicator for which model the study is used (see paper for details)
 #'
 #' @keywords datasets
 #'
-#'
 #' @references
 #' \insertAllCited{}
-#' @source \href{https://osf.io/qk2vu/}{Open Science Framework}
-#'
-#'
+#' @source \href{https://osf.io/qk2vu/}{https://osf.io/qk2vu/}
 #'
 "sala2019"
 
 
 #' Studies on the Facial Feedback Literature
 #'
-#' @description To be filled in.. \insertNoCite{coles2019meta}{psychmetadata}
+#' @description Results from 138 studies, including 274] effect sizes (Cohen's d), on the facial feedback hypothesis \insertCite{coles2019meta}{psychmetadata}.
 #'
 #' @docType data
 #'
 #' @usage data(coles2019)
 #'
-#' @format A dataset with 286 rows and 52 variables.
-#' \describe{
-#'    \item{study_id}{Unique id for study}
-#'    \item{es_id}{Unique id for effect size}
-#'    \item{yi}{Effect size in Cohen's d}
-#'    \item{vi}{Variance of effect size (SE^2)}
-#'    \item{title}{Title of publication}
-#'    \item{year}{Year of publication}
-#'    \item{file_drawer}{Publicatin status}
-#'    \item{prop_women}{Proportion of study that identified as women}
-#'    \item{video_know}{Yes: Participants were told they were going to be recorded or the methodology stated that a video camera was placed within participant view.
-#'                      No" Methodology stated that participants were unaware of video recording, that the video camera was hidden, or that there was not a video camera}
-#'    \item{stim}{Type of stimuli}
-#'    \item{proc}{Type of facial feedback manipulation}
-#'    \item{proc_aware}{Whether participants were aware of the facial feedback manipulation}
-#'    \item{w_v_b}{Whether the study used a between- or within-subjects design}
-#'    }
+#' @format A dataset with 286 rows and 13 variables.
+#'
+#' * \code{study_id}: Unique id for study
+#' * \code{es_id}: Unique id for effect size
+#' * \code{yi}: Effect size in Cohen's d
+#' * \code{vi}: Variance of effect size (SE^2)
+#' * \code{title}: Title of publication
+#' * \code{year}: Year of publication
+#' * \code{file_drawer}: Publication status
+#' * \code{prop_women}: Proportion of study that identified as women
+#' * \code{video_know}: Yes: Participants were told they were going to be recorded or the methodology stated that a video camera was placed within participant view.
+#'                      No" Methodology stated that participants were unaware of video recording, that the video camera was hidden, or that there was not a video camera
+#' * \code{stim}: Type of stimuli
+#' * \code{proc}: Type of facial feedback manipulation
+#' * \code{proc_aware}: Whether participants were aware of the facial feedback manipulation
+#' * \code{w_v_b}: Whether the study used a between- or within-subjects design
 #' @md
 #'
 #' @keywords datasets
@@ -289,44 +279,42 @@
 #' @references
 #' \insertAllCited{}
 #'
-#' @source \href{https://osf.io/v8kxb/}{Open Science Framework}
+#' @source \href{https://osf.io/v8kxb/}{https://osf.io/v8kxb/}
 #'
 #'
 #'
 "coles2019"
 
+
 #'
+#' Data collected from meta-analyses on intelligence research
 #'
-#' Meta-analytic data collected from
-#'
-#' @description To be filled in...
-#'
-#' \insertNoCite{nuijten2020effect}{psychmetadata}
+#' @description Data resulting from 131 meta-analyses, including 2443 effect sizes (fisher-z), on different areas of intelligence research \insertCite{nuijten2020effect}{psychmetadata}
 #'
 #' @docType data
 #'
 #' @usage data(nuijten2020)
 #'
-#' @format A dataset with 2443 rows and 23 variables.
+#' @format A dataset with 2443 rows and 14 variables.
 #'
 #' * \code{study_id}: Unique id for study
 #' * \code{effect_id}: Unique id for effect size
-#' * \code{authors}: A factor encoding an identifier for the primary study within a meta-analysis based o
+#' * \code{authors}: identifier for the primary study within a meta-analysis based o
 #'                             the first author of the study or the sample used
-#' * \code{year}: A numeric indicating the year in which the primary study was reported
-#' * \code{yi}: A numeric indicating the original effect size converted to a Fishers z value
-#' * \code{vi}: A numeric indicating the variance around the z value in \code{yi}
-#' * \code{ni}: A numeric indicating the total sample size of the primary study
-#' * \code{es}: A numeric of the effect size as indicated in \code{type_es}
-#' * \code{se}: A numeric of the standard errors of the effect size
-#' * \code{type_es}: A factor indicating the type of effect size extracted from the meta-analysis; 1 = r transformed to Fishers z, 2 = Hedge's g, 3 = log odds ratio
+#' * \code{year}: year in which the primary study was reported
+#' * \code{yi}: original effect size converted to a Fishers z value
+#' * \code{vi}: variance around the z value in \code{yi}
+#' * \code{ni}: total sample size of the primary study
+#' * \code{es}: effect size as indicated in \code{type_es}
+#' * \code{se}: standard errors of the effect size
+#' * \code{type_es}: the type of effect size extracted from the meta-analysis; 1 = r transformed to Fishers z, 2 = Hedge's g, 3 = log odds ratio
 #'                   4 = Cohen's d, 5 = Hazard Ratio, 6, 7, 8 = other
-#' * \code{type}: A factor indicating why type of IQ research was summarized by the meta-analysis; 1 = Correlational, 2 = Group_differences
+#' * \code{type}: type of IQ research summarized by the meta-analysis; 1 = Correlational, 2 = Group_differences
 #'                3 = Experiments/Interventions, 4 = Toxicology, 5 = (Behavior) Genetics
-#' * \code{citations}: A numeric indicating number of times the primary study was cited
-#' * \code{countrycode}: A factor the country in which the first author of a primary study was situated at the time of publication
-#' * \code{jrnl_impact}: A numeric indicating the impact factor in 2014 of the journal where the primary study was published
-#' * \code{similarity}: A factor indicating whether the primary study matched the research question of the meta-analysis; 0 = dissimilar, 1 = similar
+#' * \code{citations}: number of times the primary study was cited
+#' * \code{countrycode}: country in which the first author of a primary study was situated at the time of publication
+#' * \code{jrnl_impact}: impact factor in 2014 of the journal where the primary study was published
+#' * \code{similarity}: whether the primary study matched the research question of the meta-analysis; 0 = dissimilar, 1 = similar
 #' @md
 #'
 #' @keywords datasets
@@ -334,27 +322,23 @@
 #' @references
 #' \insertAllCited{}
 #'
-#' @source \href{https://osf.io/fq5wp/}{Open Science Framework}
+#' @source \href{https://osf.io/fq5wp/}{https://osf.io/fq5wp/}
 #'
 #'
 #'
 "nuijten2020"
 
 
-
 #'
-#' Meta-analytic data collected from
+#' Meta-analytic data collected from studying on the specificity of future thinking in depression
 #'
-#'
-#' @description To be filled in.. \insertNoCite{gamble2019specificity}{psychmetadata}
-#'
+#' @description Results from 46 studies, including 89 effect sizes (r), on the specificity of future thinking in depression \insertCite{gamble2019specificity}{psychmetadata}
 #'
 #' @docType data
 #'
-#'
 #' @usage data(gamble2019)
 #'
-#' @format
+#' @format A data frame with 89 rows and 20 variables.
 #'
 #' * \code{study_id}: Unique id for study
 #' * \code{samp_id}: Unique id for each sample
@@ -376,18 +360,17 @@
 #' * \code{quality}: Study quality rating
 #' * \code{published}: Published or not
 #' * \code{mode}: Mode or prospection
-#'
+#'@md
 #'
 #' @keywords datasets
 #'
 #' @references
 #' \insertAllCited{}
-#' @source \href{https://osf.io/5wjb2/}{Open Science Framework}
+#'
+#' @source \href{https://osf.io/5wjb2/}{https://osf.io/5wjb2/}
 #'
 #'
 "gamble2019"
-
-
 
 
 #' @title Studies on the Color Red and Cognitive Performance
@@ -817,7 +800,7 @@
 
 # #' @title
 # #'
-# #' @description Results from X studies, including X effect sizes (r), on X \insertCite{}{psychmetadata}.
+# #' @description Results from [number of studies] studies, including [number of effect sizes] effect sizes ([type of effect size]), on [short description] \insertCite{[biblatex key]}{psychmetadata}.
 # #'
 # #' @format A data frame with X rows and X variables:
 # #'

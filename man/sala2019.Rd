@@ -5,31 +5,27 @@
 \alias{sala2019}
 \title{Studies on the impact of working-memory training on near- and far-transfer measures}
 \format{
-A dataset with 1,555 rows and 15 variables.
-* \code{id}: A numeric containing a unique id for each observed effect
-* \code{study_id}: A numeric containing a unique id for each meta-analysis
-* \code{study_name}: A character indicating the author, year, and comparison number (if applicable) of the meta-analysis
-* \code{n}: A numeric containing the total sample size for the observed effect size in the meta-analysis
-* \code{g}: A numeric containing the observed effect size, expressed in Hedge's g
-* \code{se}: A numeric containing the standard error of the observed effect size
-* \code{var}: A numeric containing the variance of the observed effect size
-* \code{r}: A numeric containing the observed effect size, observed as r
-* \code{comparison}:
-* \code{age}:
-* \code{type}:
-* \code{test}:
-* \code{model}:
+A data frame with 1,555 rows and 10 variables:
+
+* \code{study_id}: unique id for each meta-analysis
+* \code{es_id}: unique id for each effect size
+* \code{yi}: the observed effect size, expressed in Hedge's g
+* \code{vi}: the variance of the observed effect size
+* \code{ni}: the total sample size for the observed effect size in the meta-analysis
+* \code{author}: author of study
+* \code{comparison}: type of control group ("Active" or "Non-active")
+* \code{age}: Age group used in study ("adults", "LD children", "TD children", "old", or "children")
+* \code{test}: test used in study
+* \code{model}: indicator for which model the study is used (see paper for details)
 }
 \source{
-\href{https://osf.io/qk2vu/}{Open Science Framework}
+\href{https://osf.io/qk2vu/}{https://osf.io/qk2vu/}
 }
 \usage{
 data(sala2019)
 }
 \description{
-To be filled in...
-
-\insertNoCite{sala2019near}{psychmetadata}
+Results from 332 studies, including 1,555 effect sizes (Hedge's g), on whether skills learned from cognitive training generalize to other situations \insertCite{sala2019near}{psychmetadata}.
 }
 \references{
 \insertAllCited{}

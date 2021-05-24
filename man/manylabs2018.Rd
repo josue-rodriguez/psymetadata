@@ -27,7 +27,7 @@ A dataset with 1,414 rows and 23 variables.
 }
 }
 \source{
-\href{https://osf.io/ux3eh/}{Open Science Framework}
+\href{https://osf.io/ux3eh/}{https://osf.io/ux3eh/}
 }
 \usage{
 data(manylabs2018)

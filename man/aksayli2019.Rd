@@ -5,35 +5,33 @@
 \alias{aksayli2019}
 \title{Studies on the cognitive and academic benefits of Cogmed}
 \format{
-A dataset with 637 rows and 39 variables.
+A dataset with 637 rows and 15 variables.
 \itemize{
-\item \code{study_id}:
-\item \code{es_id}:
-\item \code{yi}: Effect size in Hedge's g
-\item \code{vi}: Variance (SE^2)
-\item \code{ni}: Sample size
-\item \code{author}:
-\item \code{transfer}: Transfer type: near or far
-\item \code{test}: Type of working memory test?
-\item \code{allocation}: Whether participants were randomly assigned
-\item \code{comparison}: Active or non-active: whether the CWMT groups was compared to another cognitively demannding activity
-\item \code{baseline}: Standardized mean difference corrected for upward bias between exp. and control at pre-test assessment
-\item \code{age_group}: Whether participants were children (< 16 yrs), adults (17-55), or older adults (> 55)
-\item \code{age_mean_exp}:
-\item \code{age_mean_control}{}
-\item \code{population}: Whether the participants were typical subjects not suffering from any clinical conditions
+\item \code{study_id}: unique id for study
+\item \code{es_id}: unique id for effect size
+\item \code{yi}: effect size in Hedge's g
+\item \code{vi}: variance (SE^2)
+\item \code{ni}: sample size
+\item \code{author}: author of study
+\item \code{transfer}: transfer type: near or far
+\item \code{test}: type of working memory test?
+\item \code{allocation}: whether participants were randomly assigned
+\item \code{comparison}: active or non-active: whether the CWMT groups was compared to another cognitively demannding activity
+\item \code{baseline}: standardized mean difference corrected for upward bias between exp. and control at pre-test assessment
+\item \code{age_group}: whether participants were children (< 16 yrs), adults (17-55), or older adults (> 55)
+\item \code{age_mean_exp}: mean age of experimental group
+\item \code{age_mean_control}: mean age of control group
+\item \code{population}: whether the participants were typical subjects not suffering from any clinical conditions
 }
 }
 \source{
-\href{https://osf.io/jhavp/}{Open Science Framework}
+\href{https://osf.io/jhavp/}{https://osf.io/jhavp/}
 }
 \usage{
 data(aksayli2019)
 }
 \description{
-To be filled in...
-
-\insertNoCite{aksayli2019cognitive}{psychmetadata}
+Results from 48 studies, including 637 effect sizes (Hedge's g), on the effect of the Cogmed Working Memory Training program on cognitive and academic outcomes \insertCite{aksayli2019cognitive}{psychmetadata}.
 }
 \references{
 \insertAllCited{}
