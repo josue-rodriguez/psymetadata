@@ -46,8 +46,9 @@ Curry, Thompson, and Green (2015)
 
 ### 3)
 
-Add a bibtex reference to `inst/REFERENCES.bib` file. This can be easily
-obtained with a citation manager (e.g., Zotero) or with Google scholar
+Add a bibtex reference to the `inst/REFERENCES.bib` file. This can be
+easily obtained with a citation manager (e.g., Zotero) or with Google
+scholar
 
 ### 4)
 
@@ -62,12 +63,12 @@ The documentation should roughly follow this format:
     #'
     #' @format A data frame with [number of rows] rows and [number of rows] variables:
     #'
-    #' * \code{yi}: 
-    #' * \code{vi}:
-    #' * \code{study_id}:
-    #' * \code{es_id}:
-    #' * \code{moderator1}:
-    #' * \code{moderator2}:
+    #' * \code{yi}: [description]
+    #' * \code{vi}: [description]
+    #' * \code{study_id}: [description]
+    #' * \code{es_id}: [description]
+    #' * \code{moderator1}: [description]
+    #' * \code{moderator2}: [description]
     #'
     #'
     #' @md
