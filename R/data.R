@@ -798,21 +798,21 @@
 "schroeder2020"
 
 
-# #' @title
+# #' @title [Title]
 # #'
-# #' @description Results from [number of studies] studies, including [number of effect sizes] effect sizes ([type of effect size]), on [short description] \insertCite{[biblatex key]}{psychmetadata}.
+# #' @description Results from [# of studies] studies, including [# of effect sizes] effect sizes ([type of effect size]), on [short description] \insertCite{[cite key]}{psychmetadata}.
 # #'
-# #' @format A data frame with X rows and X variables:
+# #' @format A data frame with [# number of rows] rows and [# number of rows] variables:
 # #'
 # #' * \code{}:
 # #'
 # #'
 # #' @md
 # #'
-# #' @details Further details can be found at \href{}{}
+# #' @details Further details can be found at \href{[link]}{[link]}
 # #'
-# #' @usage data("X")
+# #' @usage data("[daaset]")
 # #'
 # #' @references
 # #' \insertAllCited{}
-# "X"
+# "[dataset]"
