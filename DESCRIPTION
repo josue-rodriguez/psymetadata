@@ -1,11 +1,11 @@
 Package: psychmetadata
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: Open datasets from meta-analyses in psychology research
+Version: 1.0.0
 Authors@R: c(person("Josue E.", "Rodriguez", email = "josue.rodriguez594@gmail.com", role = c("aut", "cre")),
              person("Donald", "Williams", email = "drwwilliams@ucdavis.edu", role = "aut"))
-Description: Open datasets from meta-analyses in psychology research
-License: GPL-2
+Description: Data and examples from meta-analyses in psychology research
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
