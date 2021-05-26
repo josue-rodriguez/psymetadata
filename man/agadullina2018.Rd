@@ -14,7 +14,7 @@ A data frame with 85 rows and 9 variables:
 \item \code{n}: sample size
 \item \code{design}: within or between subjects design
 \item \code{ent_alpha}: entitativity score
-\item \code{yi}: effect size (Fisher z)
+\item \code{yi}: effect size (fisher-z)
 \item \code{vi}: sampling variance (SE^2)
 }
 }
@@ -22,7 +22,7 @@ A data frame with 85 rows and 9 variables:
 data("agadullina2018")
 }
 \description{
-Results from 21 studies, including 85 effect sizes (Fisher Z), on the effect of
+Results from 21 studies, including 85 effect sizes (fisher-z), on the effect of
 out-Group entitativity and prejudice \insertCite{agadullina2018people}{psychmetadata}.
 }
 \details{

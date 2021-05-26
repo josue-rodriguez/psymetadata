@@ -15,7 +15,7 @@ A data frame with 251 rows and 10 variables:
 \item \code{published}: 0 = published; 1 = unpublished
 \item \code{proto_strength}: 0 = ad-hoc; 1 = natural
 \item \code{target.leader}: 0 = informal; 1 = formal
-\item \code{yi}: effect size (Fisher z)
+\item \code{yi}: effect size (fisher-z)
 \item \code{vi}: sampling variance (SE^2)
 }
 }
@@ -23,7 +23,7 @@ A data frame with 251 rows and 10 variables:
 data("steffens2020")
 }
 \description{
-Results from 128 studies, including 251 effect sizes (Fisher Z), on the extent to which
+Results from 128 studies, including 251 effect sizes (fisher-z), on the extent to which
 a leader is perceived to embody shared social identity \insertCite{steffens2021advancing}{psychmetadata}.
 }
 \details{

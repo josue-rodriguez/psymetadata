@@ -402,7 +402,7 @@
 
 #' @title Studies on Out-Group Entitativity and Prejudice
 #'
-#' @description Results from 21 studies, including 85 effect sizes (Fisher Z), on the effect of
+#' @description Results from 21 studies, including 85 effect sizes (fisher-z), on the effect of
 #' out-Group entitativity and prejudice \insertCite{agadullina2018people}{psychmetadata}.
 #'
 #'
@@ -415,7 +415,7 @@
 #' * \code{n}: sample size
 #' * \code{design}: within or between subjects design
 #' * \code{ent_alpha}: entitativity score
-#' * \code{yi}: effect size (Fisher z)
+#' * \code{yi}: effect size (fisher-z)
 #' * \code{vi}: sampling variance (SE^2)
 #' @md
 #'
@@ -429,7 +429,7 @@
 
 #' @title Studies on Social Identity Theory and Leadership: Leader Group Prototypicality
 #'
-#' @description Results from 128 studies, including 251 effect sizes (Fisher Z), on the extent to which
+#' @description Results from 128 studies, including 251 effect sizes (fisher-z), on the extent to which
 #' a leader is perceived to embody shared social identity \insertCite{steffens2021advancing}{psychmetadata}.
 #'
 #' @format A data frame with 251 rows and 10 variables:
@@ -442,7 +442,7 @@
 #' * \code{published}: 0 = published; 1 = unpublished
 #' * \code{proto_strength}: 0 = ad-hoc; 1 = natural
 #' * \code{target.leader}: 0 = informal; 1 = formal
-#' * \code{yi}: effect size (Fisher z)
+#' * \code{yi}: effect size (fisher-z)
 #' * \code{vi}: sampling variance (SE^2)
 #' @md
 #'
