@@ -17,7 +17,6 @@ knitr::opts_chunk$set(
 # psychmetadata
 
 <!-- badges: start -->
-<!-- [![CircleCI build status](https://circleci.com/gh/josue-rodriguez/psychmetadata.svg?style=shield)](https://circleci.com/gh/josue-rodriguez/psychmetadata) -->
 <!-- badges: end -->
 
 This data package provides open datasets from meta-analyses from different areas in psychological science. 
@@ -59,8 +58,8 @@ The documentation should roughly follow this format:
 ```
 #' @title [Title]
 #'
-#' @description Results from [# of studies] studies, including [# of effect sizes] effect sizes ([type of effect size]), 
-#' on [short description of studies] \insertCite{[cite key]}{psychmetadata}.
+#' @description Results from [# of studies] studies, including [# of effect sizes] effect 
+#' sizes ([type of effect size]), on [short description of studies] \insertCite{[cite key]}{psychmetadata}.
 #'
 #' @format A data frame with [# of rows] rows and [# of columns] variables:
 #'
