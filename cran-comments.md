@@ -17,4 +17,3 @@ There was 1 NOTE:
 * checking CRAN incoming feasibility ... NOTE
 Maintainer: ‘Josue E. Rodriguez <josue.rodriguez594@gmail.com>’
 
-New submission

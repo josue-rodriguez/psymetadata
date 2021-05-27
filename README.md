@@ -11,10 +11,14 @@ different areas in psychological science.
 
 ## Adding a dataset
 
-If you’d like to contribute a dataset to this package please fork the
-repository and do the following steps:
+If you’d like to contribute a dataset to this package please do the
+following steps:
 
 ### 1)
+
+Clone the repository to your local machine
+
+### 2)
 
 Clean your dataset so it is of type `data.frame` and has at least the
 following columns:
@@ -30,7 +34,7 @@ done by calling `janitor::clean_names()` on your data set.
 Feel free to include as many moderators or additional columns as you
 would like.
 
-### 2)
+### 3)
 
 Assign your dataset to an object with the format `[firstauthor][year]`
 and save it to the `data` folder with the format
@@ -44,13 +48,13 @@ save(curry2015, file = "data/curry2015.rda")
 where `curry2015` is a dataset originally collected from the publication
 Curry, Thompson, and Green (2015)
 
-### 3)
+### 4)
 
 Add a bibtex reference to the `inst/REFERENCES.bib` file. This can be
 easily obtained with a citation manager (e.g., Zotero) or with Google
 scholar
 
-### 4)
+### 5)
 
 Document your dataset at the bottom of the `R/data.R` file.
 
@@ -83,6 +87,6 @@ The documentation should roughly follow this format:
 
 -   Take a look at the `data.R` file for more examples
 
-### 5)
+### 6)
 
 Submit a pull request
