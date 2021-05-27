@@ -3,3 +3,4 @@
 ^README\.Rmd$
 ^\.circleci$
 ^cran-comments\.md$
+^psychmetadata_1.0.0\.pdf$
