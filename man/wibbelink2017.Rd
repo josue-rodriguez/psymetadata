@@ -26,9 +26,8 @@ A data frame with 100 rows and 10 variables.
 data(wibbelink2017)
 }
 \description{
-Meta-analytic data on studies investigating associations between mental health disorders of
+Results from 17 studies, including 100 effect sizes (Cohen's D) on the associations between mental health disorders of
 delinquent juveniles and subsequent delinquent behavior
-of those juveniles
 }
 \references{
 Wibbelink et al. (2017). A meta-analysis of the association between mental health disorders and juvenile recidivism.

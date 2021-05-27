@@ -1,6 +1,6 @@
 Package: psychmetadata
 Type: Package
-Title: Open Datasets from Meta-analyses in Psychology Research
+Title: Open Datasets from Meta-Analyses in Psychology Research
 Version: 1.0.0
 Authors@R: c(person("Josue E.", "Rodriguez", email = "josue.rodriguez594@gmail.com", role = c("aut", "cre")),
              person("Donald", "Williams", email = "drwwilliams@ucdavis.edu", role = "aut"))

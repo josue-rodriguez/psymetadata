@@ -26,7 +26,7 @@ A dataset with 108 rows and 8 variables.
 data(manybabies2020)
 }
 \description{
-Meta-analytic data collected from the ManyBabies Consortium aimed at assessing
+Meta-analytic data collected from the ManyBabies Consortium, including 108 effect sizes, aimed at assessing
 the overall replicability of theoretically-important phenomenon
 and examing the methodological, situational, cultural, and developmental moderators on infant's
 preference for infant-directed speech (IDS) over adult-directed speech (ADS)

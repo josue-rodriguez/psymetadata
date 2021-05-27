@@ -63,9 +63,8 @@
 
 #' Studies on juvenile recidivism
 #'
-#' @description Meta-analytic data on studies investigating associations between mental health disorders of
+#' @description Results from 17 studies, including 100 effect sizes (Cohen's D) on the associations between mental health disorders of
 #' delinquent juveniles and subsequent delinquent behavior
-#' of those juveniles
 #'
 #' @docType data
 #'
@@ -96,7 +95,7 @@
 
 #' Studies from ManyBabies 1: Infant-Directed Speech Preference.
 #'
-#' @description Meta-analytic data collected from the ManyBabies Consortium aimed at assessing
+#' @description Meta-analytic data collected from the ManyBabies Consortium, including 108 effect sizes, aimed at assessing
 #' the overall replicability of theoretically-important phenomenon
 #' and examing the methodological, situational, cultural, and developmental moderators on infant's
 #' preference for infant-directed speech (IDS) over adult-directed speech (ADS)
