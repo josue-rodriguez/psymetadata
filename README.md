@@ -9,6 +9,21 @@
 This data package provides open datasets from meta-analyses from
 different areas in psychological science.
 
+## Installation
+
+<!-- You can install the released version of glaxo from [CRAN](https://CRAN.R-project.org) with: -->
+<!-- ``` r -->
+<!-- install.packages("glaxo") -->
+<!-- ``` -->
+
+Until it’s available on CRAN, you can install this package from GitHub
+with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("josue-rodriguez/psychmetadata")
+```
+
 ## Adding a dataset
 
 If you’d like to contribute a dataset to this package please do the
