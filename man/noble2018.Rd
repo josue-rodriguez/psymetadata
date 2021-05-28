@@ -27,7 +27,7 @@ data("noble2018")
 }
 \description{
 Results from 54 studies, including 316 effect sizes (Hedge's g), on the extent to which
-shared reading impacts language development \insertCite{noble2019impact}{psychmetadata}.
+shared reading impacts language development \insertCite{noble2019impact}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/34xyw/}{https://osf.io/34xyw/}

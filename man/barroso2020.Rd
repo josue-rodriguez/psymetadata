@@ -28,7 +28,7 @@ data("barroso2020")
 }
 \description{
 Results from 332 studies, including 747 effect sizes in total (Fisher-z), on the
-relation between math anxiety and math achievement \insertCite{barroso2021meta}{psychmetadata}.
+relation between math anxiety and math achievement \insertCite{barroso2021meta}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/5admx/}{https://osf.io/5admx/}.

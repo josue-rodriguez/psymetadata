@@ -30,7 +30,7 @@ No" Methodology stated that participants were unaware of video recording, that t
 data(coles2019)
 }
 \description{
-Results from 138 studies, including 274] effect sizes (Cohen's d), on the facial feedback hypothesis \insertCite{coles2019meta}{psychmetadata}.
+Results from 138 studies, including 274] effect sizes (Cohen's d), on the facial feedback hypothesis \insertCite{coles2019meta}{psymetadata}.
 }
 \references{
 \insertAllCited{}

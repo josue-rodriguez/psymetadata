@@ -23,7 +23,7 @@ data("agadullina2018")
 }
 \description{
 Results from 21 studies, including 85 effect sizes (fisher-z), on the effect of
-out-Group entitativity and prejudice \insertCite{agadullina2018people}{psychmetadata}.
+out-Group entitativity and prejudice \insertCite{agadullina2018people}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/8dw5y/}{https://osf.io/8dw5y/}.

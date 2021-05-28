@@ -34,7 +34,7 @@ the first author of the study or the sample used
 data(nuijten2020)
 }
 \description{
-Data resulting from 131 meta-analyses, including 2443 effect sizes (fisher-z), on different areas of intelligence research \insertCite{nuijten2020effect}{psychmetadata}
+Data resulting from 131 meta-analyses, including 2443 effect sizes (fisher-z), on different areas of intelligence research \insertCite{nuijten2020effect}{psymetadata}
 }
 \references{
 \insertAllCited{}

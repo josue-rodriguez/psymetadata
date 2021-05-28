@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# psychmetadata
+# psymetadata
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -21,7 +21,7 @@ with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("josue-rodriguez/psychmetadata")
+devtools::install_github("josue-rodriguez/psymetadata")
 ```
 
 ## Adding a dataset
@@ -78,7 +78,7 @@ The documentation should roughly follow this format:
     #' @title [Title]
     #'
     #' @description Results from [# of studies] studies, including [# of effect sizes] effect 
-    #' sizes ([type of effect size]), on [short description of studies] \insertCite{[cite key]}{psychmetadata}.
+    #' sizes ([type of effect size]), on [short description of studies] \insertCite{[cite key]}{psymetadata}.
     #'
     #' @format A data frame with [# of rows] rows and [# of columns] variables:
     #'

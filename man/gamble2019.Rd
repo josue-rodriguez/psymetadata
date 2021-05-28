@@ -36,7 +36,7 @@ A data frame with 89 rows and 20 variables.
 data(gamble2019)
 }
 \description{
-Results from 46 studies, including 89 effect sizes (r), on the specificity of future thinking in depression \insertCite{gamble2019specificity}{psychmetadata}
+Results from 46 studies, including 89 effect sizes (r), on the specificity of future thinking in depression \insertCite{gamble2019specificity}{psymetadata}
 }
 \references{
 \insertAllCited{}

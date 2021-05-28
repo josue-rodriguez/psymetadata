@@ -37,7 +37,7 @@ data("stasielowicz2020")
 }
 \description{
 Results from 47 independent samples, including 133 effect sizes (r),
-on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psychmetadata}.
+on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://psyarxiv.com/qu4t2/}{https://psyarxiv.com/qu4t2/}

@@ -30,7 +30,7 @@ Meta-analytic data collected from the ManyBabies Consortium, including 108 effec
 the overall replicability of theoretically-important phenomenon
 and examing the methodological, situational, cultural, and developmental moderators on infant's
 preference for infant-directed speech (IDS) over adult-directed speech (ADS)
-\insertNoCite{manybabies2020quantifying}{psychmetadata}
+\insertNoCite{manybabies2020quantifying}{psymetadata}
 }
 \references{
 \insertAllCited{}

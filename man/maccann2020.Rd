@@ -34,7 +34,7 @@ A data frame with 1246 rows and 19 variables:
 data("maccann2020")
 }
 \description{
-Results from 158 studies, including 1246 effect sizes (r), on the relationship between emotional intelligence (EI) and academic performance \insertCite{maccann2020emotional}{psychmetadata}.
+Results from 158 studies, including 1246 effect sizes (r), on the relationship between emotional intelligence (EI) and academic performance \insertCite{maccann2020emotional}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/hnmy4/}{https://osf.io/hnmy4/}

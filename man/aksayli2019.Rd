@@ -31,7 +31,7 @@ A dataset with 637 rows and 15 variables.
 data(aksayli2019)
 }
 \description{
-Results from 48 studies, including 637 effect sizes (Hedge's g), on the effect of the Cogmed Working Memory Training program on cognitive and academic outcomes \insertCite{aksayli2019cognitive}{psychmetadata}.
+Results from 48 studies, including 637 effect sizes (Hedge's g), on the effect of the Cogmed Working Memory Training program on cognitive and academic outcomes \insertCite{aksayli2019cognitive}{psymetadata}.
 }
 \references{
 \insertAllCited{}

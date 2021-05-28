@@ -27,7 +27,7 @@ data("maldonado2018")
 }
 \description{
 Results from 431 studies, including 1268 effect sizes (Hedge's g), on age differences in
-executive functioning \insertCite{maldonado2020age}{psychmetadata}.
+executive functioning \insertCite{maldonado2020age}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/bcywg/}{https://osf.io/bcywg/}.

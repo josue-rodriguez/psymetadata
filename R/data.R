@@ -1,7 +1,7 @@
 #' @title Studies on Math Anxiety and Math Achievement
 #'
 #' @description Results from 332 studies, including 747 effect sizes in total (Fisher-z), on the
-#'              relation between math anxiety and math achievement \insertCite{barroso2021meta}{psychmetadata}.
+#'              relation between math anxiety and math achievement \insertCite{barroso2021meta}{psymetadata}.
 #'
 #' @format A data frame with 747 rows and 11 variables:
 #'
@@ -33,7 +33,7 @@
 #' @title Studies on Age Differences in Executive Functioning
 #'
 #' @description Results from 431 studies, including 1268 effect sizes (Hedge's g), on age differences in
-#' executive functioning \insertCite{maldonado2020age}{psychmetadata}.
+#' executive functioning \insertCite{maldonado2020age}{psymetadata}.
 #'
 #' @format A data frame with 1268 rows and 13 variables:
 #'
@@ -99,7 +99,7 @@
 #' the overall replicability of theoretically-important phenomenon
 #' and examing the methodological, situational, cultural, and developmental moderators on infant's
 #' preference for infant-directed speech (IDS) over adult-directed speech (ADS)
-#' \insertNoCite{manybabies2020quantifying}{psychmetadata}
+#' \insertNoCite{manybabies2020quantifying}{psymetadata}
 #'
 #' @docType data
 #'
@@ -179,7 +179,7 @@
 #'
 #' Studies on the cognitive and academic benefits of Cogmed
 #'
-#' @description Results from 48 studies, including 637 effect sizes (Hedge's g), on the effect of the Cogmed Working Memory Training program on cognitive and academic outcomes \insertCite{aksayli2019cognitive}{psychmetadata}.
+#' @description Results from 48 studies, including 637 effect sizes (Hedge's g), on the effect of the Cogmed Working Memory Training program on cognitive and academic outcomes \insertCite{aksayli2019cognitive}{psymetadata}.
 #'
 #' @docType data
 #'
@@ -218,7 +218,7 @@
 
 #' Studies on the impact of working-memory training on near- and far-transfer measures
 #'
-#' @description Results from 332 studies, including 1,555 effect sizes (Hedge's g), on whether skills learned from cognitive training generalize to other situations \insertCite{sala2019near}{psychmetadata}.
+#' @description Results from 332 studies, including 1,555 effect sizes (Hedge's g), on whether skills learned from cognitive training generalize to other situations \insertCite{sala2019near}{psymetadata}.
 #'
 #' @docType data
 #'
@@ -248,7 +248,7 @@
 
 #' Studies on the Facial Feedback Literature
 #'
-#' @description Results from 138 studies, including 274] effect sizes (Cohen's d), on the facial feedback hypothesis \insertCite{coles2019meta}{psychmetadata}.
+#' @description Results from 138 studies, including 274] effect sizes (Cohen's d), on the facial feedback hypothesis \insertCite{coles2019meta}{psymetadata}.
 #'
 #' @docType data
 #'
@@ -288,7 +288,7 @@
 #'
 #' Data collected from meta-analyses on intelligence research
 #'
-#' @description Data resulting from 131 meta-analyses, including 2443 effect sizes (fisher-z), on different areas of intelligence research \insertCite{nuijten2020effect}{psychmetadata}
+#' @description Data resulting from 131 meta-analyses, including 2443 effect sizes (fisher-z), on different areas of intelligence research \insertCite{nuijten2020effect}{psymetadata}
 #'
 #' @docType data
 #'
@@ -331,7 +331,7 @@
 #'
 #' Meta-analytic data collected from studying on the specificity of future thinking in depression
 #'
-#' @description Results from 46 studies, including 89 effect sizes (r), on the specificity of future thinking in depression \insertCite{gamble2019specificity}{psychmetadata}
+#' @description Results from 46 studies, including 89 effect sizes (r), on the specificity of future thinking in depression \insertCite{gamble2019specificity}{psymetadata}
 #'
 #' @docType data
 #'
@@ -375,7 +375,7 @@
 #' @title Studies on the Color Red and Cognitive Performance
 #'
 #' @description Results from 22 studies, including 67 effect sizes (SMD), on the effect of
-#' the color red on cognitive performance \insertCite{gnambs2020limited}{psychmetadata}.
+#' the color red on cognitive performance \insertCite{gnambs2020limited}{psymetadata}.
 #'
 #' @format A data frame with 67 rows and 10 variables:
 #'
@@ -402,7 +402,7 @@
 #' @title Studies on Out-Group Entitativity and Prejudice
 #'
 #' @description Results from 21 studies, including 85 effect sizes (fisher-z), on the effect of
-#' out-Group entitativity and prejudice \insertCite{agadullina2018people}{psychmetadata}.
+#' out-Group entitativity and prejudice \insertCite{agadullina2018people}{psymetadata}.
 #'
 #'
 #' @format A data frame with 85 rows and 9 variables:
@@ -429,7 +429,7 @@
 #' @title Studies on Social Identity Theory and Leadership: Leader Group Prototypicality
 #'
 #' @description Results from 128 studies, including 251 effect sizes (fisher-z), on the extent to which
-#' a leader is perceived to embody shared social identity \insertCite{steffens2021advancing}{psychmetadata}.
+#' a leader is perceived to embody shared social identity \insertCite{steffens2021advancing}{psymetadata}.
 #'
 #' @format A data frame with 251 rows and 10 variables:
 #'
@@ -458,7 +458,7 @@
 #' @title Studies on Shared Reading and Language Development
 #'
 #' @description Results from 54 studies, including 316 effect sizes (Hedge's g), on the extent to which
-#' shared reading impacts language development \insertCite{noble2019impact}{psychmetadata}.
+#' shared reading impacts language development \insertCite{noble2019impact}{psymetadata}.
 #'
 #' @format A data frame with 316 rows and 13 variables:
 #'
@@ -491,7 +491,7 @@
 #' @title  Studies on the advantage of bilingualism in children: a meta-analytic review
 #'
 #' @description Results from 150 studies, including 1194 effect sizes (Hedge's g), on the extent to which
-#' shared reading impacts language development \insertCite{lowe2020bilingual}{psychmetadata}.
+#' shared reading impacts language development \insertCite{lowe2020bilingual}{psymetadata}.
 #'
 #' @format A data frame with 1194 rows and 20 variables:
 #'
@@ -530,7 +530,7 @@
 #' @title Studies on the importance of cognitive ability in performance adaptation
 #'
 #' @description Results from 47 independent samples, including 133 effect sizes (r),
-#' on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psychmetadata}.
+#' on the role of individual differences in cognitive abilities in the context of performance adaption \insertCite{stasielowicz2020important}{psymetadata}.
 #'
 #' @format A data frame with 133 rows and 23 variables:
 #'
@@ -574,7 +574,7 @@
 
 
 #' @title Studies on Executive function components in intellectual disability
-#' @description Results from 26 studies, including 99 effect sizes (Hedge's g), on inhibition, shifting, and attention in people with intellectual disability compared to people matched on mental age \insertCite{spaniol2019meta}{psychmetadata}.
+#' @description Results from 26 studies, including 99 effect sizes (Hedge's g), on inhibition, shifting, and attention in people with intellectual disability compared to people matched on mental age \insertCite{spaniol2019meta}{psymetadata}.
 #'
 #' @format A data frame with 99 rows and 11 variables:
 #'
@@ -606,7 +606,7 @@
 
 #' @title Studies examining whether student emotional intelligence is associated with academic performance
 #'
-#' @description Results from 158 studies, including 1246 effect sizes (r), on the relationship between emotional intelligence (EI) and academic performance \insertCite{maccann2020emotional}{psychmetadata}.
+#' @description Results from 158 studies, including 1246 effect sizes (r), on the relationship between emotional intelligence (EI) and academic performance \insertCite{maccann2020emotional}{psymetadata}.
 #'
 #' @format A data frame with 1246 rows and 19 variables:
 #'
@@ -646,7 +646,7 @@
 
 #' @title Studies on the association between goal orientation and performance adaptation
 #'
-#' @description Results from 35 studies, including 76 effect sizes (r), on learning goal orientation and perfromance adaptation \insertCite{stasielowicz2019goal}{psychmetadata}.
+#' @description Results from 35 studies, including 76 effect sizes (r), on learning goal orientation and perfromance adaptation \insertCite{stasielowicz2019goal}{psymetadata}.
 #'
 #' @format A data frame with 76 rows and 24 variables:
 #'
@@ -689,7 +689,7 @@
 
 #' @title Studies on the association between goal orientation and performance adaptation
 #'
-#' @description Results from 28 studies, including 86 effect sizes (r), on performance goal orientation and performance adaptation \insertCite{stasielowicz2019goal}{psychmetadata}.
+#' @description Results from 28 studies, including 86 effect sizes (r), on performance goal orientation and performance adaptation \insertCite{stasielowicz2019goal}{psymetadata}.
 #'
 #' @format A data frame with 86 rows and 25 variables:
 #'
@@ -733,7 +733,7 @@
 
 #' @title Studies on memory suppression and its deficiency in psychological disorders
 #'
-#' @description Results from 25 studies, including 96 effect sizes (Cohen's d), on suppression-induced forgetting \insertCite{stramaccia2020memory}{psychmetadata}.
+#' @description Results from 25 studies, including 96 effect sizes (Cohen's d), on suppression-induced forgetting \insertCite{stramaccia2020memory}{psymetadata}.
 #'
 #' @format A data frame with 96 rows and 15 variables:
 #'
@@ -767,7 +767,7 @@
 
 #' @title Studies on the effects of transcranial direct current stimulation on inhibitory control
 #'
-#' @description Results from 62 studies, including 75 effect sizes (Hedge's g) on the effect of transcranial direct current stimulation (tDCS) in inhibitory control \insertCite{schroeder2020meta}{psychmetadata}.
+#' @description Results from 62 studies, including 75 effect sizes (Hedge's g) on the effect of transcranial direct current stimulation (tDCS) in inhibitory control \insertCite{schroeder2020meta}{psymetadata}.
 #'
 #' @format A data frame with 75 rows and 13 variables:
 #'
@@ -800,7 +800,7 @@
 
 # #' @title [Title]
 # #'
-# #' @description Results from [# of studies] studies, including [# of effect sizes] effect sizes ([type of effect size]), on [short description] \insertCite{[cite key]}{psychmetadata}.
+# #' @description Results from [# of studies] studies, including [# of effect sizes] effect sizes ([type of effect size]), on [short description] \insertCite{[cite key]}{psymetadata}.
 # #'
 # #' @format A data frame with [# number of rows] rows and [# number of rows] variables:
 # #'

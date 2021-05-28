@@ -25,7 +25,7 @@ A data frame with 1,555 rows and 10 variables:
 data(sala2019)
 }
 \description{
-Results from 332 studies, including 1,555 effect sizes (Hedge's g), on whether skills learned from cognitive training generalize to other situations \insertCite{sala2019near}{psychmetadata}.
+Results from 332 studies, including 1,555 effect sizes (Hedge's g), on whether skills learned from cognitive training generalize to other situations \insertCite{sala2019near}{psymetadata}.
 }
 \references{
 \insertAllCited{}

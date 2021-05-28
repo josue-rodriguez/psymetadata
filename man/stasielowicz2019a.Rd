@@ -37,7 +37,7 @@ A data frame with 76 rows and 24 variables:
 data("stasielowicz2019a")
 }
 \description{
-Results from 35 studies, including 76 effect sizes (r), on learning goal orientation and perfromance adaptation \insertCite{stasielowicz2019goal}{psychmetadata}.
+Results from 35 studies, including 76 effect sizes (r), on learning goal orientation and perfromance adaptation \insertCite{stasielowicz2019goal}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/szfwx/}{https://osf.io/szfwx/}

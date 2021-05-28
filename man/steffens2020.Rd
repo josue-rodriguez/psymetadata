@@ -24,7 +24,7 @@ data("steffens2020")
 }
 \description{
 Results from 128 studies, including 251 effect sizes (fisher-z), on the extent to which
-a leader is perceived to embody shared social identity \insertCite{steffens2021advancing}{psychmetadata}.
+a leader is perceived to embody shared social identity \insertCite{steffens2021advancing}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/y47er/}{https://osf.io/y47er/}

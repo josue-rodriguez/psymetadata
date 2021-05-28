@@ -27,7 +27,7 @@ A data frame with 75 rows and 13 variables:
 data("schroeder2020")
 }
 \description{
-Results from 62 studies, including 75 effect sizes (Hedge's g) on the effect of transcranial direct current stimulation (tDCS) in inhibitory control \insertCite{schroeder2020meta}{psychmetadata}.
+Results from 62 studies, including 75 effect sizes (Hedge's g) on the effect of transcranial direct current stimulation (tDCS) in inhibitory control \insertCite{schroeder2020meta}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/mrxhe/}{https://osf.io/mrxhe/}

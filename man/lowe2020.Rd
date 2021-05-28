@@ -34,7 +34,7 @@ data("lowe2020")
 }
 \description{
 Results from 150 studies, including 1194 effect sizes (Hedge's g), on the extent to which
-shared reading impacts language development \insertCite{lowe2020bilingual}{psychmetadata}.
+shared reading impacts language development \insertCite{lowe2020bilingual}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/jv7wt/}{https://osf.io/jv7wt/}

@@ -24,7 +24,7 @@ data("gnambs2020")
 }
 \description{
 Results from 22 studies, including 67 effect sizes (SMD), on the effect of
-the color red on cognitive performance \insertCite{gnambs2020limited}{psychmetadata}.
+the color red on cognitive performance \insertCite{gnambs2020limited}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://psyarxiv.com/a4qdv/}{https://psyarxiv.com/a4qdv/}.

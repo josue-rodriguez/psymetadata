@@ -28,7 +28,7 @@ A data frame with 96 rows and 15 variables:
 data("stramaccia2020")
 }
 \description{
-Results from 25 studies, including 96 effect sizes (Cohen's d), on suppression-induced forgetting \insertCite{stramaccia2020memory}{psychmetadata}.
+Results from 25 studies, including 96 effect sizes (Cohen's d), on suppression-induced forgetting \insertCite{stramaccia2020memory}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/f89ur/}{https://osf.io/f89ur/}

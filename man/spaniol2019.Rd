@@ -24,7 +24,7 @@ A data frame with 99 rows and 11 variables:
 data("spaniol2019")
 }
 \description{
-Results from 26 studies, including 99 effect sizes (Hedge's g), on inhibition, shifting, and attention in people with intellectual disability compared to people matched on mental age \insertCite{spaniol2019meta}{psychmetadata}.
+Results from 26 studies, including 99 effect sizes (Hedge's g), on inhibition, shifting, and attention in people with intellectual disability compared to people matched on mental age \insertCite{spaniol2019meta}{psymetadata}.
 }
 \details{
 Further details can be found at \href{https://osf.io/wp8u7/}{https://osf.io/wp8u7/}
