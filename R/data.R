@@ -413,7 +413,7 @@
 #' * \code{pub_year}: year of publication
 #' * \code{n}: sample size
 #' * \code{design}: within or between subjects design
-#' * \code{ent_alpha}: entitativity score
+#' * \code{ent_alpha}: reliability of the entitativity measure
 #' * \code{yi}: effect size (fisher-z)
 #' * \code{vi}: sampling variance (SE^2)
 #' @md

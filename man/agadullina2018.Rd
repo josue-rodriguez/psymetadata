@@ -13,7 +13,7 @@ A data frame with 85 rows and 9 variables:
 \item \code{pub_year}: year of publication
 \item \code{n}: sample size
 \item \code{design}: within or between subjects design
-\item \code{ent_alpha}: entitativity score
+\item \code{ent_alpha}: reliability of the entitativity measure
 \item \code{yi}: effect size (fisher-z)
 \item \code{vi}: sampling variance (SE^2)
 }
