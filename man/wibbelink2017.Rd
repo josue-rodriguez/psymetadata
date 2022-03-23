@@ -32,6 +32,5 @@ delinquent juveniles and subsequent delinquent behavior
 \references{
 Wibbelink et al. (2017). A meta-analysis of the association between mental health disorders and juvenile recidivism.
 \emph{Aggression and Violent Behavior}, \emph{33}, 78-90.
-(\href{https://doi.org/10.1016/j.avb.2017.01.005}{ScienceDirect})
 }
 \keyword{datasets}
