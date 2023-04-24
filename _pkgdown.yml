@@ -1,7 +1,4 @@
 url: https://josue-rodriguez.github.io/psymetadata/
 template:
   bootstrap: 5
-reference:
-- title: Datasets
-- contents:
-  - matches("\\d{4}")
+
