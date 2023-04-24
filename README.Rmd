@@ -29,7 +29,13 @@ This data package provides open datasets from meta-analyses from different areas
 <!-- install.packages("glaxo") -->
 <!-- ``` -->
 
-Until it's available on CRAN, you can install this package from GitHub with:
+You can install released version of `psymetadata` from [CRAN](https://CRAN.R-project.org) with:
+
+```{r}
+install.packages("psymetadata")
+```
+
+If you want to install the most recent development version from GitHub, use the following code:
 
 ``` r
 # install.packages("devtools")
