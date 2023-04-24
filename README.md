@@ -16,8 +16,15 @@ different areas in psychological science.
 <!-- install.packages("glaxo") -->
 <!-- ``` -->
 
-Until it’s available on CRAN, you can install this package from GitHub
-with:
+You can install released version of `psymetadata` from
+[CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("psymetadata")
+```
+
+If you want to install the most recent development version from GitHub,
+use the following code:
 
 ``` r
 # install.packages("devtools")
@@ -38,10 +45,10 @@ Clone the repository to your local machine
 Clean your dataset so it is of type `data.frame` and has at least the
 following columns:
 
--   `study_id`: unique id for study
--   `es_id`: unique id for effect size (if applicable)
--   `yi`: effect size
--   `vi`: variance of effect size
+- `study_id`: unique id for study
+- `es_id`: unique id for effect size (if applicable)
+- `yi`: effect size
+- `vi`: variance of effect size
 
 Column names should follow snake case formatting. This can easily be
 done by calling `janitor::clean_names()` on your data set.
@@ -100,7 +107,7 @@ The documentation should roughly follow this format:
     #' \insertAllCited{}
     "[dataset]"
 
--   Take a look at the `data.R` file for more examples
+- Take a look at the `data.R` file for more examples
 
 ### 6)
 

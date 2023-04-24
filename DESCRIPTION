@@ -1,9 +1,11 @@
 Package: psymetadata
 Type: Package
 Title: Open Datasets from Meta-Analyses in Psychology Research
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(person("Josue E.", "Rodriguez", email = "josue.rodriguez594@gmail.com", role = c("aut", "cre")),
-             person("Donald", "Williams", email = "drwwilliams@ucdavis.edu", role = "aut"))
+             person("Donald", "Williams", email = "drwwilliams@ucdavis.edu", role = "aut"),
+             person("Lukas", "Wallrich", , "lukas.wallrich@gmail.com", role = "aut",
+                    comment = c(ORCID = "0000-0003-2121-5177")))
 Description: Data and examples from meta-analyses in psychology research. 
 License: GPL (>= 2)
 Encoding: UTF-8
@@ -11,3 +13,4 @@ LazyData: true
 RoxygenNote: 7.1.2
 Imports: Rdpack
 RdMacros: Rdpack
+URL: https://josue-rodriguez.github.io/psymetadata/
